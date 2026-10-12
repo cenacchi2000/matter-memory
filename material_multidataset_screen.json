@@ -1,0 +1,5978 @@
+{
+  "protocol_sha256": "7efe5d836e774383bf5b108e008fc5a8697af7c59795b3c7e4df09d6581a373c",
+  "protocol": {
+    "status": "Development feasibility protocol, fixed before the expanded comparison",
+    "datasets": [
+      "Water-3D",
+      "Sand-3D",
+      "Goop-3D"
+    ],
+    "selection": "Record zero of each author training split; no validation or test records",
+    "queries": "All three initial coordinate-median half-spaces, without selecting the most difficult or favorable axis",
+    "strides": [
+      1,
+      4,
+      16
+    ],
+    "methods": [
+      "initial_majority",
+      "nearest_initial",
+      "nearest_previous",
+      "estimated_constant_velocity"
+    ],
+    "sensor": "Fixed orthographic 64x64 z-buffer, exact depth, one front-most particle per bin; drop points outside the camera rectangle",
+    "primary_diagnostic": "Pooled balanced binary source accuracy per trajectory, query, stride and method",
+    "additional_diagnostics": [
+      "pooled accuracy",
+      "confusion matrix",
+      "accuracy on initially observed particles",
+      "accuracy on initially unobserved particles",
+      "initial class coverage"
+    ],
+    "limitations": "Three simulation trajectories, one per material, not a statistical benchmark. Frame observations are correlated. No neural model and no real RGB inference. Results do not establish novelty."
+  },
+  "records": [
+    {
+      "dataset": "Water-3D",
+      "axis": "x",
+      "stride": 1,
+      "method": "initial_majority",
+      "initial_class_counts": [
+        192,
+        192
+      ],
+      "all_visible": {
+        "confusion": [
+          [
+            227304,
+            0
+          ],
+          [
+            469761,
+            0
+          ]
+        ],
+        "accuracy": 0.3260872372016957,
+        "balanced_accuracy": 0.5,
+        "observations": 697065
+      },
+      "initially_observed": {
+        "confusion": [
+          [
+            34821,
+            0
+          ],
+          [
+            40689,
+            0
+          ]
+        ],
+        "accuracy": 0.4611442193087008,
+        "balanced_accuracy": 0.5,
+        "observations": 75510
+      },
+      "initially_unobserved": {
+        "confusion": [
+          [
+            192483,
+            0
+          ],
+          [
+            429072,
+            0
+          ]
+        ],
+        "accuracy": 0.30967975480850446,
+        "balanced_accuracy": 0.5,
+        "observations": 621555
+      }
+    },
+    {
+      "dataset": "Water-3D",
+      "axis": "y",
+      "stride": 1,
+      "method": "initial_majority",
+      "initial_class_counts": [
+        192,
+        192
+      ],
+      "all_visible": {
+        "confusion": [
+          [
+            443143,
+            0
+          ],
+          [
+            253922,
+            0
+          ]
+        ],
+        "accuracy": 0.6357269408161362,
+        "balanced_accuracy": 0.5,
+        "observations": 697065
+      },
+      "initially_observed": {
+        "confusion": [
+          [
+            33803,
+            0
+          ],
+          [
+            41707,
+            0
+          ]
+        ],
+        "accuracy": 0.4476625612501655,
+        "balanced_accuracy": 0.5,
+        "observations": 75510
+      },
+      "initially_unobserved": {
+        "confusion": [
+          [
+            409340,
+            0
+          ],
+          [
+            212215,
+            0
+          ]
+        ],
+        "accuracy": 0.6585740602199323,
+        "balanced_accuracy": 0.5,
+        "observations": 621555
+      }
+    },
+    {
+      "dataset": "Water-3D",
+      "axis": "z",
+      "stride": 1,
+      "method": "initial_majority",
+      "initial_class_counts": [
+        384,
+        0
+      ],
+      "all_visible": {
+        "confusion": [
+          [
+            618431,
+            0
+          ],
+          [
+            78634,
+            0
+          ]
+        ],
+        "accuracy": 0.8871927295158988,
+        "balanced_accuracy": 0.5,
+        "observations": 697065
+      },
+      "initially_observed": {
+        "confusion": [
+          [
+            75510,
+            0
+          ],
+          [
+            0,
+            0
+          ]
+        ],
+        "accuracy": 1.0,
+        "balanced_accuracy": null,
+        "observations": 75510
+      },
+      "initially_unobserved": {
+        "confusion": [
+          [
+            542921,
+            0
+          ],
+          [
+            78634,
+            0
+          ]
+        ],
+        "accuracy": 0.8734882673295203,
+        "balanced_accuracy": 0.5,
+        "observations": 621555
+      }
+    },
+    {
+      "dataset": "Water-3D",
+      "axis": "x",
+      "stride": 1,
+      "method": "nearest_initial",
+      "initial_class_counts": [
+        192,
+        192
+      ],
+      "all_visible": {
+        "confusion": [
+          [
+            159228,
+            68076
+          ],
+          [
+            90998,
+            378763
+          ]
+        ],
+        "accuracy": 0.7717945959128633,
+        "balanced_accuracy": 0.7533977700319032,
+        "observations": 697065
+      },
+      "initially_observed": {
+        "confusion": [
+          [
+            24750,
+            10071
+          ],
+          [
+            19886,
+            20803
+          ]
+        ],
+        "accuracy": 0.6032710899218646,
+        "balanced_accuracy": 0.6110231902926219,
+        "observations": 75510
+      },
+      "initially_unobserved": {
+        "confusion": [
+          [
+            134478,
+            58005
+          ],
+          [
+            71112,
+            357960
+          ]
+        ],
+        "accuracy": 0.7922677800033786,
+        "balanced_accuracy": 0.7664571448197077,
+        "observations": 621555
+      }
+    },
+    {
+      "dataset": "Water-3D",
+      "axis": "y",
+      "stride": 1,
+      "method": "nearest_initial",
+      "initial_class_counts": [
+        192,
+        192
+      ],
+      "all_visible": {
+        "confusion": [
+          [
+            416872,
+            26271
+          ],
+          [
+            201316,
+            52606
+          ]
+        ],
+        "accuracy": 0.6735067748344846,
+        "balanced_accuracy": 0.5739452550396764,
+        "observations": 697065
+      },
+      "initially_observed": {
+        "confusion": [
+          [
+            22895,
+            10908
+          ],
+          [
+            26740,
+            14967
+          ]
+        ],
+        "accuracy": 0.5014170308568402,
+        "balanced_accuracy": 0.5180836854193992,
+        "observations": 75510
+      },
+      "initially_unobserved": {
+        "confusion": [
+          [
+            393977,
+            15363
+          ],
+          [
+            174576,
+            37639
+          ]
+        ],
+        "accuracy": 0.6944132055892077,
+        "balanced_accuracy": 0.5699157163503867,
+        "observations": 621555
+      }
+    },
+    {
+      "dataset": "Water-3D",
+      "axis": "z",
+      "stride": 1,
+      "method": "nearest_initial",
+      "initial_class_counts": [
+        384,
+        0
+      ],
+      "all_visible": {
+        "confusion": [
+          [
+            618431,
+            0
+          ],
+          [
+            78634,
+            0
+          ]
+        ],
+        "accuracy": 0.8871927295158988,
+        "balanced_accuracy": 0.5,
+        "observations": 697065
+      },
+      "initially_observed": {
+        "confusion": [
+          [
+            75510,
+            0
+          ],
+          [
+            0,
+            0
+          ]
+        ],
+        "accuracy": 1.0,
+        "balanced_accuracy": null,
+        "observations": 75510
+      },
+      "initially_unobserved": {
+        "confusion": [
+          [
+            542921,
+            0
+          ],
+          [
+            78634,
+            0
+          ]
+        ],
+        "accuracy": 0.8734882673295203,
+        "balanced_accuracy": 0.5,
+        "observations": 621555
+      }
+    },
+    {
+      "dataset": "Water-3D",
+      "axis": "x",
+      "stride": 1,
+      "method": "nearest_previous",
+      "initial_class_counts": [
+        192,
+        192
+      ],
+      "all_visible": {
+        "confusion": [
+          [
+            159370,
+            67934
+          ],
+          [
+            28026,
+            441735
+          ]
+        ],
+        "accuracy": 0.862337084776886,
+        "balanced_accuracy": 0.8207356996299736,
+        "observations": 697065
+      },
+      "initially_observed": {
+        "confusion": [
+          [
+            29576,
+            5245
+          ],
+          [
+            6446,
+            34243
+          ]
+        ],
+        "accuracy": 0.8451728247914183,
+        "balanced_accuracy": 0.8454756550899767,
+        "observations": 75510
+      },
+      "initially_unobserved": {
+        "confusion": [
+          [
+            129794,
+            62689
+          ],
+          [
+            21580,
+            407492
+          ]
+        ],
+        "accuracy": 0.8644222956938645,
+        "balanced_accuracy": 0.8120097530088327,
+        "observations": 621555
+      }
+    },
+    {
+      "dataset": "Water-3D",
+      "axis": "y",
+      "stride": 1,
+      "method": "nearest_previous",
+      "initial_class_counts": [
+        192,
+        192
+      ],
+      "all_visible": {
+        "confusion": [
+          [
+            433433,
+            9710
+          ],
+          [
+            208252,
+            45670
+          ]
+        ],
+        "accuracy": 0.6873146693636892,
+        "balanced_accuracy": 0.5789733594405482,
+        "observations": 697065
+      },
+      "initially_observed": {
+        "confusion": [
+          [
+            33726,
+            77
+          ],
+          [
+            29971,
+            11736
+          ]
+        ],
+        "accuracy": 0.6020659515295987,
+        "balanced_accuracy": 0.6395568542953383,
+        "observations": 75510
+      },
+      "initially_unobserved": {
+        "confusion": [
+          [
+            399707,
+            9633
+          ],
+          [
+            178281,
+            33934
+          ]
+        ],
+        "accuracy": 0.6976711634529527,
+        "balanced_accuracy": 0.5681854333628416,
+        "observations": 621555
+      }
+    },
+    {
+      "dataset": "Water-3D",
+      "axis": "z",
+      "stride": 1,
+      "method": "nearest_previous",
+      "initial_class_counts": [
+        384,
+        0
+      ],
+      "all_visible": {
+        "confusion": [
+          [
+            618431,
+            0
+          ],
+          [
+            78634,
+            0
+          ]
+        ],
+        "accuracy": 0.8871927295158988,
+        "balanced_accuracy": 0.5,
+        "observations": 697065
+      },
+      "initially_observed": {
+        "confusion": [
+          [
+            75510,
+            0
+          ],
+          [
+            0,
+            0
+          ]
+        ],
+        "accuracy": 1.0,
+        "balanced_accuracy": null,
+        "observations": 75510
+      },
+      "initially_unobserved": {
+        "confusion": [
+          [
+            542921,
+            0
+          ],
+          [
+            78634,
+            0
+          ]
+        ],
+        "accuracy": 0.8734882673295203,
+        "balanced_accuracy": 0.5,
+        "observations": 621555
+      }
+    },
+    {
+      "dataset": "Water-3D",
+      "axis": "x",
+      "stride": 1,
+      "method": "estimated_constant_velocity",
+      "initial_class_counts": [
+        192,
+        192
+      ],
+      "all_visible": {
+        "confusion": [
+          [
+            96632,
+            130672
+          ],
+          [
+            26470,
+            443291
+          ]
+        ],
+        "accuracy": 0.7745662169238163,
+        "balanced_accuracy": 0.6843872503889759,
+        "observations": 697065
+      },
+      "initially_observed": {
+        "confusion": [
+          [
+            17242,
+            17579
+          ],
+          [
+            4975,
+            35714
+          ]
+        ],
+        "accuracy": 0.701311084624553,
+        "balanced_accuracy": 0.6864460240971646,
+        "observations": 75510
+      },
+      "initially_unobserved": {
+        "confusion": [
+          [
+            79390,
+            113093
+          ],
+          [
+            21495,
+            407577
+          ]
+        ],
+        "accuracy": 0.7834656627329842,
+        "balanced_accuracy": 0.6811777607229972,
+        "observations": 621555
+      }
+    },
+    {
+      "dataset": "Water-3D",
+      "axis": "y",
+      "stride": 1,
+      "method": "estimated_constant_velocity",
+      "initial_class_counts": [
+        192,
+        192
+      ],
+      "all_visible": {
+        "confusion": [
+          [
+            415905,
+            27238
+          ],
+          [
+            192588,
+            61334
+          ]
+        ],
+        "accuracy": 0.6846406002309684,
+        "balanced_accuracy": 0.5900405651836371,
+        "observations": 697065
+      },
+      "initially_observed": {
+        "confusion": [
+          [
+            32556,
+            1247
+          ],
+          [
+            27585,
+            14122
+          ]
+        ],
+        "accuracy": 0.6181697788372401,
+        "balanced_accuracy": 0.6508550090639439,
+        "observations": 75510
+      },
+      "initially_unobserved": {
+        "confusion": [
+          [
+            383349,
+            25991
+          ],
+          [
+            165003,
+            47212
+          ]
+        ],
+        "accuracy": 0.6927158497638987,
+        "balanced_accuracy": 0.5794887991497075,
+        "observations": 621555
+      }
+    },
+    {
+      "dataset": "Water-3D",
+      "axis": "z",
+      "stride": 1,
+      "method": "estimated_constant_velocity",
+      "initial_class_counts": [
+        384,
+        0
+      ],
+      "all_visible": {
+        "confusion": [
+          [
+            618431,
+            0
+          ],
+          [
+            78634,
+            0
+          ]
+        ],
+        "accuracy": 0.8871927295158988,
+        "balanced_accuracy": 0.5,
+        "observations": 697065
+      },
+      "initially_observed": {
+        "confusion": [
+          [
+            75510,
+            0
+          ],
+          [
+            0,
+            0
+          ]
+        ],
+        "accuracy": 1.0,
+        "balanced_accuracy": null,
+        "observations": 75510
+      },
+      "initially_unobserved": {
+        "confusion": [
+          [
+            542921,
+            0
+          ],
+          [
+            78634,
+            0
+          ]
+        ],
+        "accuracy": 0.8734882673295203,
+        "balanced_accuracy": 0.5,
+        "observations": 621555
+      }
+    },
+    {
+      "dataset": "Water-3D",
+      "axis": "x",
+      "stride": 4,
+      "method": "initial_majority",
+      "initial_class_counts": [
+        192,
+        192
+      ],
+      "all_visible": {
+        "confusion": [
+          [
+            56855,
+            0
+          ],
+          [
+            117642,
+            0
+          ]
+        ],
+        "accuracy": 0.32582222043931985,
+        "balanced_accuracy": 0.5,
+        "observations": 174497
+      },
+      "initially_observed": {
+        "confusion": [
+          [
+            8683,
+            0
+          ],
+          [
+            10138,
+            0
+          ]
+        ],
+        "accuracy": 0.4613463684182562,
+        "balanced_accuracy": 0.5,
+        "observations": 18821
+      },
+      "initially_unobserved": {
+        "confusion": [
+          [
+            48172,
+            0
+          ],
+          [
+            107504,
+            0
+          ]
+        ],
+        "accuracy": 0.3094375497828824,
+        "balanced_accuracy": 0.5,
+        "observations": 155676
+      }
+    },
+    {
+      "dataset": "Water-3D",
+      "axis": "y",
+      "stride": 4,
+      "method": "initial_majority",
+      "initial_class_counts": [
+        192,
+        192
+      ],
+      "all_visible": {
+        "confusion": [
+          [
+            110845,
+            0
+          ],
+          [
+            63652,
+            0
+          ]
+        ],
+        "accuracy": 0.635225820501212,
+        "balanced_accuracy": 0.5,
+        "observations": 174497
+      },
+      "initially_observed": {
+        "confusion": [
+          [
+            8391,
+            0
+          ],
+          [
+            10430,
+            0
+          ]
+        ],
+        "accuracy": 0.4458317836459274,
+        "balanced_accuracy": 0.5,
+        "observations": 18821
+      },
+      "initially_unobserved": {
+        "confusion": [
+          [
+            102454,
+            0
+          ],
+          [
+            53222,
+            0
+          ]
+        ],
+        "accuracy": 0.6581232816876076,
+        "balanced_accuracy": 0.5,
+        "observations": 155676
+      }
+    },
+    {
+      "dataset": "Water-3D",
+      "axis": "z",
+      "stride": 4,
+      "method": "initial_majority",
+      "initial_class_counts": [
+        384,
+        0
+      ],
+      "all_visible": {
+        "confusion": [
+          [
+            154622,
+            0
+          ],
+          [
+            19875,
+            0
+          ]
+        ],
+        "accuracy": 0.8861011937167974,
+        "balanced_accuracy": 0.5,
+        "observations": 174497
+      },
+      "initially_observed": {
+        "confusion": [
+          [
+            18821,
+            0
+          ],
+          [
+            0,
+            0
+          ]
+        ],
+        "accuracy": 1.0,
+        "balanced_accuracy": null,
+        "observations": 18821
+      },
+      "initially_unobserved": {
+        "confusion": [
+          [
+            135801,
+            0
+          ],
+          [
+            19875,
+            0
+          ]
+        ],
+        "accuracy": 0.8723309951437601,
+        "balanced_accuracy": 0.5,
+        "observations": 155676
+      }
+    },
+    {
+      "dataset": "Water-3D",
+      "axis": "x",
+      "stride": 4,
+      "method": "nearest_initial",
+      "initial_class_counts": [
+        192,
+        192
+      ],
+      "all_visible": {
+        "confusion": [
+          [
+            39812,
+            17043
+          ],
+          [
+            22807,
+            94835
+          ]
+        ],
+        "accuracy": 0.7716293116787108,
+        "balanced_accuracy": 0.7531848049089716,
+        "observations": 174497
+      },
+      "initially_observed": {
+        "confusion": [
+          [
+            6136,
+            2547
+          ],
+          [
+            4978,
+            5160
+          ]
+        ],
+        "accuracy": 0.6001806492747463,
+        "balanced_accuracy": 0.6078221658241683,
+        "observations": 18821
+      },
+      "initially_unobserved": {
+        "confusion": [
+          [
+            33676,
+            14496
+          ],
+          [
+            17829,
+            89675
+          ]
+        ],
+        "accuracy": 0.7923572034224928,
+        "balanced_accuracy": 0.7666166554671132,
+        "observations": 155676
+      }
+    },
+    {
+      "dataset": "Water-3D",
+      "axis": "y",
+      "stride": 4,
+      "method": "nearest_initial",
+      "initial_class_counts": [
+        192,
+        192
+      ],
+      "all_visible": {
+        "confusion": [
+          [
+            104251,
+            6594
+          ],
+          [
+            50425,
+            13227
+          ]
+        ],
+        "accuracy": 0.6732379353226703,
+        "balanced_accuracy": 0.5741566611876455,
+        "observations": 174497
+      },
+      "initially_observed": {
+        "confusion": [
+          [
+            5648,
+            2743
+          ],
+          [
+            6725,
+            3705
+          ]
+        ],
+        "accuracy": 0.4969449019712024,
+        "balanced_accuracy": 0.5141637224195718,
+        "observations": 18821
+      },
+      "initially_unobserved": {
+        "confusion": [
+          [
+            98603,
+            3851
+          ],
+          [
+            43700,
+            9522
+          ]
+        ],
+        "accuracy": 0.6945515044065881,
+        "balanced_accuracy": 0.5706616881874378,
+        "observations": 155676
+      }
+    },
+    {
+      "dataset": "Water-3D",
+      "axis": "z",
+      "stride": 4,
+      "method": "nearest_initial",
+      "initial_class_counts": [
+        384,
+        0
+      ],
+      "all_visible": {
+        "confusion": [
+          [
+            154622,
+            0
+          ],
+          [
+            19875,
+            0
+          ]
+        ],
+        "accuracy": 0.8861011937167974,
+        "balanced_accuracy": 0.5,
+        "observations": 174497
+      },
+      "initially_observed": {
+        "confusion": [
+          [
+            18821,
+            0
+          ],
+          [
+            0,
+            0
+          ]
+        ],
+        "accuracy": 1.0,
+        "balanced_accuracy": null,
+        "observations": 18821
+      },
+      "initially_unobserved": {
+        "confusion": [
+          [
+            135801,
+            0
+          ],
+          [
+            19875,
+            0
+          ]
+        ],
+        "accuracy": 0.8723309951437601,
+        "balanced_accuracy": 0.5,
+        "observations": 155676
+      }
+    },
+    {
+      "dataset": "Water-3D",
+      "axis": "x",
+      "stride": 4,
+      "method": "nearest_previous",
+      "initial_class_counts": [
+        192,
+        192
+      ],
+      "all_visible": {
+        "confusion": [
+          [
+            11347,
+            45508
+          ],
+          [
+            949,
+            116693
+          ]
+        ],
+        "accuracy": 0.7337661965535224,
+        "balanced_accuracy": 0.5957555133317659,
+        "observations": 174497
+      },
+      "initially_observed": {
+        "confusion": [
+          [
+            2136,
+            6547
+          ],
+          [
+            121,
+            10017
+          ]
+        ],
+        "accuracy": 0.6457148929387386,
+        "balanced_accuracy": 0.6170313170132853,
+        "observations": 18821
+      },
+      "initially_unobserved": {
+        "confusion": [
+          [
+            9211,
+            38961
+          ],
+          [
+            828,
+            106676
+          ]
+        ],
+        "accuracy": 0.7444114699761042,
+        "balanced_accuracy": 0.5917543114006679,
+        "observations": 155676
+      }
+    },
+    {
+      "dataset": "Water-3D",
+      "axis": "y",
+      "stride": 4,
+      "method": "nearest_previous",
+      "initial_class_counts": [
+        192,
+        192
+      ],
+      "all_visible": {
+        "confusion": [
+          [
+            110803,
+            42
+          ],
+          [
+            56583,
+            7069
+          ]
+        ],
+        "accuracy": 0.6754958537969135,
+        "balanced_accuracy": 0.5553390449700337,
+        "observations": 174497
+      },
+      "initially_observed": {
+        "confusion": [
+          [
+            8391,
+            0
+          ],
+          [
+            8992,
+            1438
+          ]
+        ],
+        "accuracy": 0.5222358004356835,
+        "balanced_accuracy": 0.5689357622243528,
+        "observations": 18821
+      },
+      "initially_unobserved": {
+        "confusion": [
+          [
+            102412,
+            42
+          ],
+          [
+            47591,
+            5631
+          ]
+        ],
+        "accuracy": 0.6940247693928415,
+        "balanced_accuracy": 0.5526960859189717,
+        "observations": 155676
+      }
+    },
+    {
+      "dataset": "Water-3D",
+      "axis": "z",
+      "stride": 4,
+      "method": "nearest_previous",
+      "initial_class_counts": [
+        384,
+        0
+      ],
+      "all_visible": {
+        "confusion": [
+          [
+            154622,
+            0
+          ],
+          [
+            19875,
+            0
+          ]
+        ],
+        "accuracy": 0.8861011937167974,
+        "balanced_accuracy": 0.5,
+        "observations": 174497
+      },
+      "initially_observed": {
+        "confusion": [
+          [
+            18821,
+            0
+          ],
+          [
+            0,
+            0
+          ]
+        ],
+        "accuracy": 1.0,
+        "balanced_accuracy": null,
+        "observations": 18821
+      },
+      "initially_unobserved": {
+        "confusion": [
+          [
+            135801,
+            0
+          ],
+          [
+            19875,
+            0
+          ]
+        ],
+        "accuracy": 0.8723309951437601,
+        "balanced_accuracy": 0.5,
+        "observations": 155676
+      }
+    },
+    {
+      "dataset": "Water-3D",
+      "axis": "x",
+      "stride": 4,
+      "method": "estimated_constant_velocity",
+      "initial_class_counts": [
+        192,
+        192
+      ],
+      "all_visible": {
+        "confusion": [
+          [
+            6391,
+            50464
+          ],
+          [
+            2356,
+            115286
+          ]
+        ],
+        "accuracy": 0.6973013862702511,
+        "balanced_accuracy": 0.5461909489845289,
+        "observations": 174497
+      },
+      "initially_observed": {
+        "confusion": [
+          [
+            1024,
+            7659
+          ],
+          [
+            70,
+            10068
+          ]
+        ],
+        "accuracy": 0.5893416927899686,
+        "balanced_accuracy": 0.5555134377651066,
+        "observations": 18821
+      },
+      "initially_unobserved": {
+        "confusion": [
+          [
+            5367,
+            42805
+          ],
+          [
+            2286,
+            105218
+          ]
+        ],
+        "accuracy": 0.710353554818983,
+        "balanced_accuracy": 0.54507447203531,
+        "observations": 155676
+      }
+    },
+    {
+      "dataset": "Water-3D",
+      "axis": "y",
+      "stride": 4,
+      "method": "estimated_constant_velocity",
+      "initial_class_counts": [
+        192,
+        192
+      ],
+      "all_visible": {
+        "confusion": [
+          [
+            107552,
+            3293
+          ],
+          [
+            51676,
+            11976
+          ]
+        ],
+        "accuracy": 0.6849859882977931,
+        "balanced_accuracy": 0.5792199520138168,
+        "observations": 174497
+      },
+      "initially_observed": {
+        "confusion": [
+          [
+            8238,
+            153
+          ],
+          [
+            7554,
+            2876
+          ]
+        ],
+        "accuracy": 0.5905105998618564,
+        "balanced_accuracy": 0.6287546134726598,
+        "observations": 18821
+      },
+      "initially_unobserved": {
+        "confusion": [
+          [
+            99314,
+            3140
+          ],
+          [
+            44122,
+            9100
+          ]
+        ],
+        "accuracy": 0.6964079241501581,
+        "balanced_accuracy": 0.5701670121233718,
+        "observations": 155676
+      }
+    },
+    {
+      "dataset": "Water-3D",
+      "axis": "z",
+      "stride": 4,
+      "method": "estimated_constant_velocity",
+      "initial_class_counts": [
+        384,
+        0
+      ],
+      "all_visible": {
+        "confusion": [
+          [
+            154622,
+            0
+          ],
+          [
+            19875,
+            0
+          ]
+        ],
+        "accuracy": 0.8861011937167974,
+        "balanced_accuracy": 0.5,
+        "observations": 174497
+      },
+      "initially_observed": {
+        "confusion": [
+          [
+            18821,
+            0
+          ],
+          [
+            0,
+            0
+          ]
+        ],
+        "accuracy": 1.0,
+        "balanced_accuracy": null,
+        "observations": 18821
+      },
+      "initially_unobserved": {
+        "confusion": [
+          [
+            135801,
+            0
+          ],
+          [
+            19875,
+            0
+          ]
+        ],
+        "accuracy": 0.8723309951437601,
+        "balanced_accuracy": 0.5,
+        "observations": 155676
+      }
+    },
+    {
+      "dataset": "Water-3D",
+      "axis": "x",
+      "stride": 16,
+      "method": "initial_majority",
+      "initial_class_counts": [
+        192,
+        192
+      ],
+      "all_visible": {
+        "confusion": [
+          [
+            14161,
+            0
+          ],
+          [
+            29461,
+            0
+          ]
+        ],
+        "accuracy": 0.3246297739672642,
+        "balanced_accuracy": 0.5,
+        "observations": 43622
+      },
+      "initially_observed": {
+        "confusion": [
+          [
+            2114,
+            0
+          ],
+          [
+            2449,
+            0
+          ]
+        ],
+        "accuracy": 0.46329169406092485,
+        "balanced_accuracy": 0.5,
+        "observations": 4563
+      },
+      "initially_unobserved": {
+        "confusion": [
+          [
+            12047,
+            0
+          ],
+          [
+            27012,
+            0
+          ]
+        ],
+        "accuracy": 0.3084308354028521,
+        "balanced_accuracy": 0.5,
+        "observations": 39059
+      }
+    },
+    {
+      "dataset": "Water-3D",
+      "axis": "y",
+      "stride": 16,
+      "method": "initial_majority",
+      "initial_class_counts": [
+        192,
+        192
+      ],
+      "all_visible": {
+        "confusion": [
+          [
+            27700,
+            0
+          ],
+          [
+            15922,
+            0
+          ]
+        ],
+        "accuracy": 0.6350006877263766,
+        "balanced_accuracy": 0.5,
+        "observations": 43622
+      },
+      "initially_observed": {
+        "confusion": [
+          [
+            2022,
+            0
+          ],
+          [
+            2541,
+            0
+          ]
+        ],
+        "accuracy": 0.443129520052597,
+        "balanced_accuracy": 0.5,
+        "observations": 4563
+      },
+      "initially_unobserved": {
+        "confusion": [
+          [
+            25678,
+            0
+          ],
+          [
+            13381,
+            0
+          ]
+        ],
+        "accuracy": 0.6574157044471185,
+        "balanced_accuracy": 0.5,
+        "observations": 39059
+      }
+    },
+    {
+      "dataset": "Water-3D",
+      "axis": "z",
+      "stride": 16,
+      "method": "initial_majority",
+      "initial_class_counts": [
+        384,
+        0
+      ],
+      "all_visible": {
+        "confusion": [
+          [
+            38662,
+            0
+          ],
+          [
+            4960,
+            0
+          ]
+        ],
+        "accuracy": 0.886295905735638,
+        "balanced_accuracy": 0.5,
+        "observations": 43622
+      },
+      "initially_observed": {
+        "confusion": [
+          [
+            4563,
+            0
+          ],
+          [
+            0,
+            0
+          ]
+        ],
+        "accuracy": 1.0,
+        "balanced_accuracy": null,
+        "observations": 4563
+      },
+      "initially_unobserved": {
+        "confusion": [
+          [
+            34099,
+            0
+          ],
+          [
+            4960,
+            0
+          ]
+        ],
+        "accuracy": 0.873012621930925,
+        "balanced_accuracy": 0.5,
+        "observations": 39059
+      }
+    },
+    {
+      "dataset": "Water-3D",
+      "axis": "x",
+      "stride": 16,
+      "method": "nearest_initial",
+      "initial_class_counts": [
+        192,
+        192
+      ],
+      "all_visible": {
+        "confusion": [
+          [
+            9864,
+            4297
+          ],
+          [
+            5735,
+            23726
+          ]
+        ],
+        "accuracy": 0.7700242996653065,
+        "balanced_accuracy": 0.7509484225447418,
+        "observations": 43622
+      },
+      "initially_observed": {
+        "confusion": [
+          [
+            1475,
+            639
+          ],
+          [
+            1238,
+            1211
+          ]
+        ],
+        "accuracy": 0.5886478194170501,
+        "balanced_accuracy": 0.5961084844160516,
+        "observations": 4563
+      },
+      "initially_unobserved": {
+        "confusion": [
+          [
+            8389,
+            3658
+          ],
+          [
+            4497,
+            22515
+          ]
+        ],
+        "accuracy": 0.7912132927110269,
+        "balanced_accuracy": 0.7649371877442699,
+        "observations": 39059
+      }
+    },
+    {
+      "dataset": "Water-3D",
+      "axis": "y",
+      "stride": 16,
+      "method": "nearest_initial",
+      "initial_class_counts": [
+        192,
+        192
+      ],
+      "all_visible": {
+        "confusion": [
+          [
+            26051,
+            1649
+          ],
+          [
+            12693,
+            3229
+          ]
+        ],
+        "accuracy": 0.6712209435605887,
+        "balanced_accuracy": 0.5716352348565683,
+        "observations": 43622
+      },
+      "initially_observed": {
+        "confusion": [
+          [
+            1334,
+            688
+          ],
+          [
+            1693,
+            848
+          ]
+        ],
+        "accuracy": 0.4781941705018628,
+        "balanced_accuracy": 0.4967348540318597,
+        "observations": 4563
+      },
+      "initially_unobserved": {
+        "confusion": [
+          [
+            24717,
+            961
+          ],
+          [
+            11000,
+            2381
+          ]
+        ],
+        "accuracy": 0.6937709618781843,
+        "balanced_accuracy": 0.5702569177213427,
+        "observations": 39059
+      }
+    },
+    {
+      "dataset": "Water-3D",
+      "axis": "z",
+      "stride": 16,
+      "method": "nearest_initial",
+      "initial_class_counts": [
+        384,
+        0
+      ],
+      "all_visible": {
+        "confusion": [
+          [
+            38662,
+            0
+          ],
+          [
+            4960,
+            0
+          ]
+        ],
+        "accuracy": 0.886295905735638,
+        "balanced_accuracy": 0.5,
+        "observations": 43622
+      },
+      "initially_observed": {
+        "confusion": [
+          [
+            4563,
+            0
+          ],
+          [
+            0,
+            0
+          ]
+        ],
+        "accuracy": 1.0,
+        "balanced_accuracy": null,
+        "observations": 4563
+      },
+      "initially_unobserved": {
+        "confusion": [
+          [
+            34099,
+            0
+          ],
+          [
+            4960,
+            0
+          ]
+        ],
+        "accuracy": 0.873012621930925,
+        "balanced_accuracy": 0.5,
+        "observations": 39059
+      }
+    },
+    {
+      "dataset": "Water-3D",
+      "axis": "x",
+      "stride": 16,
+      "method": "nearest_previous",
+      "initial_class_counts": [
+        192,
+        192
+      ],
+      "all_visible": {
+        "confusion": [
+          [
+            5266,
+            8895
+          ],
+          [
+            1364,
+            28097
+          ]
+        ],
+        "accuracy": 0.7648205034157076,
+        "balanced_accuracy": 0.6627839486495525,
+        "observations": 43622
+      },
+      "initially_observed": {
+        "confusion": [
+          [
+            826,
+            1288
+          ],
+          [
+            489,
+            1960
+          ]
+        ],
+        "accuracy": 0.6105632259478413,
+        "balanced_accuracy": 0.5955275703828296,
+        "observations": 4563
+      },
+      "initially_unobserved": {
+        "confusion": [
+          [
+            4440,
+            7607
+          ],
+          [
+            875,
+            26137
+          ]
+        ],
+        "accuracy": 0.7828413425842956,
+        "balanced_accuracy": 0.6680817382891882,
+        "observations": 39059
+      }
+    },
+    {
+      "dataset": "Water-3D",
+      "axis": "y",
+      "stride": 16,
+      "method": "nearest_previous",
+      "initial_class_counts": [
+        192,
+        192
+      ],
+      "all_visible": {
+        "confusion": [
+          [
+            27698,
+            2
+          ],
+          [
+            14086,
+            1836
+          ]
+        ],
+        "accuracy": 0.6770436935491266,
+        "balanced_accuracy": 0.5576199722745859,
+        "observations": 43622
+      },
+      "initially_observed": {
+        "confusion": [
+          [
+            2022,
+            0
+          ],
+          [
+            2273,
+            268
+          ]
+        ],
+        "accuracy": 0.5018628095551172,
+        "balanced_accuracy": 0.5527351436442346,
+        "observations": 4563
+      },
+      "initially_unobserved": {
+        "confusion": [
+          [
+            25676,
+            2
+          ],
+          [
+            11813,
+            1568
+          ]
+        ],
+        "accuracy": 0.697508896797153,
+        "balanced_accuracy": 0.5585515949807268,
+        "observations": 39059
+      }
+    },
+    {
+      "dataset": "Water-3D",
+      "axis": "z",
+      "stride": 16,
+      "method": "nearest_previous",
+      "initial_class_counts": [
+        384,
+        0
+      ],
+      "all_visible": {
+        "confusion": [
+          [
+            38662,
+            0
+          ],
+          [
+            4960,
+            0
+          ]
+        ],
+        "accuracy": 0.886295905735638,
+        "balanced_accuracy": 0.5,
+        "observations": 43622
+      },
+      "initially_observed": {
+        "confusion": [
+          [
+            4563,
+            0
+          ],
+          [
+            0,
+            0
+          ]
+        ],
+        "accuracy": 1.0,
+        "balanced_accuracy": null,
+        "observations": 4563
+      },
+      "initially_unobserved": {
+        "confusion": [
+          [
+            34099,
+            0
+          ],
+          [
+            4960,
+            0
+          ]
+        ],
+        "accuracy": 0.873012621930925,
+        "balanced_accuracy": 0.5,
+        "observations": 39059
+      }
+    },
+    {
+      "dataset": "Water-3D",
+      "axis": "x",
+      "stride": 16,
+      "method": "estimated_constant_velocity",
+      "initial_class_counts": [
+        192,
+        192
+      ],
+      "all_visible": {
+        "confusion": [
+          [
+            1563,
+            12598
+          ],
+          [
+            50,
+            29411
+          ]
+        ],
+        "accuracy": 0.7100545596258768,
+        "balanced_accuracy": 0.5543382011166369,
+        "observations": 43622
+      },
+      "initially_observed": {
+        "confusion": [
+          [
+            260,
+            1854
+          ],
+          [
+            10,
+            2439
+          ]
+        ],
+        "accuracy": 0.591496822266053,
+        "balanced_accuracy": 0.5594531469412147,
+        "observations": 4563
+      },
+      "initially_unobserved": {
+        "confusion": [
+          [
+            1303,
+            10744
+          ],
+          [
+            40,
+            26972
+          ]
+        ],
+        "accuracy": 0.7239048618756241,
+        "balanced_accuracy": 0.5533394422366488,
+        "observations": 39059
+      }
+    },
+    {
+      "dataset": "Water-3D",
+      "axis": "y",
+      "stride": 16,
+      "method": "estimated_constant_velocity",
+      "initial_class_counts": [
+        192,
+        192
+      ],
+      "all_visible": {
+        "confusion": [
+          [
+            27693,
+            7
+          ],
+          [
+            14203,
+            1719
+          ]
+        ],
+        "accuracy": 0.6742469396176242,
+        "balanced_accuracy": 0.5538555580295094,
+        "observations": 43622
+      },
+      "initially_observed": {
+        "confusion": [
+          [
+            2022,
+            0
+          ],
+          [
+            2275,
+            266
+          ]
+        ],
+        "accuracy": 0.5014245014245015,
+        "balanced_accuracy": 0.5523415977961432,
+        "observations": 4563
+      },
+      "initially_unobserved": {
+        "confusion": [
+          [
+            25671,
+            7
+          ],
+          [
+            11928,
+            1453
+          ]
+        ],
+        "accuracy": 0.6944366215212883,
+        "balanced_accuracy": 0.5541570976406749,
+        "observations": 39059
+      }
+    },
+    {
+      "dataset": "Water-3D",
+      "axis": "z",
+      "stride": 16,
+      "method": "estimated_constant_velocity",
+      "initial_class_counts": [
+        384,
+        0
+      ],
+      "all_visible": {
+        "confusion": [
+          [
+            38662,
+            0
+          ],
+          [
+            4960,
+            0
+          ]
+        ],
+        "accuracy": 0.886295905735638,
+        "balanced_accuracy": 0.5,
+        "observations": 43622
+      },
+      "initially_observed": {
+        "confusion": [
+          [
+            4563,
+            0
+          ],
+          [
+            0,
+            0
+          ]
+        ],
+        "accuracy": 1.0,
+        "balanced_accuracy": null,
+        "observations": 4563
+      },
+      "initially_unobserved": {
+        "confusion": [
+          [
+            34099,
+            0
+          ],
+          [
+            4960,
+            0
+          ]
+        ],
+        "accuracy": 0.873012621930925,
+        "balanced_accuracy": 0.5,
+        "observations": 39059
+      }
+    },
+    {
+      "dataset": "Sand-3D",
+      "axis": "x",
+      "stride": 1,
+      "method": "initial_majority",
+      "initial_class_counts": [
+        616,
+        601
+      ],
+      "all_visible": {
+        "confusion": [
+          [
+            196882,
+            0
+          ],
+          [
+            141630,
+            0
+          ]
+        ],
+        "accuracy": 0.5816101054024673,
+        "balanced_accuracy": 0.5,
+        "observations": 338512
+      },
+      "initially_observed": {
+        "confusion": [
+          [
+            118255,
+            0
+          ],
+          [
+            104484,
+            0
+          ]
+        ],
+        "accuracy": 0.5309128621390955,
+        "balanced_accuracy": 0.5,
+        "observations": 222739
+      },
+      "initially_unobserved": {
+        "confusion": [
+          [
+            78627,
+            0
+          ],
+          [
+            37146,
+            0
+          ]
+        ],
+        "accuracy": 0.67914798787282,
+        "balanced_accuracy": 0.5,
+        "observations": 115773
+      }
+    },
+    {
+      "dataset": "Sand-3D",
+      "axis": "y",
+      "stride": 1,
+      "method": "initial_majority",
+      "initial_class_counts": [
+        606,
+        611
+      ],
+      "all_visible": {
+        "confusion": [
+          [
+            0,
+            147801
+          ],
+          [
+            0,
+            190711
+          ]
+        ],
+        "accuracy": 0.5633803232972538,
+        "balanced_accuracy": 0.5,
+        "observations": 338512
+      },
+      "initially_observed": {
+        "confusion": [
+          [
+            0,
+            100111
+          ],
+          [
+            0,
+            122628
+          ]
+        ],
+        "accuracy": 0.5505457059607882,
+        "balanced_accuracy": 0.5,
+        "observations": 222739
+      },
+      "initially_unobserved": {
+        "confusion": [
+          [
+            0,
+            47690
+          ],
+          [
+            0,
+            68083
+          ]
+        ],
+        "accuracy": 0.5880732122342861,
+        "balanced_accuracy": 0.5,
+        "observations": 115773
+      }
+    },
+    {
+      "dataset": "Sand-3D",
+      "axis": "z",
+      "stride": 1,
+      "method": "initial_majority",
+      "initial_class_counts": [
+        1194,
+        23
+      ],
+      "all_visible": {
+        "confusion": [
+          [
+            330720,
+            0
+          ],
+          [
+            7792,
+            0
+          ]
+        ],
+        "accuracy": 0.9769816136503285,
+        "balanced_accuracy": 0.5,
+        "observations": 338512
+      },
+      "initially_observed": {
+        "confusion": [
+          [
+            221990,
+            0
+          ],
+          [
+            749,
+            0
+          ]
+        ],
+        "accuracy": 0.9966373199125433,
+        "balanced_accuracy": 0.5,
+        "observations": 222739
+      },
+      "initially_unobserved": {
+        "confusion": [
+          [
+            108730,
+            0
+          ],
+          [
+            7043,
+            0
+          ]
+        ],
+        "accuracy": 0.9391654358097311,
+        "balanced_accuracy": 0.5,
+        "observations": 115773
+      }
+    },
+    {
+      "dataset": "Sand-3D",
+      "axis": "x",
+      "stride": 1,
+      "method": "nearest_initial",
+      "initial_class_counts": [
+        616,
+        601
+      ],
+      "all_visible": {
+        "confusion": [
+          [
+            120220,
+            76662
+          ],
+          [
+            7,
+            141623
+          ]
+        ],
+        "accuracy": 0.7735117218887366,
+        "balanced_accuracy": 0.8052850671833376,
+        "observations": 338512
+      },
+      "initially_observed": {
+        "confusion": [
+          [
+            66166,
+            52089
+          ],
+          [
+            0,
+            104484
+          ]
+        ],
+        "accuracy": 0.7661433336775328,
+        "balanced_accuracy": 0.7797598410215213,
+        "observations": 222739
+      },
+      "initially_unobserved": {
+        "confusion": [
+          [
+            54054,
+            24573
+          ],
+          [
+            7,
+            37139
+          ]
+        ],
+        "accuracy": 0.7876879756074386,
+        "balanced_accuracy": 0.843642661479861,
+        "observations": 115773
+      }
+    },
+    {
+      "dataset": "Sand-3D",
+      "axis": "y",
+      "stride": 1,
+      "method": "nearest_initial",
+      "initial_class_counts": [
+        606,
+        611
+      ],
+      "all_visible": {
+        "confusion": [
+          [
+            147800,
+            1
+          ],
+          [
+            181987,
+            8724
+          ]
+        ],
+        "accuracy": 0.4623883348300799,
+        "balanced_accuracy": 0.5228689212399943,
+        "observations": 338512
+      },
+      "initially_observed": {
+        "confusion": [
+          [
+            100111,
+            0
+          ],
+          [
+            116793,
+            5835
+          ]
+        ],
+        "accuracy": 0.4756508738927624,
+        "balanced_accuracy": 0.5237914668754281,
+        "observations": 222739
+      },
+      "initially_unobserved": {
+        "confusion": [
+          [
+            47689,
+            1
+          ],
+          [
+            65194,
+            2889
+          ]
+        ],
+        "accuracy": 0.43687215499296034,
+        "balanced_accuracy": 0.5212062657649311,
+        "observations": 115773
+      }
+    },
+    {
+      "dataset": "Sand-3D",
+      "axis": "z",
+      "stride": 1,
+      "method": "nearest_initial",
+      "initial_class_counts": [
+        1194,
+        23
+      ],
+      "all_visible": {
+        "confusion": [
+          [
+            330718,
+            2
+          ],
+          [
+            3892,
+            3900
+          ]
+        ],
+        "accuracy": 0.988496715035213,
+        "balanced_accuracy": 0.7502536498054397,
+        "observations": 338512
+      },
+      "initially_observed": {
+        "confusion": [
+          [
+            221990,
+            0
+          ],
+          [
+            669,
+            80
+          ]
+        ],
+        "accuracy": 0.9969964846748886,
+        "balanced_accuracy": 0.5534045393858478,
+        "observations": 222739
+      },
+      "initially_unobserved": {
+        "confusion": [
+          [
+            108728,
+            2
+          ],
+          [
+            3223,
+            3820
+          ]
+        ],
+        "accuracy": 0.9721437640900729,
+        "balanced_accuracy": 0.7711820566333866,
+        "observations": 115773
+      }
+    },
+    {
+      "dataset": "Sand-3D",
+      "axis": "x",
+      "stride": 1,
+      "method": "nearest_previous",
+      "initial_class_counts": [
+        616,
+        601
+      ],
+      "all_visible": {
+        "confusion": [
+          [
+            192237,
+            4645
+          ],
+          [
+            9340,
+            132290
+          ]
+        ],
+        "accuracy": 0.9586868412345796,
+        "balanced_accuracy": 0.9552303538982021,
+        "observations": 338512
+      },
+      "initially_observed": {
+        "confusion": [
+          [
+            115947,
+            2308
+          ],
+          [
+            3607,
+            100877
+          ]
+        ],
+        "accuracy": 0.9734442553841043,
+        "balanced_accuracy": 0.972980411383054,
+        "observations": 222739
+      },
+      "initially_unobserved": {
+        "confusion": [
+          [
+            76290,
+            2337
+          ],
+          [
+            5733,
+            31413
+          ]
+        ],
+        "accuracy": 0.9302946282812055,
+        "balanced_accuracy": 0.9079702224552448,
+        "observations": 115773
+      }
+    },
+    {
+      "dataset": "Sand-3D",
+      "axis": "y",
+      "stride": 1,
+      "method": "nearest_previous",
+      "initial_class_counts": [
+        606,
+        611
+      ],
+      "all_visible": {
+        "confusion": [
+          [
+            145611,
+            2190
+          ],
+          [
+            42498,
+            148213
+          ]
+        ],
+        "accuracy": 0.8679869546722125,
+        "balanced_accuracy": 0.881171492652265,
+        "observations": 338512
+      },
+      "initially_observed": {
+        "confusion": [
+          [
+            99087,
+            1024
+          ],
+          [
+            14886,
+            107742
+          ]
+        ],
+        "accuracy": 0.9285711078886051,
+        "balanced_accuracy": 0.9341899141038486,
+        "observations": 222739
+      },
+      "initially_unobserved": {
+        "confusion": [
+          [
+            46524,
+            1166
+          ],
+          [
+            27612,
+            40471
+          ]
+        ],
+        "accuracy": 0.7514273621656172,
+        "balanced_accuracy": 0.7849933163647678,
+        "observations": 115773
+      }
+    },
+    {
+      "dataset": "Sand-3D",
+      "axis": "z",
+      "stride": 1,
+      "method": "nearest_previous",
+      "initial_class_counts": [
+        1194,
+        23
+      ],
+      "all_visible": {
+        "confusion": [
+          [
+            330715,
+            5
+          ],
+          [
+            7711,
+            81
+          ]
+        ],
+        "accuracy": 0.9772061256321785,
+        "balanced_accuracy": 0.5051900793390613,
+        "observations": 338512
+      },
+      "initially_observed": {
+        "confusion": [
+          [
+            221990,
+            0
+          ],
+          [
+            724,
+            25
+          ]
+        ],
+        "accuracy": 0.9967495589007762,
+        "balanced_accuracy": 0.5166889185580774,
+        "observations": 222739
+      },
+      "initially_unobserved": {
+        "confusion": [
+          [
+            108725,
+            5
+          ],
+          [
+            6987,
+            56
+          ]
+        ],
+        "accuracy": 0.9396059530287718,
+        "balanced_accuracy": 0.5039525858543736,
+        "observations": 115773
+      }
+    },
+    {
+      "dataset": "Sand-3D",
+      "axis": "x",
+      "stride": 1,
+      "method": "estimated_constant_velocity",
+      "initial_class_counts": [
+        616,
+        601
+      ],
+      "all_visible": {
+        "confusion": [
+          [
+            186124,
+            10758
+          ],
+          [
+            10263,
+            131367
+          ]
+        ],
+        "accuracy": 0.9379017582833105,
+        "balanced_accuracy": 0.9364473360835007,
+        "observations": 338512
+      },
+      "initially_observed": {
+        "confusion": [
+          [
+            114107,
+            4148
+          ],
+          [
+            4392,
+            100092
+          ]
+        ],
+        "accuracy": 0.9616591616196535,
+        "balanced_accuracy": 0.9614440574609562,
+        "observations": 222739
+      },
+      "initially_unobserved": {
+        "confusion": [
+          [
+            72017,
+            6610
+          ],
+          [
+            5871,
+            31275
+          ]
+        ],
+        "accuracy": 0.8921942076304492,
+        "balanced_accuracy": 0.8789400875805113,
+        "observations": 115773
+      }
+    },
+    {
+      "dataset": "Sand-3D",
+      "axis": "y",
+      "stride": 1,
+      "method": "estimated_constant_velocity",
+      "initial_class_counts": [
+        606,
+        611
+      ],
+      "all_visible": {
+        "confusion": [
+          [
+            120865,
+            26936
+          ],
+          [
+            13906,
+            176805
+          ]
+        ],
+        "accuracy": 0.8793484425958311,
+        "balanced_accuracy": 0.8724191711250779,
+        "observations": 338512
+      },
+      "initially_observed": {
+        "confusion": [
+          [
+            90895,
+            9216
+          ],
+          [
+            7623,
+            115005
+          ]
+        ],
+        "accuracy": 0.9244003070858718,
+        "balanced_accuracy": 0.9228892836916578,
+        "observations": 222739
+      },
+      "initially_unobserved": {
+        "confusion": [
+          [
+            29970,
+            17720
+          ],
+          [
+            6283,
+            61800
+          ]
+        ],
+        "accuracy": 0.7926718664973699,
+        "balanced_accuracy": 0.7680746081681713,
+        "observations": 115773
+      }
+    },
+    {
+      "dataset": "Sand-3D",
+      "axis": "z",
+      "stride": 1,
+      "method": "estimated_constant_velocity",
+      "initial_class_counts": [
+        1194,
+        23
+      ],
+      "all_visible": {
+        "confusion": [
+          [
+            330718,
+            2
+          ],
+          [
+            7780,
+            12
+          ]
+        ],
+        "accuracy": 0.9770111547005719,
+        "balanced_accuracy": 0.500766996828027,
+        "observations": 338512
+      },
+      "initially_observed": {
+        "confusion": [
+          [
+            221990,
+            0
+          ],
+          [
+            747,
+            2
+          ]
+        ],
+        "accuracy": 0.996646299031602,
+        "balanced_accuracy": 0.5013351134846462,
+        "observations": 222739
+      },
+      "initially_unobserved": {
+        "confusion": [
+          [
+            108728,
+            2
+          ],
+          [
+            7033,
+            10
+          ]
+        ],
+        "accuracy": 0.9392345365499728,
+        "balanced_accuracy": 0.5007007276542583,
+        "observations": 115773
+      }
+    },
+    {
+      "dataset": "Sand-3D",
+      "axis": "x",
+      "stride": 4,
+      "method": "initial_majority",
+      "initial_class_counts": [
+        616,
+        601
+      ],
+      "all_visible": {
+        "confusion": [
+          [
+            48898,
+            0
+          ],
+          [
+            35142,
+            0
+          ]
+        ],
+        "accuracy": 0.5818419800095193,
+        "balanced_accuracy": 0.5,
+        "observations": 84040
+      },
+      "initially_observed": {
+        "confusion": [
+          [
+            29238,
+            0
+          ],
+          [
+            25907,
+            0
+          ]
+        ],
+        "accuracy": 0.5302021942152507,
+        "balanced_accuracy": 0.5,
+        "observations": 55145
+      },
+      "initially_unobserved": {
+        "confusion": [
+          [
+            19660,
+            0
+          ],
+          [
+            9235,
+            0
+          ]
+        ],
+        "accuracy": 0.6803945319259388,
+        "balanced_accuracy": 0.5,
+        "observations": 28895
+      }
+    },
+    {
+      "dataset": "Sand-3D",
+      "axis": "y",
+      "stride": 4,
+      "method": "initial_majority",
+      "initial_class_counts": [
+        606,
+        611
+      ],
+      "all_visible": {
+        "confusion": [
+          [
+            0,
+            36655
+          ],
+          [
+            0,
+            47385
+          ]
+        ],
+        "accuracy": 0.563838648262732,
+        "balanced_accuracy": 0.5,
+        "observations": 84040
+      },
+      "initially_observed": {
+        "confusion": [
+          [
+            0,
+            24783
+          ],
+          [
+            0,
+            30362
+          ]
+        ],
+        "accuracy": 0.5505848218333484,
+        "balanced_accuracy": 0.5,
+        "observations": 55145
+      },
+      "initially_unobserved": {
+        "confusion": [
+          [
+            0,
+            11872
+          ],
+          [
+            0,
+            17023
+          ]
+        ],
+        "accuracy": 0.5891330680048451,
+        "balanced_accuracy": 0.5,
+        "observations": 28895
+      }
+    },
+    {
+      "dataset": "Sand-3D",
+      "axis": "z",
+      "stride": 4,
+      "method": "initial_majority",
+      "initial_class_counts": [
+        1194,
+        23
+      ],
+      "all_visible": {
+        "confusion": [
+          [
+            82098,
+            0
+          ],
+          [
+            1942,
+            0
+          ]
+        ],
+        "accuracy": 0.976891956211328,
+        "balanced_accuracy": 0.5,
+        "observations": 84040
+      },
+      "initially_observed": {
+        "confusion": [
+          [
+            54968,
+            0
+          ],
+          [
+            177,
+            0
+          ]
+        ],
+        "accuracy": 0.9967902801704597,
+        "balanced_accuracy": 0.5,
+        "observations": 55145
+      },
+      "initially_unobserved": {
+        "confusion": [
+          [
+            27130,
+            0
+          ],
+          [
+            1765,
+            0
+          ]
+        ],
+        "accuracy": 0.9389167676068524,
+        "balanced_accuracy": 0.5,
+        "observations": 28895
+      }
+    },
+    {
+      "dataset": "Sand-3D",
+      "axis": "x",
+      "stride": 4,
+      "method": "nearest_initial",
+      "initial_class_counts": [
+        616,
+        601
+      ],
+      "all_visible": {
+        "confusion": [
+          [
+            29750,
+            19148
+          ],
+          [
+            1,
+            35141
+          ]
+        ],
+        "accuracy": 0.772144217039505,
+        "balanced_accuracy": 0.8041904429583864,
+        "observations": 84040
+      },
+      "initially_observed": {
+        "confusion": [
+          [
+            16249,
+            12989
+          ],
+          [
+            0,
+            25907
+          ]
+        ],
+        "accuracy": 0.7644573397406836,
+        "balanced_accuracy": 0.7778746836308913,
+        "observations": 55145
+      },
+      "initially_unobserved": {
+        "confusion": [
+          [
+            13501,
+            6159
+          ],
+          [
+            1,
+            9234
+          ]
+        ],
+        "accuracy": 0.786814327738363,
+        "balanced_accuracy": 0.8433080148116243,
+        "observations": 28895
+      }
+    },
+    {
+      "dataset": "Sand-3D",
+      "axis": "y",
+      "stride": 4,
+      "method": "nearest_initial",
+      "initial_class_counts": [
+        606,
+        611
+      ],
+      "all_visible": {
+        "confusion": [
+          [
+            36655,
+            0
+          ],
+          [
+            45428,
+            1957
+          ]
+        ],
+        "accuracy": 0.45944788196097097,
+        "balanced_accuracy": 0.5206499947240688,
+        "observations": 84040
+      },
+      "initially_observed": {
+        "confusion": [
+          [
+            24783,
+            0
+          ],
+          [
+            29103,
+            1259
+          ]
+        ],
+        "accuracy": 0.4722458971801614,
+        "balanced_accuracy": 0.52073315328371,
+        "observations": 55145
+      },
+      "initially_unobserved": {
+        "confusion": [
+          [
+            11872,
+            0
+          ],
+          [
+            16325,
+            698
+          ]
+        ],
+        "accuracy": 0.43502336044298323,
+        "balanced_accuracy": 0.5205016742054867,
+        "observations": 28895
+      }
+    },
+    {
+      "dataset": "Sand-3D",
+      "axis": "z",
+      "stride": 4,
+      "method": "nearest_initial",
+      "initial_class_counts": [
+        1194,
+        23
+      ],
+      "all_visible": {
+        "confusion": [
+          [
+            82098,
+            0
+          ],
+          [
+            974,
+            968
+          ]
+        ],
+        "accuracy": 0.9884102808186578,
+        "balanced_accuracy": 0.7492276004119465,
+        "observations": 84040
+      },
+      "initially_observed": {
+        "confusion": [
+          [
+            54968,
+            0
+          ],
+          [
+            161,
+            16
+          ]
+        ],
+        "accuracy": 0.9970804243358419,
+        "balanced_accuracy": 0.5451977401129944,
+        "observations": 55145
+      },
+      "initially_unobserved": {
+        "confusion": [
+          [
+            27130,
+            0
+          ],
+          [
+            813,
+            952
+          ]
+        ],
+        "accuracy": 0.9718636442291054,
+        "balanced_accuracy": 0.7696883852691219,
+        "observations": 28895
+      }
+    },
+    {
+      "dataset": "Sand-3D",
+      "axis": "x",
+      "stride": 4,
+      "method": "nearest_previous",
+      "initial_class_counts": [
+        616,
+        601
+      ],
+      "all_visible": {
+        "confusion": [
+          [
+            33221,
+            15677
+          ],
+          [
+            103,
+            35039
+          ]
+        ],
+        "accuracy": 0.8122322703474536,
+        "balanced_accuracy": 0.8382314372214754,
+        "observations": 84040
+      },
+      "initially_observed": {
+        "confusion": [
+          [
+            17567,
+            11671
+          ],
+          [
+            3,
+            25904
+          ]
+        ],
+        "accuracy": 0.7883035633330311,
+        "balanced_accuracy": 0.8003559455868118,
+        "observations": 55145
+      },
+      "initially_unobserved": {
+        "confusion": [
+          [
+            15654,
+            4006
+          ],
+          [
+            100,
+            9135
+          ]
+        ],
+        "accuracy": 0.8578992905346946,
+        "balanced_accuracy": 0.8927038209386313,
+        "observations": 28895
+      }
+    },
+    {
+      "dataset": "Sand-3D",
+      "axis": "y",
+      "stride": 4,
+      "method": "nearest_previous",
+      "initial_class_counts": [
+        606,
+        611
+      ],
+      "all_visible": {
+        "confusion": [
+          [
+            36650,
+            5
+          ],
+          [
+            45233,
+            2152
+          ]
+        ],
+        "accuracy": 0.4617087101380295,
+        "balanced_accuracy": 0.5226394043734914,
+        "observations": 84040
+      },
+      "initially_observed": {
+        "confusion": [
+          [
+            24783,
+            0
+          ],
+          [
+            29088,
+            1274
+          ]
+        ],
+        "accuracy": 0.47251790733520715,
+        "balanced_accuracy": 0.5209801725841512,
+        "observations": 55145
+      },
+      "initially_unobserved": {
+        "confusion": [
+          [
+            11867,
+            5
+          ],
+          [
+            16145,
+            878
+          ]
+        ],
+        "accuracy": 0.44107977158677975,
+        "balanced_accuracy": 0.5255780593854865,
+        "observations": 28895
+      }
+    },
+    {
+      "dataset": "Sand-3D",
+      "axis": "z",
+      "stride": 4,
+      "method": "nearest_previous",
+      "initial_class_counts": [
+        1194,
+        23
+      ],
+      "all_visible": {
+        "confusion": [
+          [
+            82098,
+            0
+          ],
+          [
+            1919,
+            23
+          ]
+        ],
+        "accuracy": 0.9771656354117088,
+        "balanced_accuracy": 0.5059217301750772,
+        "observations": 84040
+      },
+      "initially_observed": {
+        "confusion": [
+          [
+            54968,
+            0
+          ],
+          [
+            170,
+            7
+          ]
+        ],
+        "accuracy": 0.9969172182428144,
+        "balanced_accuracy": 0.519774011299435,
+        "observations": 55145
+      },
+      "initially_unobserved": {
+        "confusion": [
+          [
+            27130,
+            0
+          ],
+          [
+            1749,
+            16
+          ]
+        ],
+        "accuracy": 0.9394704966257138,
+        "balanced_accuracy": 0.5045325779036827,
+        "observations": 28895
+      }
+    },
+    {
+      "dataset": "Sand-3D",
+      "axis": "x",
+      "stride": 4,
+      "method": "estimated_constant_velocity",
+      "initial_class_counts": [
+        616,
+        601
+      ],
+      "all_visible": {
+        "confusion": [
+          [
+            19165,
+            29733
+          ],
+          [
+            1675,
+            33467
+          ]
+        ],
+        "accuracy": 0.626273203236554,
+        "balanced_accuracy": 0.6721372782144298,
+        "observations": 84040
+      },
+      "initially_observed": {
+        "confusion": [
+          [
+            9534,
+            19704
+          ],
+          [
+            651,
+            25256
+          ]
+        ],
+        "accuracy": 0.6308822196028652,
+        "balanced_accuracy": 0.6504770758459134,
+        "observations": 55145
+      },
+      "initially_unobserved": {
+        "confusion": [
+          [
+            9631,
+            10029
+          ],
+          [
+            1024,
+            8211
+          ]
+        ],
+        "accuracy": 0.6174770721578128,
+        "balanced_accuracy": 0.6894977062691638,
+        "observations": 28895
+      }
+    },
+    {
+      "dataset": "Sand-3D",
+      "axis": "y",
+      "stride": 4,
+      "method": "estimated_constant_velocity",
+      "initial_class_counts": [
+        606,
+        611
+      ],
+      "all_visible": {
+        "confusion": [
+          [
+            35869,
+            786
+          ],
+          [
+            34734,
+            12651
+          ]
+        ],
+        "accuracy": 0.5773441218467397,
+        "balanced_accuracy": 0.6227700180351782,
+        "observations": 84040
+      },
+      "initially_observed": {
+        "confusion": [
+          [
+            24536,
+            247
+          ],
+          [
+            22397,
+            7965
+          ]
+        ],
+        "accuracy": 0.5893734699428779,
+        "balanced_accuracy": 0.626183993883987,
+        "observations": 55145
+      },
+      "initially_unobserved": {
+        "confusion": [
+          [
+            11333,
+            539
+          ],
+          [
+            12337,
+            4686
+          ]
+        ],
+        "accuracy": 0.5543865720712926,
+        "balanced_accuracy": 0.6149368425238217,
+        "observations": 28895
+      }
+    },
+    {
+      "dataset": "Sand-3D",
+      "axis": "z",
+      "stride": 4,
+      "method": "estimated_constant_velocity",
+      "initial_class_counts": [
+        1194,
+        23
+      ],
+      "all_visible": {
+        "confusion": [
+          [
+            82098,
+            0
+          ],
+          [
+            1924,
+            18
+          ]
+        ],
+        "accuracy": 0.977106139933365,
+        "balanced_accuracy": 0.5046343975283213,
+        "observations": 84040
+      },
+      "initially_observed": {
+        "confusion": [
+          [
+            54968,
+            0
+          ],
+          [
+            172,
+            5
+          ]
+        ],
+        "accuracy": 0.9968809502221416,
+        "balanced_accuracy": 0.5141242937853108,
+        "observations": 55145
+      },
+      "initially_unobserved": {
+        "confusion": [
+          [
+            27130,
+            0
+          ],
+          [
+            1752,
+            13
+          ]
+        ],
+        "accuracy": 0.9393666724346773,
+        "balanced_accuracy": 0.5036827195467423,
+        "observations": 28895
+      }
+    },
+    {
+      "dataset": "Sand-3D",
+      "axis": "x",
+      "stride": 16,
+      "method": "initial_majority",
+      "initial_class_counts": [
+        616,
+        601
+      ],
+      "all_visible": {
+        "confusion": [
+          [
+            11776,
+            0
+          ],
+          [
+            8449,
+            0
+          ]
+        ],
+        "accuracy": 0.5822496909765142,
+        "balanced_accuracy": 0.5,
+        "observations": 20225
+      },
+      "initially_observed": {
+        "confusion": [
+          [
+            7035,
+            0
+          ],
+          [
+            6212,
+            0
+          ]
+        ],
+        "accuracy": 0.5310636370498981,
+        "balanced_accuracy": 0.5,
+        "observations": 13247
+      },
+      "initially_unobserved": {
+        "confusion": [
+          [
+            4741,
+            0
+          ],
+          [
+            2237,
+            0
+          ]
+        ],
+        "accuracy": 0.6794210375465749,
+        "balanced_accuracy": 0.5,
+        "observations": 6978
+      }
+    },
+    {
+      "dataset": "Sand-3D",
+      "axis": "y",
+      "stride": 16,
+      "method": "initial_majority",
+      "initial_class_counts": [
+        606,
+        611
+      ],
+      "all_visible": {
+        "confusion": [
+          [
+            0,
+            8774
+          ],
+          [
+            0,
+            11451
+          ]
+        ],
+        "accuracy": 0.5661804697156984,
+        "balanced_accuracy": 0.5,
+        "observations": 20225
+      },
+      "initially_observed": {
+        "confusion": [
+          [
+            0,
+            5937
+          ],
+          [
+            0,
+            7310
+          ]
+        ],
+        "accuracy": 0.55182305427644,
+        "balanced_accuracy": 0.5,
+        "observations": 13247
+      },
+      "initially_unobserved": {
+        "confusion": [
+          [
+            0,
+            2837
+          ],
+          [
+            0,
+            4141
+          ]
+        ],
+        "accuracy": 0.5934365147606764,
+        "balanced_accuracy": 0.5,
+        "observations": 6978
+      }
+    },
+    {
+      "dataset": "Sand-3D",
+      "axis": "z",
+      "stride": 16,
+      "method": "initial_majority",
+      "initial_class_counts": [
+        1194,
+        23
+      ],
+      "all_visible": {
+        "confusion": [
+          [
+            19754,
+            0
+          ],
+          [
+            471,
+            0
+          ]
+        ],
+        "accuracy": 0.9767119901112484,
+        "balanced_accuracy": 0.5,
+        "observations": 20225
+      },
+      "initially_observed": {
+        "confusion": [
+          [
+            13207,
+            0
+          ],
+          [
+            40,
+            0
+          ]
+        ],
+        "accuracy": 0.996980448403412,
+        "balanced_accuracy": 0.5,
+        "observations": 13247
+      },
+      "initially_unobserved": {
+        "confusion": [
+          [
+            6547,
+            0
+          ],
+          [
+            431,
+            0
+          ]
+        ],
+        "accuracy": 0.9382344511321296,
+        "balanced_accuracy": 0.5,
+        "observations": 6978
+      }
+    },
+    {
+      "dataset": "Sand-3D",
+      "axis": "x",
+      "stride": 16,
+      "method": "nearest_initial",
+      "initial_class_counts": [
+        616,
+        601
+      ],
+      "all_visible": {
+        "confusion": [
+          [
+            7084,
+            4692
+          ],
+          [
+            0,
+            8449
+          ]
+        ],
+        "accuracy": 0.7680098887515451,
+        "balanced_accuracy": 0.80078125,
+        "observations": 20225
+      },
+      "initially_observed": {
+        "confusion": [
+          [
+            3852,
+            3183
+          ],
+          [
+            0,
+            6212
+          ]
+        ],
+        "accuracy": 0.7597191817015173,
+        "balanced_accuracy": 0.773773987206823,
+        "observations": 13247
+      },
+      "initially_unobserved": {
+        "confusion": [
+          [
+            3232,
+            1509
+          ],
+          [
+            0,
+            2237
+          ]
+        ],
+        "accuracy": 0.7837489251934652,
+        "balanced_accuracy": 0.8408563594178443,
+        "observations": 6978
+      }
+    },
+    {
+      "dataset": "Sand-3D",
+      "axis": "y",
+      "stride": 16,
+      "method": "nearest_initial",
+      "initial_class_counts": [
+        606,
+        611
+      ],
+      "all_visible": {
+        "confusion": [
+          [
+            8774,
+            0
+          ],
+          [
+            11159,
+            292
+          ]
+        ],
+        "accuracy": 0.44825710754017306,
+        "balanced_accuracy": 0.5127499781678456,
+        "observations": 20225
+      },
+      "initially_observed": {
+        "confusion": [
+          [
+            5937,
+            0
+          ],
+          [
+            7139,
+            171
+          ]
+        ],
+        "accuracy": 0.46108552879897335,
+        "balanced_accuracy": 0.5116963064295486,
+        "observations": 13247
+      },
+      "initially_unobserved": {
+        "confusion": [
+          [
+            2837,
+            0
+          ],
+          [
+            4020,
+            121
+          ]
+        ],
+        "accuracy": 0.4239036973344798,
+        "balanced_accuracy": 0.5146099975851244,
+        "observations": 6978
+      }
+    },
+    {
+      "dataset": "Sand-3D",
+      "axis": "z",
+      "stride": 16,
+      "method": "nearest_initial",
+      "initial_class_counts": [
+        1194,
+        23
+      ],
+      "all_visible": {
+        "confusion": [
+          [
+            19754,
+            0
+          ],
+          [
+            234,
+            237
+          ]
+        ],
+        "accuracy": 0.9884301606922126,
+        "balanced_accuracy": 0.7515923566878981,
+        "observations": 20225
+      },
+      "initially_observed": {
+        "confusion": [
+          [
+            13207,
+            0
+          ],
+          [
+            39,
+            1
+          ]
+        ],
+        "accuracy": 0.9970559371933267,
+        "balanced_accuracy": 0.5125,
+        "observations": 13247
+      },
+      "initially_unobserved": {
+        "confusion": [
+          [
+            6547,
+            0
+          ],
+          [
+            195,
+            236
+          ]
+        ],
+        "accuracy": 0.9720550300945829,
+        "balanced_accuracy": 0.7737819025522041,
+        "observations": 6978
+      }
+    },
+    {
+      "dataset": "Sand-3D",
+      "axis": "x",
+      "stride": 16,
+      "method": "nearest_previous",
+      "initial_class_counts": [
+        616,
+        601
+      ],
+      "all_visible": {
+        "confusion": [
+          [
+            6181,
+            5595
+          ],
+          [
+            2,
+            8447
+          ]
+        ],
+        "accuracy": 0.7232632880098887,
+        "balanced_accuracy": 0.7623221998631817,
+        "observations": 20225
+      },
+      "initially_observed": {
+        "confusion": [
+          [
+            3167,
+            3868
+          ],
+          [
+            0,
+            6212
+          ]
+        ],
+        "accuracy": 0.7080093606099495,
+        "balanced_accuracy": 0.725088841506752,
+        "observations": 13247
+      },
+      "initially_unobserved": {
+        "confusion": [
+          [
+            3014,
+            1727
+          ],
+          [
+            2,
+            2235
+          ]
+        ],
+        "accuracy": 0.7522212668386357,
+        "balanced_accuracy": 0.8174184019656754,
+        "observations": 6978
+      }
+    },
+    {
+      "dataset": "Sand-3D",
+      "axis": "y",
+      "stride": 16,
+      "method": "nearest_previous",
+      "initial_class_counts": [
+        606,
+        611
+      ],
+      "all_visible": {
+        "confusion": [
+          [
+            8772,
+            2
+          ],
+          [
+            11161,
+            290
+          ]
+        ],
+        "accuracy": 0.4480593325092707,
+        "balanced_accuracy": 0.5125486764479098,
+        "observations": 20225
+      },
+      "initially_observed": {
+        "confusion": [
+          [
+            5937,
+            0
+          ],
+          [
+            7138,
+            172
+          ]
+        ],
+        "accuracy": 0.46116101758888806,
+        "balanced_accuracy": 0.5117647058823529,
+        "observations": 13247
+      },
+      "initially_unobserved": {
+        "confusion": [
+          [
+            2835,
+            2
+          ],
+          [
+            4023,
+            118
+          ]
+        ],
+        "accuracy": 0.4231871596445973,
+        "balanced_accuracy": 0.513895281220652,
+        "observations": 6978
+      }
+    },
+    {
+      "dataset": "Sand-3D",
+      "axis": "z",
+      "stride": 16,
+      "method": "nearest_previous",
+      "initial_class_counts": [
+        1194,
+        23
+      ],
+      "all_visible": {
+        "confusion": [
+          [
+            19754,
+            0
+          ],
+          [
+            449,
+            22
+          ]
+        ],
+        "accuracy": 0.9777997527812113,
+        "balanced_accuracy": 0.5233545647558386,
+        "observations": 20225
+      },
+      "initially_observed": {
+        "confusion": [
+          [
+            13207,
+            0
+          ],
+          [
+            39,
+            1
+          ]
+        ],
+        "accuracy": 0.9970559371933267,
+        "balanced_accuracy": 0.5125,
+        "observations": 13247
+      },
+      "initially_unobserved": {
+        "confusion": [
+          [
+            6547,
+            0
+          ],
+          [
+            410,
+            21
+          ]
+        ],
+        "accuracy": 0.941243909429636,
+        "balanced_accuracy": 0.5243619489559165,
+        "observations": 6978
+      }
+    },
+    {
+      "dataset": "Sand-3D",
+      "axis": "x",
+      "stride": 16,
+      "method": "estimated_constant_velocity",
+      "initial_class_counts": [
+        616,
+        601
+      ],
+      "all_visible": {
+        "confusion": [
+          [
+            4912,
+            6864
+          ],
+          [
+            135,
+            8314
+          ]
+        ],
+        "accuracy": 0.6539431396786156,
+        "balanced_accuracy": 0.7005706714712829,
+        "observations": 20225
+      },
+      "initially_observed": {
+        "confusion": [
+          [
+            2250,
+            4785
+          ],
+          [
+            92,
+            6120
+          ]
+        ],
+        "accuracy": 0.6318411715860195,
+        "balanced_accuracy": 0.652509689616493,
+        "observations": 13247
+      },
+      "initially_unobserved": {
+        "confusion": [
+          [
+            2662,
+            2079
+          ],
+          [
+            43,
+            2194
+          ]
+        ],
+        "accuracy": 0.6959014044138722,
+        "balanced_accuracy": 0.771131373120489,
+        "observations": 6978
+      }
+    },
+    {
+      "dataset": "Sand-3D",
+      "axis": "y",
+      "stride": 16,
+      "method": "estimated_constant_velocity",
+      "initial_class_counts": [
+        606,
+        611
+      ],
+      "all_visible": {
+        "confusion": [
+          [
+            8772,
+            2
+          ],
+          [
+            11121,
+            330
+          ]
+        ],
+        "accuracy": 0.4500370828182942,
+        "balanced_accuracy": 0.5142952487996695,
+        "observations": 20225
+      },
+      "initially_observed": {
+        "confusion": [
+          [
+            5937,
+            0
+          ],
+          [
+            7127,
+            183
+          ]
+        ],
+        "accuracy": 0.4619913942779497,
+        "balanced_accuracy": 0.512517099863201,
+        "observations": 13247
+      },
+      "initially_unobserved": {
+        "confusion": [
+          [
+            2835,
+            2
+          ],
+          [
+            3994,
+            147
+          ]
+        ],
+        "accuracy": 0.4273430782459157,
+        "balanced_accuracy": 0.517396850889814,
+        "observations": 6978
+      }
+    },
+    {
+      "dataset": "Sand-3D",
+      "axis": "z",
+      "stride": 16,
+      "method": "estimated_constant_velocity",
+      "initial_class_counts": [
+        1194,
+        23
+      ],
+      "all_visible": {
+        "confusion": [
+          [
+            19754,
+            0
+          ],
+          [
+            450,
+            21
+          ]
+        ],
+        "accuracy": 0.9777503090234858,
+        "balanced_accuracy": 0.5222929936305732,
+        "observations": 20225
+      },
+      "initially_observed": {
+        "confusion": [
+          [
+            13207,
+            0
+          ],
+          [
+            39,
+            1
+          ]
+        ],
+        "accuracy": 0.9970559371933267,
+        "balanced_accuracy": 0.5125,
+        "observations": 13247
+      },
+      "initially_unobserved": {
+        "confusion": [
+          [
+            6547,
+            0
+          ],
+          [
+            411,
+            20
+          ]
+        ],
+        "accuracy": 0.9411006018916594,
+        "balanced_accuracy": 0.5232018561484919,
+        "observations": 6978
+      }
+    },
+    {
+      "dataset": "Goop-3D",
+      "axis": "x",
+      "stride": 1,
+      "method": "initial_majority",
+      "initial_class_counts": [
+        746,
+        739
+      ],
+      "all_visible": {
+        "confusion": [
+          [
+            266905,
+            0
+          ],
+          [
+            347515,
+            0
+          ]
+        ],
+        "accuracy": 0.43440154942872955,
+        "balanced_accuracy": 0.5,
+        "observations": 614420
+      },
+      "initially_observed": {
+        "confusion": [
+          [
+            108123,
+            0
+          ],
+          [
+            126827,
+            0
+          ]
+        ],
+        "accuracy": 0.4601957863375186,
+        "balanced_accuracy": 0.5,
+        "observations": 234950
+      },
+      "initially_unobserved": {
+        "confusion": [
+          [
+            158782,
+            0
+          ],
+          [
+            220688,
+            0
+          ]
+        ],
+        "accuracy": 0.4184309695101062,
+        "balanced_accuracy": 0.5,
+        "observations": 379470
+      }
+    },
+    {
+      "dataset": "Goop-3D",
+      "axis": "y",
+      "stride": 1,
+      "method": "initial_majority",
+      "initial_class_counts": [
+        746,
+        739
+      ],
+      "all_visible": {
+        "confusion": [
+          [
+            144260,
+            0
+          ],
+          [
+            470160,
+            0
+          ]
+        ],
+        "accuracy": 0.2347905341622994,
+        "balanced_accuracy": 0.5,
+        "observations": 614420
+      },
+      "initially_observed": {
+        "confusion": [
+          [
+            67134,
+            0
+          ],
+          [
+            167816,
+            0
+          ]
+        ],
+        "accuracy": 0.28573739093424133,
+        "balanced_accuracy": 0.5,
+        "observations": 234950
+      },
+      "initially_unobserved": {
+        "confusion": [
+          [
+            77126,
+            0
+          ],
+          [
+            302344,
+            0
+          ]
+        ],
+        "accuracy": 0.2032466334624608,
+        "balanced_accuracy": 0.5,
+        "observations": 379470
+      }
+    },
+    {
+      "dataset": "Goop-3D",
+      "axis": "z",
+      "stride": 1,
+      "method": "initial_majority",
+      "initial_class_counts": [
+        1341,
+        144
+      ],
+      "all_visible": {
+        "confusion": [
+          [
+            576744,
+            0
+          ],
+          [
+            37676,
+            0
+          ]
+        ],
+        "accuracy": 0.9386803814979982,
+        "balanced_accuracy": 0.5,
+        "observations": 614420
+      },
+      "initially_observed": {
+        "confusion": [
+          [
+            233130,
+            0
+          ],
+          [
+            1820,
+            0
+          ]
+        ],
+        "accuracy": 0.9922536709938284,
+        "balanced_accuracy": 0.5,
+        "observations": 234950
+      },
+      "initially_unobserved": {
+        "confusion": [
+          [
+            343614,
+            0
+          ],
+          [
+            35856,
+            0
+          ]
+        ],
+        "accuracy": 0.9055103170211084,
+        "balanced_accuracy": 0.5,
+        "observations": 379470
+      }
+    },
+    {
+      "dataset": "Goop-3D",
+      "axis": "x",
+      "stride": 1,
+      "method": "nearest_initial",
+      "initial_class_counts": [
+        746,
+        739
+      ],
+      "all_visible": {
+        "confusion": [
+          [
+            266871,
+            34
+          ],
+          [
+            95022,
+            252493
+          ]
+        ],
+        "accuracy": 0.8452914944174994,
+        "balanced_accuracy": 0.8632199061947815,
+        "observations": 614420
+      },
+      "initially_observed": {
+        "confusion": [
+          [
+            108102,
+            21
+          ],
+          [
+            30582,
+            96245
+          ]
+        ],
+        "accuracy": 0.8697467546286444,
+        "balanced_accuracy": 0.8793370782578297,
+        "observations": 234950
+      },
+      "initially_unobserved": {
+        "confusion": [
+          [
+            158769,
+            13
+          ],
+          [
+            64440,
+            156248
+          ]
+        ],
+        "accuracy": 0.8301499459772841,
+        "balanced_accuracy": 0.8539610933851285,
+        "observations": 379470
+      }
+    },
+    {
+      "dataset": "Goop-3D",
+      "axis": "y",
+      "stride": 1,
+      "method": "nearest_initial",
+      "initial_class_counts": [
+        746,
+        739
+      ],
+      "all_visible": {
+        "confusion": [
+          [
+            143841,
+            419
+          ],
+          [
+            281022,
+            189138
+          ]
+        ],
+        "accuracy": 0.5419403665245272,
+        "balanced_accuracy": 0.699689925356683,
+        "observations": 614420
+      },
+      "initially_observed": {
+        "confusion": [
+          [
+            66993,
+            141
+          ],
+          [
+            86293,
+            81523
+          ]
+        ],
+        "accuracy": 0.6321174718025112,
+        "balanced_accuracy": 0.7418438644267057,
+        "observations": 234950
+      },
+      "initially_unobserved": {
+        "confusion": [
+          [
+            76848,
+            278
+          ],
+          [
+            194729,
+            107615
+          ]
+        ],
+        "accuracy": 0.4861069386249242,
+        "balanced_accuracy": 0.676165565823577,
+        "observations": 379470
+      }
+    },
+    {
+      "dataset": "Goop-3D",
+      "axis": "z",
+      "stride": 1,
+      "method": "nearest_initial",
+      "initial_class_counts": [
+        1341,
+        144
+      ],
+      "all_visible": {
+        "confusion": [
+          [
+            576742,
+            2
+          ],
+          [
+            37014,
+            662
+          ]
+        ],
+        "accuracy": 0.939754565281078,
+        "balanced_accuracy": 0.5087836998263177,
+        "observations": 614420
+      },
+      "initially_observed": {
+        "confusion": [
+          [
+            233130,
+            0
+          ],
+          [
+            1692,
+            128
+          ]
+        ],
+        "accuracy": 0.9927984677590976,
+        "balanced_accuracy": 0.5351648351648352,
+        "observations": 234950
+      },
+      "initially_unobserved": {
+        "confusion": [
+          [
+            343612,
+            2
+          ],
+          [
+            35322,
+            534
+          ]
+        ],
+        "accuracy": 0.9069122723798982,
+        "balanced_accuracy": 0.5074435422342662,
+        "observations": 379470
+      }
+    },
+    {
+      "dataset": "Goop-3D",
+      "axis": "x",
+      "stride": 1,
+      "method": "nearest_previous",
+      "initial_class_counts": [
+        746,
+        739
+      ],
+      "all_visible": {
+        "confusion": [
+          [
+            266128,
+            777
+          ],
+          [
+            46339,
+            301176
+          ]
+        ],
+        "accuracy": 0.9233162982975814,
+        "balanced_accuracy": 0.931872483701013,
+        "observations": 614420
+      },
+      "initially_observed": {
+        "confusion": [
+          [
+            108071,
+            52
+          ],
+          [
+            7393,
+            119434
+          ]
+        ],
+        "accuracy": 0.968312406895084,
+        "balanced_accuracy": 0.970613531090045,
+        "observations": 234950
+      },
+      "initially_unobserved": {
+        "confusion": [
+          [
+            158057,
+            725
+          ],
+          [
+            38946,
+            181742
+          ]
+        ],
+        "accuracy": 0.8954568213561019,
+        "balanced_accuracy": 0.9094793025965298,
+        "observations": 379470
+      }
+    },
+    {
+      "dataset": "Goop-3D",
+      "axis": "y",
+      "stride": 1,
+      "method": "nearest_previous",
+      "initial_class_counts": [
+        746,
+        739
+      ],
+      "all_visible": {
+        "confusion": [
+          [
+            138608,
+            5652
+          ],
+          [
+            90104,
+            380056
+          ]
+        ],
+        "accuracy": 0.84415220858696,
+        "balanced_accuracy": 0.8845876715092031,
+        "observations": 614420
+      },
+      "initially_observed": {
+        "confusion": [
+          [
+            65986,
+            1148
+          ],
+          [
+            18799,
+            149017
+          ]
+        ],
+        "accuracy": 0.9151010853373058,
+        "balanced_accuracy": 0.9354391860800935,
+        "observations": 234950
+      },
+      "initially_unobserved": {
+        "confusion": [
+          [
+            72622,
+            4504
+          ],
+          [
+            71305,
+            231039
+          ]
+        ],
+        "accuracy": 0.8002239966268744,
+        "balanced_accuracy": 0.8528807109595398,
+        "observations": 379470
+      }
+    },
+    {
+      "dataset": "Goop-3D",
+      "axis": "z",
+      "stride": 1,
+      "method": "nearest_previous",
+      "initial_class_counts": [
+        1341,
+        144
+      ],
+      "all_visible": {
+        "confusion": [
+          [
+            576694,
+            50
+          ],
+          [
+            36437,
+            1239
+          ]
+        ],
+        "accuracy": 0.9406155398587286,
+        "balanced_accuracy": 0.5163994815375482,
+        "observations": 614420
+      },
+      "initially_observed": {
+        "confusion": [
+          [
+            233129,
+            1
+          ],
+          [
+            1629,
+            191
+          ]
+        ],
+        "accuracy": 0.9930623536922749,
+        "balanced_accuracy": 0.552470382746409,
+        "observations": 234950
+      },
+      "initially_unobserved": {
+        "confusion": [
+          [
+            343565,
+            49
+          ],
+          [
+            34808,
+            1048
+          ]
+        ],
+        "accuracy": 0.9081429362004901,
+        "balanced_accuracy": 0.5145427106654474,
+        "observations": 379470
+      }
+    },
+    {
+      "dataset": "Goop-3D",
+      "axis": "x",
+      "stride": 1,
+      "method": "estimated_constant_velocity",
+      "initial_class_counts": [
+        746,
+        739
+      ],
+      "all_visible": {
+        "confusion": [
+          [
+            231184,
+            35721
+          ],
+          [
+            25055,
+            322460
+          ]
+        ],
+        "accuracy": 0.9010839490901988,
+        "balanced_accuracy": 0.897034128480646,
+        "observations": 614420
+      },
+      "initially_observed": {
+        "confusion": [
+          [
+            96297,
+            11826
+          ],
+          [
+            3595,
+            123232
+          ]
+        ],
+        "accuracy": 0.9343647584592466,
+        "balanced_accuracy": 0.931139433603174,
+        "observations": 234950
+      },
+      "initially_unobserved": {
+        "confusion": [
+          [
+            134887,
+            23895
+          ],
+          [
+            21460,
+            199228
+          ]
+        ],
+        "accuracy": 0.8804780351542941,
+        "balanced_accuracy": 0.8761346477558054,
+        "observations": 379470
+      }
+    },
+    {
+      "dataset": "Goop-3D",
+      "axis": "y",
+      "stride": 1,
+      "method": "estimated_constant_velocity",
+      "initial_class_counts": [
+        746,
+        739
+      ],
+      "all_visible": {
+        "confusion": [
+          [
+            88900,
+            55360
+          ],
+          [
+            49759,
+            420401
+          ]
+        ],
+        "accuracy": 0.8289134468279027,
+        "balanced_accuracy": 0.755207128104279,
+        "observations": 614420
+      },
+      "initially_observed": {
+        "confusion": [
+          [
+            45658,
+            21476
+          ],
+          [
+            12452,
+            155364
+          ]
+        ],
+        "accuracy": 0.855594807405831,
+        "balanced_accuracy": 0.8029510834868234,
+        "observations": 234950
+      },
+      "initially_unobserved": {
+        "confusion": [
+          [
+            43242,
+            33884
+          ],
+          [
+            37307,
+            265037
+          ]
+        ],
+        "accuracy": 0.8123936016022347,
+        "balanced_accuracy": 0.7186372005446816,
+        "observations": 379470
+      }
+    },
+    {
+      "dataset": "Goop-3D",
+      "axis": "z",
+      "stride": 1,
+      "method": "estimated_constant_velocity",
+      "initial_class_counts": [
+        1341,
+        144
+      ],
+      "all_visible": {
+        "confusion": [
+          [
+            576592,
+            152
+          ],
+          [
+            37199,
+            477
+          ]
+        ],
+        "accuracy": 0.9392093356336056,
+        "balanced_accuracy": 0.5061985156036295,
+        "observations": 614420
+      },
+      "initially_observed": {
+        "confusion": [
+          [
+            233082,
+            48
+          ],
+          [
+            1698,
+            122
+          ]
+        ],
+        "accuracy": 0.9925686316237498,
+        "balanced_accuracy": 0.5334135366627968,
+        "observations": 234950
+      },
+      "initially_unobserved": {
+        "confusion": [
+          [
+            343510,
+            104
+          ],
+          [
+            35501,
+            355
+          ]
+        ],
+        "accuracy": 0.9061717658839961,
+        "balanced_accuracy": 0.5047990243835373,
+        "observations": 379470
+      }
+    },
+    {
+      "dataset": "Goop-3D",
+      "axis": "x",
+      "stride": 4,
+      "method": "initial_majority",
+      "initial_class_counts": [
+        746,
+        739
+      ],
+      "all_visible": {
+        "confusion": [
+          [
+            66791,
+            0
+          ],
+          [
+            87060,
+            0
+          ]
+        ],
+        "accuracy": 0.4341278249735133,
+        "balanced_accuracy": 0.5,
+        "observations": 153851
+      },
+      "initially_observed": {
+        "confusion": [
+          [
+            27004,
+            0
+          ],
+          [
+            31691,
+            0
+          ]
+        ],
+        "accuracy": 0.46007326007326005,
+        "balanced_accuracy": 0.5,
+        "observations": 58695
+      },
+      "initially_unobserved": {
+        "confusion": [
+          [
+            39787,
+            0
+          ],
+          [
+            55369,
+            0
+          ]
+        ],
+        "accuracy": 0.4181239228214721,
+        "balanced_accuracy": 0.5,
+        "observations": 95156
+      }
+    },
+    {
+      "dataset": "Goop-3D",
+      "axis": "y",
+      "stride": 4,
+      "method": "initial_majority",
+      "initial_class_counts": [
+        746,
+        739
+      ],
+      "all_visible": {
+        "confusion": [
+          [
+            35928,
+            0
+          ],
+          [
+            117923,
+            0
+          ]
+        ],
+        "accuracy": 0.23352464397371483,
+        "balanced_accuracy": 0.5,
+        "observations": 153851
+      },
+      "initially_observed": {
+        "confusion": [
+          [
+            16674,
+            0
+          ],
+          [
+            42021,
+            0
+          ]
+        ],
+        "accuracy": 0.28407871198568874,
+        "balanced_accuracy": 0.5,
+        "observations": 58695
+      },
+      "initially_unobserved": {
+        "confusion": [
+          [
+            19254,
+            0
+          ],
+          [
+            75902,
+            0
+          ]
+        ],
+        "accuracy": 0.20234141830257682,
+        "balanced_accuracy": 0.5,
+        "observations": 95156
+      }
+    },
+    {
+      "dataset": "Goop-3D",
+      "axis": "z",
+      "stride": 4,
+      "method": "initial_majority",
+      "initial_class_counts": [
+        1341,
+        144
+      ],
+      "all_visible": {
+        "confusion": [
+          [
+            144449,
+            0
+          ],
+          [
+            9402,
+            0
+          ]
+        ],
+        "accuracy": 0.9388889249988626,
+        "balanced_accuracy": 0.5,
+        "observations": 153851
+      },
+      "initially_observed": {
+        "confusion": [
+          [
+            58254,
+            0
+          ],
+          [
+            441,
+            0
+          ]
+        ],
+        "accuracy": 0.9924865831842576,
+        "balanced_accuracy": 0.5,
+        "observations": 58695
+      },
+      "initially_unobserved": {
+        "confusion": [
+          [
+            86195,
+            0
+          ],
+          [
+            8961,
+            0
+          ]
+        ],
+        "accuracy": 0.9058283240153012,
+        "balanced_accuracy": 0.5,
+        "observations": 95156
+      }
+    },
+    {
+      "dataset": "Goop-3D",
+      "axis": "x",
+      "stride": 4,
+      "method": "nearest_initial",
+      "initial_class_counts": [
+        746,
+        739
+      ],
+      "all_visible": {
+        "confusion": [
+          [
+            66785,
+            6
+          ],
+          [
+            23873,
+            63187
+          ]
+        ],
+        "accuracy": 0.8447913890712443,
+        "balanced_accuracy": 0.8628484906146247,
+        "observations": 153851
+      },
+      "initially_observed": {
+        "confusion": [
+          [
+            26999,
+            5
+          ],
+          [
+            7682,
+            24009
+          ]
+        ],
+        "accuracy": 0.8690348411278643,
+        "balanced_accuracy": 0.8787058181440329,
+        "observations": 58695
+      },
+      "initially_unobserved": {
+        "confusion": [
+          [
+            39786,
+            1
+          ],
+          [
+            16191,
+            39178
+          ]
+        ],
+        "accuracy": 0.8298373197696415,
+        "balanced_accuracy": 0.8537774599915222,
+        "observations": 95156
+      }
+    },
+    {
+      "dataset": "Goop-3D",
+      "axis": "y",
+      "stride": 4,
+      "method": "nearest_initial",
+      "initial_class_counts": [
+        746,
+        739
+      ],
+      "all_visible": {
+        "confusion": [
+          [
+            35830,
+            98
+          ],
+          [
+            70673,
+            47250
+          ]
+        ],
+        "accuracy": 0.540002989905818,
+        "balanced_accuracy": 0.6989787576513613,
+        "observations": 153851
+      },
+      "initially_observed": {
+        "confusion": [
+          [
+            16638,
+            36
+          ],
+          [
+            21702,
+            20319
+          ]
+        ],
+        "accuracy": 0.6296447738308203,
+        "balanced_accuracy": 0.7406924461482824,
+        "observations": 58695
+      },
+      "initially_unobserved": {
+        "confusion": [
+          [
+            19192,
+            62
+          ],
+          [
+            48971,
+            26931
+          ]
+        ],
+        "accuracy": 0.48470931943335155,
+        "balanced_accuracy": 0.6757963373999314,
+        "observations": 95156
+      }
+    },
+    {
+      "dataset": "Goop-3D",
+      "axis": "z",
+      "stride": 4,
+      "method": "nearest_initial",
+      "initial_class_counts": [
+        1341,
+        144
+      ],
+      "all_visible": {
+        "confusion": [
+          [
+            144449,
+            0
+          ],
+          [
+            9291,
+            111
+          ]
+        ],
+        "accuracy": 0.9396104022723284,
+        "balanced_accuracy": 0.5059029993618379,
+        "observations": 153851
+      },
+      "initially_observed": {
+        "confusion": [
+          [
+            58254,
+            0
+          ],
+          [
+            427,
+            14
+          ]
+        ],
+        "accuracy": 0.9927251043530113,
+        "balanced_accuracy": 0.5158730158730158,
+        "observations": 58695
+      },
+      "initially_unobserved": {
+        "confusion": [
+          [
+            86195,
+            0
+          ],
+          [
+            8864,
+            97
+          ]
+        ],
+        "accuracy": 0.9068477027197445,
+        "balanced_accuracy": 0.5054123423725031,
+        "observations": 95156
+      }
+    },
+    {
+      "dataset": "Goop-3D",
+      "axis": "x",
+      "stride": 4,
+      "method": "nearest_previous",
+      "initial_class_counts": [
+        746,
+        739
+      ],
+      "all_visible": {
+        "confusion": [
+          [
+            66714,
+            77
+          ],
+          [
+            24200,
+            62860
+          ]
+        ],
+        "accuracy": 0.8422044705591774,
+        "balanced_accuracy": 0.8604389667164605,
+        "observations": 153851
+      },
+      "initially_observed": {
+        "confusion": [
+          [
+            26940,
+            64
+          ],
+          [
+            6763,
+            24928
+          ]
+        ],
+        "accuracy": 0.883686855779879,
+        "balanced_accuracy": 0.8921127720763817,
+        "observations": 58695
+      },
+      "initially_unobserved": {
+        "confusion": [
+          [
+            39774,
+            13
+          ],
+          [
+            17437,
+            37932
+          ]
+        ],
+        "accuracy": 0.8166169237883055,
+        "balanced_accuracy": 0.8423748734764522,
+        "observations": 95156
+      }
+    },
+    {
+      "dataset": "Goop-3D",
+      "axis": "y",
+      "stride": 4,
+      "method": "nearest_previous",
+      "initial_class_counts": [
+        746,
+        739
+      ],
+      "all_visible": {
+        "confusion": [
+          [
+            35668,
+            260
+          ],
+          [
+            47018,
+            70905
+          ]
+        ],
+        "accuracy": 0.6927026798655842,
+        "balanced_accuracy": 0.7970227485018836,
+        "observations": 153851
+      },
+      "initially_observed": {
+        "confusion": [
+          [
+            16620,
+            54
+          ],
+          [
+            12180,
+            29841
+          ]
+        ],
+        "accuracy": 0.7915665729619218,
+        "balanced_accuracy": 0.8534531762546219,
+        "observations": 58695
+      },
+      "initially_unobserved": {
+        "confusion": [
+          [
+            19048,
+            206
+          ],
+          [
+            34838,
+            41064
+          ]
+        ],
+        "accuracy": 0.6317205431081593,
+        "balanced_accuracy": 0.7651571682572639,
+        "observations": 95156
+      }
+    },
+    {
+      "dataset": "Goop-3D",
+      "axis": "z",
+      "stride": 4,
+      "method": "nearest_previous",
+      "initial_class_counts": [
+        1341,
+        144
+      ],
+      "all_visible": {
+        "confusion": [
+          [
+            144449,
+            0
+          ],
+          [
+            9220,
+            182
+          ]
+        ],
+        "accuracy": 0.9400718877355363,
+        "balanced_accuracy": 0.5096787917464369,
+        "observations": 153851
+      },
+      "initially_observed": {
+        "confusion": [
+          [
+            58254,
+            0
+          ],
+          [
+            420,
+            21
+          ]
+        ],
+        "accuracy": 0.9928443649373881,
+        "balanced_accuracy": 0.5238095238095238,
+        "observations": 58695
+      },
+      "initially_unobserved": {
+        "confusion": [
+          [
+            86195,
+            0
+          ],
+          [
+            8800,
+            161
+          ]
+        ],
+        "accuracy": 0.9075202824835008,
+        "balanced_accuracy": 0.5089833723914742,
+        "observations": 95156
+      }
+    },
+    {
+      "dataset": "Goop-3D",
+      "axis": "x",
+      "stride": 4,
+      "method": "estimated_constant_velocity",
+      "initial_class_counts": [
+        746,
+        739
+      ],
+      "all_visible": {
+        "confusion": [
+          [
+            64761,
+            2030
+          ],
+          [
+            22011,
+            65049
+          ]
+        ],
+        "accuracy": 0.8437384222396994,
+        "balanced_accuracy": 0.8583905230219109,
+        "observations": 153851
+      },
+      "initially_observed": {
+        "confusion": [
+          [
+            26291,
+            713
+          ],
+          [
+            6614,
+            25077
+          ]
+        ],
+        "accuracy": 0.8751682426101031,
+        "balanced_accuracy": 0.8824468589707902,
+        "observations": 58695
+      },
+      "initially_unobserved": {
+        "confusion": [
+          [
+            38470,
+            1317
+          ],
+          [
+            15397,
+            39972
+          ]
+        ],
+        "accuracy": 0.8243515910715037,
+        "balanced_accuracy": 0.8444094719133126,
+        "observations": 95156
+      }
+    },
+    {
+      "dataset": "Goop-3D",
+      "axis": "y",
+      "stride": 4,
+      "method": "estimated_constant_velocity",
+      "initial_class_counts": [
+        746,
+        739
+      ],
+      "all_visible": {
+        "confusion": [
+          [
+            24281,
+            11647
+          ],
+          [
+            37747,
+            80176
+          ]
+        ],
+        "accuracy": 0.6789491131029373,
+        "balanced_accuracy": 0.6778625807414422,
+        "observations": 153851
+      },
+      "initially_observed": {
+        "confusion": [
+          [
+            11512,
+            5162
+          ],
+          [
+            11144,
+            30877
+          ]
+        ],
+        "accuracy": 0.7221909873072664,
+        "balanced_accuracy": 0.7126077419488648,
+        "observations": 58695
+      },
+      "initially_unobserved": {
+        "confusion": [
+          [
+            12769,
+            6485
+          ],
+          [
+            26603,
+            49299
+          ]
+        ],
+        "accuracy": 0.652276262137963,
+        "balanced_accuracy": 0.65634772355491,
+        "observations": 95156
+      }
+    },
+    {
+      "dataset": "Goop-3D",
+      "axis": "z",
+      "stride": 4,
+      "method": "estimated_constant_velocity",
+      "initial_class_counts": [
+        1341,
+        144
+      ],
+      "all_visible": {
+        "confusion": [
+          [
+            144424,
+            25
+          ],
+          [
+            9236,
+            166
+          ]
+        ],
+        "accuracy": 0.9398053961300219,
+        "balanced_accuracy": 0.5087413732232068,
+        "observations": 153851
+      },
+      "initially_observed": {
+        "confusion": [
+          [
+            58250,
+            4
+          ],
+          [
+            418,
+            23
+          ]
+        ],
+        "accuracy": 0.992810290484709,
+        "balanced_accuracy": 0.5260427650993106,
+        "observations": 58695
+      },
+      "initially_unobserved": {
+        "confusion": [
+          [
+            86174,
+            21
+          ],
+          [
+            8818,
+            143
+          ]
+        ],
+        "accuracy": 0.9071104291899618,
+        "balanced_accuracy": 0.5078572033879186,
+        "observations": 95156
+      }
+    },
+    {
+      "dataset": "Goop-3D",
+      "axis": "x",
+      "stride": 16,
+      "method": "initial_majority",
+      "initial_class_counts": [
+        746,
+        739
+      ],
+      "all_visible": {
+        "confusion": [
+          [
+            16072,
+            0
+          ],
+          [
+            21080,
+            0
+          ]
+        ],
+        "accuracy": 0.43260120585701983,
+        "balanced_accuracy": 0.5,
+        "observations": 37152
+      },
+      "initially_observed": {
+        "confusion": [
+          [
+            6410,
+            0
+          ],
+          [
+            7539,
+            0
+          ]
+        ],
+        "accuracy": 0.4595311491863216,
+        "balanced_accuracy": 0.5,
+        "observations": 13949
+      },
+      "initially_unobserved": {
+        "confusion": [
+          [
+            9662,
+            0
+          ],
+          [
+            13541,
+            0
+          ]
+        ],
+        "accuracy": 0.4164116709046244,
+        "balanced_accuracy": 0.5,
+        "observations": 23203
+      }
+    },
+    {
+      "dataset": "Goop-3D",
+      "axis": "y",
+      "stride": 16,
+      "method": "initial_majority",
+      "initial_class_counts": [
+        746,
+        739
+      ],
+      "all_visible": {
+        "confusion": [
+          [
+            8585,
+            0
+          ],
+          [
+            28567,
+            0
+          ]
+        ],
+        "accuracy": 0.23107773471145565,
+        "balanced_accuracy": 0.5,
+        "observations": 37152
+      },
+      "initially_observed": {
+        "confusion": [
+          [
+            3913,
+            0
+          ],
+          [
+            10036,
+            0
+          ]
+        ],
+        "accuracy": 0.2805219012115564,
+        "balanced_accuracy": 0.5,
+        "observations": 13949
+      },
+      "initially_unobserved": {
+        "confusion": [
+          [
+            4672,
+            0
+          ],
+          [
+            18531,
+            0
+          ]
+        ],
+        "accuracy": 0.20135327328362712,
+        "balanced_accuracy": 0.5,
+        "observations": 23203
+      }
+    },
+    {
+      "dataset": "Goop-3D",
+      "axis": "z",
+      "stride": 16,
+      "method": "initial_majority",
+      "initial_class_counts": [
+        1341,
+        144
+      ],
+      "all_visible": {
+        "confusion": [
+          [
+            34894,
+            0
+          ],
+          [
+            2258,
+            0
+          ]
+        ],
+        "accuracy": 0.9392226528854436,
+        "balanced_accuracy": 0.5,
+        "observations": 37152
+      },
+      "initially_observed": {
+        "confusion": [
+          [
+            13856,
+            0
+          ],
+          [
+            93,
+            0
+          ]
+        ],
+        "accuracy": 0.9933328554018209,
+        "balanced_accuracy": 0.5,
+        "observations": 13949
+      },
+      "initially_unobserved": {
+        "confusion": [
+          [
+            21038,
+            0
+          ],
+          [
+            2165,
+            0
+          ]
+        ],
+        "accuracy": 0.9066931000301686,
+        "balanced_accuracy": 0.5,
+        "observations": 23203
+      }
+    },
+    {
+      "dataset": "Goop-3D",
+      "axis": "x",
+      "stride": 16,
+      "method": "nearest_initial",
+      "initial_class_counts": [
+        746,
+        739
+      ],
+      "all_visible": {
+        "confusion": [
+          [
+            16072,
+            0
+          ],
+          [
+            5855,
+            15225
+          ]
+        ],
+        "accuracy": 0.8424041774332472,
+        "balanced_accuracy": 0.8611242884250474,
+        "observations": 37152
+      },
+      "initially_observed": {
+        "confusion": [
+          [
+            6410,
+            0
+          ],
+          [
+            1868,
+            5671
+          ]
+        ],
+        "accuracy": 0.8660835902215213,
+        "balanced_accuracy": 0.8761108900384666,
+        "observations": 13949
+      },
+      "initially_unobserved": {
+        "confusion": [
+          [
+            9662,
+            0
+          ],
+          [
+            3987,
+            9554
+          ]
+        ],
+        "accuracy": 0.8281687712795759,
+        "balanced_accuracy": 0.852780444575733,
+        "observations": 23203
+      }
+    },
+    {
+      "dataset": "Goop-3D",
+      "axis": "y",
+      "stride": 16,
+      "method": "nearest_initial",
+      "initial_class_counts": [
+        746,
+        739
+      ],
+      "all_visible": {
+        "confusion": [
+          [
+            8555,
+            30
+          ],
+          [
+            17246,
+            11321
+          ]
+        ],
+        "accuracy": 0.5349913867355728,
+        "balanced_accuracy": 0.6964009794261268,
+        "observations": 37152
+      },
+      "initially_observed": {
+        "confusion": [
+          [
+            3899,
+            14
+          ],
+          [
+            5277,
+            4759
+          ]
+        ],
+        "accuracy": 0.6206896551724138,
+        "balanced_accuracy": 0.7353075440043749,
+        "observations": 13949
+      },
+      "initially_unobserved": {
+        "confusion": [
+          [
+            4656,
+            16
+          ],
+          [
+            11969,
+            6562
+          ]
+        ],
+        "accuracy": 0.4834719648321338,
+        "balanced_accuracy": 0.6753423363885618,
+        "observations": 23203
+      }
+    },
+    {
+      "dataset": "Goop-3D",
+      "axis": "z",
+      "stride": 16,
+      "method": "nearest_initial",
+      "initial_class_counts": [
+        1341,
+        144
+      ],
+      "all_visible": {
+        "confusion": [
+          [
+            34894,
+            0
+          ],
+          [
+            2248,
+            10
+          ]
+        ],
+        "accuracy": 0.9394918173987942,
+        "balanced_accuracy": 0.5022143489813995,
+        "observations": 37152
+      },
+      "initially_observed": {
+        "confusion": [
+          [
+            13856,
+            0
+          ],
+          [
+            93,
+            0
+          ]
+        ],
+        "accuracy": 0.9933328554018209,
+        "balanced_accuracy": 0.5,
+        "observations": 13949
+      },
+      "initially_unobserved": {
+        "confusion": [
+          [
+            21038,
+            0
+          ],
+          [
+            2155,
+            10
+          ]
+        ],
+        "accuracy": 0.907124078782916,
+        "balanced_accuracy": 0.5023094688221709,
+        "observations": 23203
+      }
+    },
+    {
+      "dataset": "Goop-3D",
+      "axis": "x",
+      "stride": 16,
+      "method": "nearest_previous",
+      "initial_class_counts": [
+        746,
+        739
+      ],
+      "all_visible": {
+        "confusion": [
+          [
+            16072,
+            0
+          ],
+          [
+            5315,
+            15765
+          ]
+        ],
+        "accuracy": 0.8569390611541774,
+        "balanced_accuracy": 0.8739326375711576,
+        "observations": 37152
+      },
+      "initially_observed": {
+        "confusion": [
+          [
+            6410,
+            0
+          ],
+          [
+            1706,
+            5833
+          ]
+        ],
+        "accuracy": 0.8776973259731881,
+        "balanced_accuracy": 0.886855020559756,
+        "observations": 13949
+      },
+      "initially_unobserved": {
+        "confusion": [
+          [
+            9662,
+            0
+          ],
+          [
+            3609,
+            9932
+          ]
+        ],
+        "accuracy": 0.844459768133431,
+        "balanced_accuracy": 0.8667380547965438,
+        "observations": 23203
+      }
+    },
+    {
+      "dataset": "Goop-3D",
+      "axis": "y",
+      "stride": 16,
+      "method": "nearest_previous",
+      "initial_class_counts": [
+        746,
+        739
+      ],
+      "all_visible": {
+        "confusion": [
+          [
+            8442,
+            143
+          ],
+          [
+            17333,
+            11234
+          ]
+        ],
+        "accuracy": 0.5296080964685616,
+        "balanced_accuracy": 0.6882969970421129,
+        "observations": 37152
+      },
+      "initially_observed": {
+        "confusion": [
+          [
+            3852,
+            61
+          ],
+          [
+            5413,
+            4623
+          ]
+        ],
+        "accuracy": 0.6075704351566421,
+        "balanced_accuracy": 0.7225263139078056,
+        "observations": 13949
+      },
+      "initially_unobserved": {
+        "confusion": [
+          [
+            4590,
+            82
+          ],
+          [
+            11920,
+            6611
+          ]
+        ],
+        "accuracy": 0.48273930095246304,
+        "balanced_accuracy": 0.6696010891227806,
+        "observations": 23203
+      }
+    },
+    {
+      "dataset": "Goop-3D",
+      "axis": "z",
+      "stride": 16,
+      "method": "nearest_previous",
+      "initial_class_counts": [
+        1341,
+        144
+      ],
+      "all_visible": {
+        "confusion": [
+          [
+            34894,
+            0
+          ],
+          [
+            2249,
+            9
+          ]
+        ],
+        "accuracy": 0.939464900947459,
+        "balanced_accuracy": 0.5019929140832595,
+        "observations": 37152
+      },
+      "initially_observed": {
+        "confusion": [
+          [
+            13856,
+            0
+          ],
+          [
+            93,
+            0
+          ]
+        ],
+        "accuracy": 0.9933328554018209,
+        "balanced_accuracy": 0.5,
+        "observations": 13949
+      },
+      "initially_unobserved": {
+        "confusion": [
+          [
+            21038,
+            0
+          ],
+          [
+            2156,
+            9
+          ]
+        ],
+        "accuracy": 0.9070809809076412,
+        "balanced_accuracy": 0.5020785219399538,
+        "observations": 23203
+      }
+    },
+    {
+      "dataset": "Goop-3D",
+      "axis": "x",
+      "stride": 16,
+      "method": "estimated_constant_velocity",
+      "initial_class_counts": [
+        746,
+        739
+      ],
+      "all_visible": {
+        "confusion": [
+          [
+            14992,
+            1080
+          ],
+          [
+            6463,
+            14617
+          ]
+        ],
+        "accuracy": 0.7969692075796727,
+        "balanced_accuracy": 0.8131042306773221,
+        "observations": 37152
+      },
+      "initially_observed": {
+        "confusion": [
+          [
+            5950,
+            460
+          ],
+          [
+            2214,
+            5325
+          ]
+        ],
+        "accuracy": 0.8083016703706359,
+        "balanced_accuracy": 0.8172821142849693,
+        "observations": 13949
+      },
+      "initially_unobserved": {
+        "confusion": [
+          [
+            9042,
+            620
+          ],
+          [
+            4249,
+            9292
+          ]
+        ],
+        "accuracy": 0.7901564452872474,
+        "balanced_accuracy": 0.8110216675832795,
+        "observations": 23203
+      }
+    },
+    {
+      "dataset": "Goop-3D",
+      "axis": "y",
+      "stride": 16,
+      "method": "estimated_constant_velocity",
+      "initial_class_counts": [
+        746,
+        739
+      ],
+      "all_visible": {
+        "confusion": [
+          [
+            7278,
+            1307
+          ],
+          [
+            11370,
+            17197
+          ]
+        ],
+        "accuracy": 0.6587801464254953,
+        "balanced_accuracy": 0.7248730125679672,
+        "observations": 37152
+      },
+      "initially_observed": {
+        "confusion": [
+          [
+            3361,
+            552
+          ],
+          [
+            3597,
+            6439
+          ]
+        ],
+        "accuracy": 0.7025593232489784,
+        "balanced_accuracy": 0.750261020459237,
+        "observations": 13949
+      },
+      "initially_unobserved": {
+        "confusion": [
+          [
+            3917,
+            755
+          ],
+          [
+            7773,
+            10758
+          ]
+        ],
+        "accuracy": 0.632461319656941,
+        "balanced_accuracy": 0.709469844080227,
+        "observations": 23203
+      }
+    },
+    {
+      "dataset": "Goop-3D",
+      "axis": "z",
+      "stride": 16,
+      "method": "estimated_constant_velocity",
+      "initial_class_counts": [
+        1341,
+        144
+      ],
+      "all_visible": {
+        "confusion": [
+          [
+            34894,
+            0
+          ],
+          [
+            2248,
+            10
+          ]
+        ],
+        "accuracy": 0.9394918173987942,
+        "balanced_accuracy": 0.5022143489813995,
+        "observations": 37152
+      },
+      "initially_observed": {
+        "confusion": [
+          [
+            13856,
+            0
+          ],
+          [
+            93,
+            0
+          ]
+        ],
+        "accuracy": 0.9933328554018209,
+        "balanced_accuracy": 0.5,
+        "observations": 13949
+      },
+      "initially_unobserved": {
+        "confusion": [
+          [
+            21038,
+            0
+          ],
+          [
+            2155,
+            10
+          ]
+        ],
+        "accuracy": 0.907124078782916,
+        "balanced_accuracy": 0.5023094688221709,
+        "observations": 23203
+      }
+    }
+  ],
+  "record_count": 108,
+  "interpretation": "Classical development diagnostics only; no learned method or novelty claim"
+}

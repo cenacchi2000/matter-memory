@@ -1,0 +1,34 @@
+{
+  "status": "Synthetic development diagnostic, not a benchmark or novel-method evaluation",
+  "datasets": [
+    "Water-3D",
+    "Sand-3D",
+    "Goop-3D"
+  ],
+  "records": "first training trajectory of each material",
+  "frames": 32,
+  "resolution": [
+    256,
+    256
+  ],
+  "query_selection": "16 initially visible particle centers, deterministic farthest-point sampling in first frame only",
+  "render": "opaque gray radius-2 splats; fixed orthographic camera; no unique particle texture or source-label coloring in inputs",
+  "models": [
+    "CoTracker3 offline scaled",
+    "CoTracker2",
+    "RAFT large C_T_SKHT_V2 with bilinear flow integration"
+  ],
+  "metrics": "Mean pixel tracking error over ground-truth-visible queries, excluding initial frame; GT visibility from rendered center ID buffer. Not TAP-Vid AJ.",
+  "limitations": [
+    "One training trajectory per material",
+    "Sparse sampling with potentially severe motion aliasing",
+    "Particle-splat domain differs from natural videos",
+    "CoTracker3 uses full future clip; RAFT integrates causal pairwise flow",
+    "Models track points, not full material-origin fields",
+    "No proposed Matter Memory model evaluated"
+  ],
+  "device": "mps",
+  "seed": 42,
+  "cotracker_commit": "82e02e8029753ad4ef13cf06be7f4fc5facdda4d",
+  "torch": "2.8.0"
+}

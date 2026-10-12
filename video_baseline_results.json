@@ -1,0 +1,128 @@
+{
+  "protocol": {
+    "status": "Synthetic development diagnostic, not a benchmark or novel-method evaluation",
+    "datasets": [
+      "Water-3D",
+      "Sand-3D",
+      "Goop-3D"
+    ],
+    "records": "first training trajectory of each material",
+    "frames": 32,
+    "resolution": [
+      256,
+      256
+    ],
+    "query_selection": "16 initially visible particle centers, deterministic farthest-point sampling in first frame only",
+    "render": "opaque gray radius-2 splats; fixed orthographic camera; no unique particle texture or source-label coloring in inputs",
+    "models": [
+      "CoTracker3 offline scaled",
+      "CoTracker2",
+      "RAFT large C_T_SKHT_V2 with bilinear flow integration"
+    ],
+    "metrics": "Mean pixel tracking error over ground-truth-visible queries, excluding initial frame; GT visibility from rendered center ID buffer. Not TAP-Vid AJ.",
+    "limitations": [
+      "One training trajectory per material",
+      "Sparse sampling with potentially severe motion aliasing",
+      "Particle-splat domain differs from natural videos",
+      "CoTracker3 uses full future clip; RAFT integrates causal pairwise flow",
+      "Models track points, not full material-origin fields",
+      "No proposed Matter Memory model evaluated"
+    ],
+    "device": "mps",
+    "seed": 42,
+    "cotracker_commit": "82e02e8029753ad4ef13cf06be7f4fc5facdda4d",
+    "torch": "2.8.0"
+  },
+  "results": [
+    {
+      "dataset": "Water-3D",
+      "model": "cotracker3_offline",
+      "device": "mps",
+      "mean_visible_error_px": 60.93913269042969,
+      "median_visible_error_px": 54.75185012817383,
+      "visible_observations": 99,
+      "seconds": 5.175194978713989,
+      "prediction_sha256": "0ea26f3a35ba4565776ad0033fa31d50ce4ebdbcbd53e5fa90cf107e7c369ef3"
+    },
+    {
+      "dataset": "Sand-3D",
+      "model": "cotracker3_offline",
+      "device": "mps",
+      "mean_visible_error_px": 16.03253936767578,
+      "median_visible_error_px": 6.529370307922363,
+      "visible_observations": 238,
+      "seconds": 2.1238651275634766,
+      "prediction_sha256": "d0a370cee9be698c0eeaf9d74357d9b93623cae2f75a28f6dbd87a58fc22172d"
+    },
+    {
+      "dataset": "Goop-3D",
+      "model": "cotracker3_offline",
+      "device": "mps",
+      "mean_visible_error_px": 26.785444259643555,
+      "median_visible_error_px": 27.42061996459961,
+      "visible_observations": 220,
+      "seconds": 2.119150161743164,
+      "prediction_sha256": "499407d6803762cea98571b5efd41244236f79e18e3b2446e1cf80a7eaffcb32"
+    },
+    {
+      "dataset": "Water-3D",
+      "model": "cotracker2",
+      "device": "cpu",
+      "mean_visible_error_px": 63.212032318115234,
+      "median_visible_error_px": 60.47918701171875,
+      "visible_observations": 99,
+      "seconds": 10.630701780319214,
+      "prediction_sha256": "3e7ef33a7d22cf997b9570c44225fc4a8960ca5fc7b0ddd1a8f7527b1c5bb0f8"
+    },
+    {
+      "dataset": "Sand-3D",
+      "model": "cotracker2",
+      "device": "cpu",
+      "mean_visible_error_px": 13.739770889282227,
+      "median_visible_error_px": 9.566020965576172,
+      "visible_observations": 238,
+      "seconds": 10.421672821044922,
+      "prediction_sha256": "60bb9c413618f0a243946253b0d3e02d03d024fbea5ce7531626faae9f9eb023"
+    },
+    {
+      "dataset": "Goop-3D",
+      "model": "cotracker2",
+      "device": "cpu",
+      "mean_visible_error_px": 17.806995391845703,
+      "median_visible_error_px": 17.770536422729492,
+      "visible_observations": 220,
+      "seconds": 10.922534227371216,
+      "prediction_sha256": "1eee128064f70b17546fd6aa74c04bd9ea980cad67aee1ab85bcbc422f0490a1"
+    },
+    {
+      "dataset": "Water-3D",
+      "model": "raft_large",
+      "device": "mps",
+      "mean_visible_error_px": 57.606143951416016,
+      "median_visible_error_px": 54.205196380615234,
+      "visible_observations": 99,
+      "seconds": 4.879347085952759,
+      "prediction_sha256": "554c95769a89b112bc108f30b32a1b3f060b636daeb1795d817feace8e23c262"
+    },
+    {
+      "dataset": "Sand-3D",
+      "model": "raft_large",
+      "device": "mps",
+      "mean_visible_error_px": 16.834226608276367,
+      "median_visible_error_px": 6.2012739181518555,
+      "visible_observations": 238,
+      "seconds": 2.4644720554351807,
+      "prediction_sha256": "04788c0b360fda5c4d8e55051050a0f68bb6b3beb21c605d775fb56b5151e132"
+    },
+    {
+      "dataset": "Goop-3D",
+      "model": "raft_large",
+      "device": "mps",
+      "mean_visible_error_px": 22.148527145385742,
+      "median_visible_error_px": 16.5330753326416,
+      "visible_observations": 220,
+      "seconds": 2.4074501991271973,
+      "prediction_sha256": "ed429b7254b94ed25383cf37b74810e7f8cf0b6cfd820566625de3f010de77b5"
+    }
+  ]
+}

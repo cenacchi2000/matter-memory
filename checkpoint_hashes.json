@@ -1,0 +1,14 @@
+[
+  {
+    "filename": "cotracker2.pth",
+    "sha256": "362f5274376d610dc987b6daf2c2fefe63e06e1835f4ec1a10d0a15c5a4eef4f"
+  },
+  {
+    "filename": "scaled_offline.pth",
+    "sha256": "2670d4562ed69326dda775a26e54883925cd11b6fc9b24cb7aa9f8078bce7834"
+  },
+  {
+    "filename": "raft_large_C_T_SKHT_V2-ff5fadd5.pth",
+    "sha256": "ff5fadd56d26b40647388883af1547351ea17868b765c05b27231e72dd16a322"
+  }
+]

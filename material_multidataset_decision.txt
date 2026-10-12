@@ -1,0 +1,24 @@
+THREE-MATERIAL DEVELOPMENT SCREEN
+
+Scope: one author TRAIN trajectory per Water-3D, Sand-3D, Goop-3D. Not independent test sets or a statistically representative benchmark. No learned model. Fixed protocol saved before expanded comparisons; hash included in results. All downloaded TFRecord checksums pass.
+
+Primary metric: pooled balanced source accuracy, averaged equally over x/y/z source queries. This differs from the earlier one-query, mean-frame raw accuracy; numbers must not be compared directly.
+
+Dataset | stride | static nearest-initial | temporal nearest-previous | estimated velocity
+Water-3D | 1 | 0.6091 | 0.6332 | 0.5915
+Water-3D | 4 | 0.6091 | 0.5504 | 0.5418
+Water-3D | 16 | 0.6075 | 0.5735 | 0.5361
+Sand-3D | 1 | 0.6928 | 0.7805 | 0.7699
+Sand-3D | 4 | 0.6914 | 0.6223 | 0.5998
+Sand-3D | 16 | 0.6884 | 0.5994 | 0.5791
+Goop-3D | 1 | 0.6906 | 0.7776 | 0.7195
+Goop-3D | 4 | 0.6892 | 0.7224 | 0.6817
+Goop-3D | 16 | 0.6866 | 0.6881 | 0.6801
+
+Finding: temporal association helps at native sampling; at stride4 the static baseline exceeds temporal nearest-neighbor in Water and Sand. The result is not uniform across materials. These are different dt values between datasets; stride is not a shared physical interval.
+
+Critical task-design issue: the Water depth-axis query has initial class counts [384,0]; the positive material source is entirely unseen. Sand depth-axis counts [1194,23] and Goop [1341,144] are also severely imbalanced. Thus the across-axis average mixes observed-source tracking with hidden-source inference. Low scores cannot cleanly motivate a tracking architecture. Initially observed/unobserved metrics and full confusion matrices are retained.
+
+Decision: retain this protocol and all results as a development diagnostic. Do not train a network to claim it solves unobservable provenance. A next protocol should specify visible material markings or an initial multi-view acquisition that exposes both source classes, and separately score subsequent occlusion. Any new protocol must be versioned; do not overwrite or silently remove the failed source queries. Need a distinct scientific mechanism and real validation before promotion to paper/site.
+
+No novel contribution, new architecture or 10/10 rating is established.

@@ -1,0 +1,12 @@
+{
+  "status": "Development feasibility protocol, fixed before the expanded comparison",
+  "datasets": ["Water-3D", "Sand-3D", "Goop-3D"],
+  "selection": "Record zero of each author training split; no validation or test records",
+  "queries": "All three initial coordinate-median half-spaces, without selecting the most difficult or favorable axis",
+  "strides": [1, 4, 16],
+  "methods": ["initial_majority", "nearest_initial", "nearest_previous", "estimated_constant_velocity"],
+  "sensor": "Fixed orthographic 64x64 z-buffer, exact depth, one front-most particle per bin; drop points outside the camera rectangle",
+  "primary_diagnostic": "Pooled balanced binary source accuracy per trajectory, query, stride and method",
+  "additional_diagnostics": ["pooled accuracy", "confusion matrix", "accuracy on initially observed particles", "accuracy on initially unobserved particles", "initial class coverage"],
+  "limitations": "Three simulation trajectories, one per material, not a statistical benchmark. Frame observations are correlated. No neural model and no real RGB inference. Results do not establish novelty."
+}
