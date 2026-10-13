@@ -1,0 +1,12 @@
+{
+ "status":"exploratory follow-up added after user requested a conversational scenario; not a replacement for the locked primary",
+ "question":"Can visually plausible but incorrectly attributed evidence evade a visual-quality gate, and does explicit speaker enrollment help?",
+ "sources":"RAVDESS real audio and real video; edited cross-actor pairings, not natural conversations",
+ "reference_memory":"First two filename-sorted neutral clips per actor, used as audio and visual identity references without emotion outcomes. These 48 clips are excluded as audio-query targets.",
+ "queries":528,
+ "pairing":"Twelve fixed disjoint actor dyads: 1 with13,2 with14,...12 with24. Each query uses its own video, its paired actor with the same intended emotion, or that same paired actor with the next emotion in six-class index order. Donor rank matches recipient within-emotion filename rank modulo four.",
+ "memory_rule":"Nearest cosine audio-reference actor and nearest cosine video-reference actor must agree. This outcome-free identity check gates either the existing direct-gain rule or existing margin rule; all thresholds remain frozen. No learned identity matcher and no SOTA claim.",
+ "controls":["audio","fusion","margin","reliable_gain","supported_gain","memory_direct","memory_margin"],
+ "uncertainty":"5000 paired bootstrap replicates over the twelve actor dyads; dependencies from shared donor/reference clips remain within dyad. No clipwise independence claim.",
+ "limits":"Enrollment is additional information and must be reported, not credited as an equal-information victory. WavLM/DINO means are not trained speaker/face identifiers. This diagnoses a scenario, not a new solved architecture. Active-speaker detection and reference-speaker models are relevant unrun comparators."
+}

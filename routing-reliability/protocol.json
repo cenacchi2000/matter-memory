@@ -1,0 +1,119 @@
+{
+  "created_utc": "2026-10-13T04:16:04.393059+00:00",
+  "direction": "Post-fusion reliability under visual shift, with positive-gain routing and reliability-conditioned abstention",
+  "revision55_status": "Inspected; all reanalysis exploratory; original protocol/gate preserved unchanged",
+  "fresh_dataset": {
+    "name": "RAVDESS speech",
+    "record": "https://zenodo.org/records/1188976",
+    "actors": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      19,
+      20,
+      21,
+      22,
+      23,
+      24
+    ],
+    "selection": "For each actor, full-AV speech, emotions01,03,04,05,06,07; first4filenames per emotion ranked by SHA256(r56-frozen:+filename)",
+    "n": 576,
+    "target": "six intended acted emotions mapped to CREMA labels",
+    "roles": "all24actors external confirmation; no target fitting/calibration/tuning",
+    "preaccess": "No RAVDESS media/features have been opened for inference in this revision; record metadata only"
+  },
+  "experts": {
+    "backbones": "Frozen WavLM Base and DINOv2 ViT-B/14",
+    "heads": "Existing CREMA seed11 audio/interaction/video primary; seed22 audio/interaction/video secondary; no RAVDESS expert training",
+    "pretraining_contamination": "Unknown; not asserted absent"
+  },
+  "training": {
+    "source": "CREMA router/calibration/tune roles only",
+    "selection": "24 eligible clips per actor ranked SHA256(r56-train:+clip), same selection all conditions",
+    "conditions": [
+      "clean",
+      "video_occlude25",
+      "video_blur2"
+    ],
+    "no_test_labels": "No revision55 test labels used to fit new rules"
+  },
+  "signals": [
+    "15 existing score-shape/agreement features",
+    "mean and max adjacent-frame DINO cosine distance",
+    "mean and max original-versus90percent-center-crop DINO cosine distance",
+    "central-region luminance standard deviation",
+    "central spatial gradient magnitude",
+    "central temporal pixel difference",
+    "central mean luminance"
+  ],
+  "methods": [
+    "signed direct GB 8 audio/fusion features",
+    "signed direct GB 15 features",
+    "signed direct GB 15+8 reliability features",
+    "three-outcome GB with15+8features",
+    "two-head GB with15+8features raw/isotonic/Platt",
+    "proposed reliability-conditioned direct gain with training-only support gate",
+    "source-bound abstention variant",
+    "margin/confidence/entropy",
+    "revision55 logistic/GB/RF/MLP/richRF"
+  ],
+  "new_hyperparameters": "GB100iterations,7leaves,20minleaf,lr.05,l2=1,seed56; Platt logisticC1; same training information for direct and structured comparators",
+  "abstention": "Only estimated positive gain; reliability support standardized on clean router data; squared standardized distance threshold at95th percentile clean calibration support. Separate source-level Hoeffding region certificate; no OOD guarantee. Support gate is diagnostic not certificate.",
+  "policies": [
+    "positive-score batch at-most budget",
+    "clean-tune fixed independent threshold clamped>=0",
+    "support-aware fixed threshold",
+    "finite-region certificate variant"
+  ],
+  "budgets": [
+    0.05,
+    0.1,
+    0.2,
+    0.3,
+    0.4
+  ],
+  "primary": {
+    "budget": 0.2,
+    "policy": "support-aware fixed threshold",
+    "condition": "clean",
+    "comparator": "margin gate fixed clean tune threshold",
+    "endpoint": "actor-uniform paired accuracy difference",
+    "success": "95percent paired actor interval lower>0; secondary difference against same-information direct GB reported; no claim based only on audio gain"
+  },
+  "secondary_conditions": [
+    "video_occlude50",
+    "video_moving_occluder"
+  ],
+  "secondary": "Othermethods/budgets/conditions and seed22; clean CREMA reanalysis exploratory",
+  "statistics": {
+    "clusters": "actors",
+    "bootstrap": 5000,
+    "seed": 56013,
+    "batch": "re-rank each resampled batch with duplicated actor copies",
+    "MDE": "normal approximation from CREMA exploratory paired actor SD before newtest; n24,alpha.05,two-sided,power.8"
+  },
+  "exclusions": "Unreadable/corrupt files reported individually; no accuracy-based exclusion; archive hash failure prevents inference",
+  "scope_limits": [
+    "No new unused CREMA actor pool remains",
+    "RAVDESS is domain transfer, not naturally occluded data",
+    "No physical robot validation",
+    "No guaranteed novelty or10/10",
+    "All tested policies post-fusion; include expert and selector timings separately"
+  ],
+  "protocol_lock": "This design is frozen before RAVDESS inference; fitted artifacts/code hashes added before inference, any deviation explicit"
+}

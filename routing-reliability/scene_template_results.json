@@ -1,0 +1,26 @@
+[
+  {
+    "clip": "handball2_boxoccl",
+    "method": "causal_frozen_template",
+    "inside_final_visible_target": true,
+    "accepted_at_endpoint": false,
+    "threshold": 0.75,
+    "ambiguity_margin": 0.06
+  },
+  {
+    "clip": "teaduck3_reveal",
+    "method": "causal_frozen_template",
+    "inside_final_visible_target": true,
+    "accepted_at_endpoint": false,
+    "threshold": 0.75,
+    "ambiguity_margin": 0.06
+  },
+  {
+    "clip": "mugduck2_reveal",
+    "method": "causal_frozen_template",
+    "inside_final_visible_target": true,
+    "accepted_at_endpoint": false,
+    "threshold": 0.75,
+    "ambiguity_margin": 0.06
+  }
+]

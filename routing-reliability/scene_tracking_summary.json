@@ -1,0 +1,30 @@
+{
+  "methods": {
+    "cotracker3_offline": {
+      "visible_endpoint_masks": 3,
+      "endpoint_inside_target": 3,
+      "inside_and_predicted_visible": 1,
+      "predicted_visible": 1
+    },
+    "cotracker2": {
+      "visible_endpoint_masks": 3,
+      "endpoint_inside_target": 2,
+      "inside_and_predicted_visible": 2,
+      "predicted_visible": 2
+    },
+    "LK": {
+      "visible_endpoint_masks": 3,
+      "endpoint_inside_target": 0,
+      "inside_and_predicted_visible": 0,
+      "predicted_visible": 1
+    },
+    "stationary": {
+      "visible_endpoint_masks": 3,
+      "endpoint_inside_target": 0,
+      "inside_and_predicted_visible": 0,
+      "predicted_visible": 3
+    }
+  },
+  "verified_predictions": 12,
+  "scope": "Three selected endpoint-mask checks only, not dense point accuracy, occluded localization accuracy, official benchmark, or a novel method. Offline trackers receive only prefix through scoring endpoint; intermediate outputs are not scored."
+}

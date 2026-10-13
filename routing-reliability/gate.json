@@ -1,0 +1,27 @@
+{
+  "primary": {
+    "seed": 11,
+    "condition": "clean",
+    "mode": "fixed",
+    "budget": 0.2,
+    "comparator": "margin",
+    "difference": -0.041666666666666664,
+    "low": -0.0642361111111111,
+    "high": -0.01909722222222222,
+    "bootstrap": "paired actors frozen threshold"
+  },
+  "primary_pass": false,
+  "same_information_control": {
+    "seed": 11,
+    "condition": "clean",
+    "mode": "fixed",
+    "budget": 0.2,
+    "comparator": "reliable_gain",
+    "difference": -0.003472222222222222,
+    "low": -0.008680555555555554,
+    "high": 0.0,
+    "bootstrap": "paired actors frozen threshold"
+  },
+  "review_gate_both_positive": false,
+  "scope": "24actor external domain confirmation; no new CREMA test; no natural occlusion validation"
+}

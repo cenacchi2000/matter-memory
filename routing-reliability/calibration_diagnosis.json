@@ -1,0 +1,17 @@
+{
+  "n": 13,
+  "rescues": 8,
+  "actors": [
+    "1001",
+    "1020",
+    "1036",
+    "1058",
+    "1060",
+    "1085"
+  ],
+  "q_zero": 0,
+  "r_zero": 12,
+  "q_outside": 0,
+  "r_outside": 0,
+  "scope": "Exploratory diagnosis of previously inspected test; no recalibration on these labels"
+}
