@@ -1,0 +1,20 @@
+{
+  "main": {
+    "pages": 10,
+    "sha256": "d19b929494b2a00865e2493fceabbd08847be75038d5ce605da974b729e8573a",
+    "minimum_page_text_characters": 1654,
+    "main_pages": 8,
+    "reference_pages": 2,
+    "overfull_warnings": 0
+  },
+  "supplement": {
+    "pages": 20,
+    "sha256": "899cd5902c250c07d7550084d45d98208084c4f8db03bc257662f35261882c5c",
+    "minimum_page_text_characters": 1602,
+    "overfull_warnings": 0
+  },
+  "visual_inspection": "all 30 pages inspected via rendered contact sheets; final changed main pages 7 and 8 inspected at 1200 pixels; seven figures individually inspected",
+  "canonical_site_pdfs_match": true,
+  "figure_count": 7,
+  "references": 41
+}
