@@ -1,33 +1,11 @@
-# Release 59 — rewritten paper and new executed experiments
+# Release 60 — complete redesign of Figures 1 and 2
 
-## What was executed
+This release changes visual communication, not experiments, outcomes or statistical claims.
 
-- New external head inference for three existing trained fusion-head families × five matching checkpoints × three input conditions: 45 prediction archives. Fifteen-statistic direct and structured routers were refit on the original source roles; margin was retained as a control. Fixed and matched-rate evaluation produces 270 rows.
-- Logit-preprocessing ablation: within-clip standardization, raw softmax, and calibration-fitted temperature softmax, plus equal-volume comparisons against existing score families. Two checkpoints, all five archived evaluation conditions, 270 rows.
-- Numerical replay verifies gain = rescue − harm, 45 prediction/outcome archives, and exact shared interaction-head routing-score reproduction for six archived settings. Ten standardized preprocessing refits reproduce their reference predictions with zero maximum score difference.
+Figure 1 is a three-part evidence teaser: the measured clip-level threshold crossing; actual switch-volume and gain under batch versus fixed rules; and complete clean external rejection with the paired opportunity cost. Paired images use the same fixed aspect-preserving crop, with unchanged intended labels and whole-clip outputs. The 576-cell matrix depicts the reported 576 rejected inputs, not 576 independently sampled actors.
 
-## What the new evidence supports
+Figure 2 is a two-stage architecture diagram with real input imagery and audio waveform, frozen encoder and projection dimensions, separate expert outputs, a detailed two-token attention/residual/MLP inset, feature channels, routing alternatives, calibration and decision rules. The caption explicitly distinguishes expert-specific projection weights from common input features.
 
-Static-occluder direct-routing gain is negative in 15/15 fixed-threshold head/checkpoint combinations. At 19.97% matched switching, it remains negative in 14/15 (mean −2.05 points). Thus excess admissions alone do not explain the failure. Clean direct gains are positive in all fifteen under both rules.
+Both figures are exported to editable SVG, vector PDF, and PNG. Captions, the main PDF, the supplement's reused architecture figure, and the website are updated. Main length remains 8 pages plus 2 references; the supplement remains 20 pages. Scientific results and the 41-reference list are unchanged from release 59.
 
-Mean direct scores rise in only 6/15 static comparisons. A universal confidence-inversion claim is therefore unsupported. All added analyses are exploratory on an inspected external population; all heads share frozen WavLM/DINOv2 encoders. The experiment reuses trained expert weights, rather than claiming new expert training.
-
-The original primary comparison remains failed: support rejects every clean external clip and trails margin by 4.17 points, paired 95% actor interval [−6.42, −1.91]. This result is not replaced by the best new control.
-
-## Manuscript and figure changes
-
-The main paper is rewritten as one audio–visual reliability analysis. It contains eight main pages plus two reference pages, 41 references, seven original vector figures, explicit information/fitting roles, new controls and paired primary comparisons. The 20-page technical supplement includes all 270 architecture outcomes in paired fixed/matched columns, preprocessing results, actor outcomes, calibration ranges, proof assumptions, source chronology and reproduction instructions.
-
-The seven figures are newly generated from executed predictions and real source-video frames. SAM 3D was studied for organization and visual hierarchy only; its text, figures, results and scientific task were not copied. Object-memory/Ameca pilots remain separate.
-
-## Packaging correction
-
-The prior complete ZIP incorrectly exposed an older manuscript at its top-level manuscript path. This release uses one canonical manuscript directory. Paper PDFs on the website are byte-identical to that directory. Historical experimental directories remain solely as reproducibility dependencies; obsolete paper-facing files are removed from this ZIP.
-
-## Evidence gaps
-
-- No independent encoder family or natural-visibility benchmark.
-- No new untouched reserve for selecting a remedy after these analyses.
-- No physical robot/Ameca validation, streaming inference claim, or hidden-object localization evidence from these emotion experiments.
-- The repaired fixed-region certificate is valid only under its stated sampling assumptions and remains vacuous at nine calibration actors.
-- The paper is an expanded empirical reliability analysis, not an established novel winning method. Neither more experiment rows nor redesigned figures justify a promised reviewer score.
+The complete archive retains release-59 experiment paths for reproducibility and one current manuscript directory. The original release-59 change report remains under outputs/revision59/CHANGE_REPORT.md. No new experiment or stronger method claim is implied by this visual update.
