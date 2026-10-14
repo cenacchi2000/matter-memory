@@ -26,50 +26,29 @@ def picture(ax,e,x,y,w,h,occ=False):
 def save(fig,n):
  for ext in ['pdf','svg','png']:fig.savefig(F/(n+'.'+ext),dpi=260,facecolor='white',pad_inches=0)
  p=F/(n+'.svg');p.write_text(p.read_text().replace('DejaVu Sans','Arial'));plt.close(fig)
-# TEASER: measured clip pair and two population consequences, not a text inventory.
-e=next(x for x in D if x['clip']=='1020_IEO_ANG_LO');a=e['conditions']['clean']['methods']['opportunity_advantage'];b=e['conditions']['video_occlude50']['methods']['opportunity_advantage']
+# Natural physical occlusion: untouched frames from three archived recordings.
+import io
+scenes=[('handball2_boxoccl','01 / Physical obstruction',[1,3,7],'Ball + moving box','The hand and box hide the ball.\nThe ball returns to view.'),('teaduck3_reveal','02 / Concealment',[1,4,6],'Tea box + target object','The target passes behind the box.\nMoving the box reveals it.'),('mugduck2_reveal','03 / Reappearance',[1,4,6],'Mug + target object','The target enters the mug.\nA changed viewpoint reveals it.')]
 fig,ax=canvas(464)
-for x,w,col in [(0,700,'#F0F7F5'),(720,342,'#FCF4E9'),(1082,358,'#F3F0F8')]:rect(ax,x,0,w,464,col,ec='none',r=13)
-text(ax,18,24,'A',8.4,teal,True);text(ax,45,24,'Evidence changes the decision.',8.4,bold=True)
-text(ax,742,24,'B',8.4,'#A47517',True);text(ax,768,24,'Quota vs threshold.',8.1,bold=True)
-text(ax,1103,24,'C',8.4,violet,True);text(ax,1129,24,'Clean rejection.',7.9,bold=True)
-# large paired frames and prediction chips
-for x,occ,title,out,col in [(22,False,'Clean evidence','KEEP AUDIO',teal),(365,True,'Constructed occlusion','SWITCH TO FUSION',red)]:
- text(ax,x,60,title,7.2,bold=True);picture(ax,e,x,77,238,171,occ)
- # paired outputs as overlays with whitespace separation
- rect(ax,x+7,213,224,29,'white','none',r=4,zorder=4);text(ax,x+15,228,'A: angry  F: disgust',5.9,bold=True,zorder=5)
- rect(ax,x,260,238,43,col,'none',r=6);text(ax,x+119,272,out,6.4,'white',True,ha='center');text(ax,x+119,289,'angry  / correct' if not occ else 'disgust  / incorrect',7.4,'white',True,ha='center')
- text(ax,x+119,323,f"score {a['score']:+.3f}" if not occ else f"score {b['score']:+.3f}",8.4,col,True,ha='center')
-# compact causal reading direction and threshold crossing graphic
-arrow(ax,(271,157),(353,157),color=red,lw=1.6);text(ax,311,126,'visual',6.2,muted,ha='center');text(ax,311,139,'change',6.2,muted,ha='center')
-text(ax,311,200,'same\naudio',6.0,teal,ha='center')
-x0,x1=60,632;lo,hi=-.5,.22;pos=lambda s:x0+(s-lo)/(hi-lo)*(x1-x0)
-ax.plot([x0,x1],[360,360],color='#AFBDBB',lw=2);tx=pos(a['threshold']);ax.plot([tx,tx],[339,382],color=violet,lw=1,ls=(0,(3,2)))
-for m,c in [(a,teal),(b,red)]:ax.scatter([pos(m['score'])],[360],s=27,color=c,zorder=5)
-arrow(ax,(pos(a['score'])+12,360),(pos(b['score'])-12,360),red,lw=1.1)
-text(ax,tx,397,f"frozen threshold {a['threshold']:.3f}",6.8,violet,ha='center')
-text(ax,22,438,'CREMA-D • intended label: angry • whole-clip decisions',6.6,muted)
-# B: explicit actual admission bars, not a decorative mini chart
-text(ax,742,65,'Under the same static occluder',6.8,muted)
-for y,label,v,g,col in [(112,'Batch quota',20,-7.32,blue),(215,'Fixed threshold',53.414634,-22.926829,red)]:
- text(ax,742,y,label,7.3,bold=True);text(ax,1038,y,f'{v:.1f}%',8.8,col,True,ha='right')
- rect(ax,742,y+17,296,25,'#E7E3DB','none',r=3);rect(ax,742,y+17,296*v/60,25,col,'none',r=3)
- text(ax,742,y+61,f'{g:+.2f} pp accuracy gain',7.1,col,True)
-text(ax,742,330,'Actual switches',7.4,bold=True);text(ax,742,353,'Tuned at 20%; deployed at 53.4%.',5.85,muted)
-text(ax,742,402,'Harm persists with either rule.',6.0,muted)
-text(ax,742,438,'820 clips • 10 actors • inspected',5.85,muted)
-# C: visibly clean target-domain clips plus total rejection matrix.
-rv=[next(d for d in D if d['dataset']=='RAVDESS' and d['category']==cat) for cat in ['abstained_rescue','occlusion_failure']]
-for x,ee in zip([1104,1268],rv):picture(ax,ee,x,61,146,112)
-text(ax,1104,195,'Clean external input',7.2,bold=True)
-text(ax,1104,225,'0 / 576',14,violet,True);text(ax,1276,226,'accepted',7.3,muted)
-for i in range(24):
- for j in range(24):ax.add_patch(Rectangle((1104+j*6.1,253+i*3.1),4.5,1.9,facecolor='#B3A5CC',edgecolor='none'))
-text(ax,1280,265,'Every clip',6.7,muted);text(ax,1280,285,'falls back',6.7,muted);text(ax,1280,305,'to audio.',6.7,muted)
-text(ax,1104,353,'−4.17 pp',13,violet,True);text(ax,1104,383,'support minus margin',7.1,muted)
-text(ax,1104,404,'95% actor CI [−6.42, −1.91]',6.6,muted)
-text(ax,1104,438,'RAVDESS • 24 actors • locked',5.9,muted)
+provenance=[]
+for i,(name,title,times,subtitle,desc) in enumerate(scenes):
+ x=i*486;rect(ax,x,0,468,464,['#EEF6F3','#F9F3E8','#F1F0F7'][i],ec='none',r=12)
+ text(ax,x+12,23,title,8,bold=True);text(ax,x+12,48,subtitle,6.7,muted)
+ for j,(t,label) in enumerate(zip(times,['Visible','Physically hidden','Revealed'])):
+  raw=subprocess.check_output(['/Users/filippo/miniconda3/bin/ffmpeg','-v','error','-ss',str(t),'-i',str(P/'site/media'/(name+'_native.mp4')),'-frames:v','1','-f','image2pipe','-vcodec','png','pipe:1'])
+  im=Image.open(io.BytesIO(raw)).convert('RGB');out=F/(name+f'_t{t}.png');im.save(out)
+  xx=x+12+(228 if j==1 else 0);yy=91 if j<2 else 285
+  text(ax,xx,yy-14,label,6.8,teal if j!=1 else '#996B28',True)
+  ax.imshow(im,extent=(xx,xx+216,yy+162,yy),aspect='equal',zorder=2)
+  text(ax,xx+210,yy+151,f'{t:.1f} s',5.7,'white',ha='right',bbox=dict(facecolor='#17272D',edgecolor='none',pad=1.5))
+  provenance.append(dict(scene=name,time_seconds=t,file=out.name,transformation='none; resize only'))
+ text(ax,x+242,310,'SCENE OCCLUDER',5.8,muted,True)
+ text(ax,x+242,337,desc.replace('The target passes behind the box.','Target behind the box.').replace('Moving the box reveals it.','Box moves: target visible.').replace('The hand and box hide the ball.','Hand / box hide the ball.').replace('The ball returns to view.','The ball returns to view.').replace('A changed viewpoint reveals it.','Viewpoint reveals it.'),5.4,ink,va='top',linespacing=1.8)
+ text(ax,x+242,419,'Original recorded pixels',5.5,muted)
+ text(ax,x+242,437,'No artificial mask',6,teal,True)
 save(fig,'fig1_teaser')
+(P/'natural_scene_frames.json').write_text(json.dumps(provenance,indent=2))
+e=next(x for x in D if x['clip']=='1020_IEO_ANG_LO')
 # ARCHITECTURE: grouped observation and decision stages with a true attention-head inset.
 fig,ax=canvas(585)
 # dashed group frames
@@ -154,4 +133,4 @@ text(ax,1075,512,'Gain = rescue − harm',7.1,bold=True)
 text(ax,1075,538,'All experts execute before routing.',6.5,muted)
 text(ax,0,575,'Frozen encoders',6.3,muted);text(ax,223,575,'Trained heads / routers',6.3,teal);text(ax,534,575,'Calibration maps',6.3,violet);text(ax,783,575,'Selection logic',6.3,'#9C7139');text(ax,1135,575,'No encoder-compute saving',6.3,muted)
 save(fig,'fig2_pipeline')
-(P/'figure_redesign.json').write_text(json.dumps({'release':60,'experiments_changed':False,'teaser_example':e['clip'],'teaser_support_inputs':[r['clip'] for r in rv],'source':'recorded gallery and release59 measured aggregates','encoders':'WavLM Base, DINOv2 ViT-B/14','expert_model_source':'outputs/revision56/expert_architecture.py','outputs':['fig1_teaser','fig2_pipeline']},indent=2))
+(P/'figure_redesign.json').write_text(json.dumps({'release':61,'experiments_changed':False,'teaser':'three recorded physical-occlusion scenes','routing_results':'separate artificial stress tests; not transferred to natural scenes'},indent=2))
