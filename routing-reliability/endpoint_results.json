@@ -1,0 +1,932 @@
+[
+  {
+    "clip": "confuse1",
+    "frame": 136,
+    "method": "resolver",
+    "inside_target": true,
+    "accepted": true,
+    "accepted_hit": true,
+    "accepted_miss": false,
+    "age_s": 0.0
+  },
+  {
+    "clip": "confuse1",
+    "frame": 136,
+    "method": "appearance",
+    "inside_target": true,
+    "accepted": true,
+    "accepted_hit": true,
+    "accepted_miss": false,
+    "age_s": 0.0
+  },
+  {
+    "clip": "confuse1",
+    "frame": 136,
+    "method": "stationary",
+    "inside_target": true,
+    "accepted": true,
+    "accepted_hit": true,
+    "accepted_miss": false,
+    "age_s": 3.8666666666666667
+  },
+  {
+    "clip": "confuse3",
+    "frame": 73,
+    "method": "resolver",
+    "inside_target": false,
+    "accepted": false,
+    "accepted_hit": false,
+    "accepted_miss": false,
+    "age_s": 1.1666666666666667
+  },
+  {
+    "clip": "confuse3",
+    "frame": 73,
+    "method": "appearance",
+    "inside_target": false,
+    "accepted": false,
+    "accepted_hit": false,
+    "accepted_miss": false,
+    "age_s": 1.1666666666666667
+  },
+  {
+    "clip": "confuse3",
+    "frame": 73,
+    "method": "stationary",
+    "inside_target": false,
+    "accepted": true,
+    "accepted_hit": false,
+    "accepted_miss": true,
+    "age_s": 1.9333333333333333
+  },
+  {
+    "clip": "teaduck1",
+    "frame": 170,
+    "method": "resolver",
+    "inside_target": true,
+    "accepted": true,
+    "accepted_hit": true,
+    "accepted_miss": false,
+    "age_s": 0.0
+  },
+  {
+    "clip": "teaduck1",
+    "frame": 170,
+    "method": "appearance",
+    "inside_target": true,
+    "accepted": true,
+    "accepted_hit": true,
+    "accepted_miss": false,
+    "age_s": 0.0
+  },
+  {
+    "clip": "teaduck1",
+    "frame": 170,
+    "method": "stationary",
+    "inside_target": true,
+    "accepted": true,
+    "accepted_hit": true,
+    "accepted_miss": false,
+    "age_s": 4.0
+  },
+  {
+    "clip": "teaduck2",
+    "frame": 195,
+    "method": "resolver",
+    "inside_target": true,
+    "accepted": true,
+    "accepted_hit": true,
+    "accepted_miss": false,
+    "age_s": 0.0
+  },
+  {
+    "clip": "teaduck2",
+    "frame": 195,
+    "method": "appearance",
+    "inside_target": true,
+    "accepted": true,
+    "accepted_hit": true,
+    "accepted_miss": false,
+    "age_s": 0.0
+  },
+  {
+    "clip": "teaduck2",
+    "frame": 195,
+    "method": "stationary",
+    "inside_target": false,
+    "accepted": true,
+    "accepted_hit": false,
+    "accepted_miss": true,
+    "age_s": 6.0
+  },
+  {
+    "clip": "teaduck3_reveal",
+    "frame": 195,
+    "method": "resolver",
+    "inside_target": true,
+    "accepted": true,
+    "accepted_hit": true,
+    "accepted_miss": false,
+    "age_s": 0.0
+  },
+  {
+    "clip": "teaduck3_reveal",
+    "frame": 195,
+    "method": "appearance",
+    "inside_target": true,
+    "accepted": true,
+    "accepted_hit": true,
+    "accepted_miss": false,
+    "age_s": 0.0
+  },
+  {
+    "clip": "teaduck3_reveal",
+    "frame": 195,
+    "method": "stationary",
+    "inside_target": false,
+    "accepted": true,
+    "accepted_hit": false,
+    "accepted_miss": true,
+    "age_s": 6.0
+  },
+  {
+    "clip": "teaduck4_reveal",
+    "frame": 160,
+    "method": "resolver",
+    "inside_target": true,
+    "accepted": true,
+    "accepted_hit": true,
+    "accepted_miss": false,
+    "age_s": 0.0
+  },
+  {
+    "clip": "teaduck4_reveal",
+    "frame": 160,
+    "method": "appearance",
+    "inside_target": true,
+    "accepted": true,
+    "accepted_hit": true,
+    "accepted_miss": false,
+    "age_s": 0.0
+  },
+  {
+    "clip": "teaduck4_reveal",
+    "frame": 160,
+    "method": "stationary",
+    "inside_target": false,
+    "accepted": true,
+    "accepted_hit": false,
+    "accepted_miss": true,
+    "age_s": 4.833333333333333
+  },
+  {
+    "clip": "teaduck4_reveal",
+    "frame": 255,
+    "method": "resolver",
+    "inside_target": true,
+    "accepted": true,
+    "accepted_hit": true,
+    "accepted_miss": false,
+    "age_s": 0.0
+  },
+  {
+    "clip": "teaduck4_reveal",
+    "frame": 255,
+    "method": "appearance",
+    "inside_target": true,
+    "accepted": true,
+    "accepted_hit": true,
+    "accepted_miss": false,
+    "age_s": 0.0
+  },
+  {
+    "clip": "teaduck4_reveal",
+    "frame": 255,
+    "method": "stationary",
+    "inside_target": false,
+    "accepted": true,
+    "accepted_hit": false,
+    "accepted_miss": true,
+    "age_s": 8.0
+  },
+  {
+    "clip": "mugduck2_reveal",
+    "frame": 200,
+    "method": "resolver",
+    "inside_target": false,
+    "accepted": false,
+    "accepted_hit": false,
+    "accepted_miss": false,
+    "age_s": 5.166666666666667
+  },
+  {
+    "clip": "mugduck2_reveal",
+    "frame": 200,
+    "method": "appearance",
+    "inside_target": false,
+    "accepted": false,
+    "accepted_hit": false,
+    "accepted_miss": false,
+    "age_s": 5.166666666666667
+  },
+  {
+    "clip": "mugduck2_reveal",
+    "frame": 200,
+    "method": "stationary",
+    "inside_target": false,
+    "accepted": true,
+    "accepted_hit": false,
+    "accepted_miss": true,
+    "age_s": 6.0
+  },
+  {
+    "clip": "mugduck3_reveal",
+    "frame": 195,
+    "method": "resolver",
+    "inside_target": true,
+    "accepted": false,
+    "accepted_hit": false,
+    "accepted_miss": false,
+    "age_s": 5.766666666666667
+  },
+  {
+    "clip": "mugduck3_reveal",
+    "frame": 195,
+    "method": "appearance",
+    "inside_target": true,
+    "accepted": false,
+    "accepted_hit": false,
+    "accepted_miss": false,
+    "age_s": 5.766666666666667
+  },
+  {
+    "clip": "mugduck3_reveal",
+    "frame": 195,
+    "method": "stationary",
+    "inside_target": false,
+    "accepted": true,
+    "accepted_hit": false,
+    "accepted_miss": true,
+    "age_s": 6.0
+  },
+  {
+    "clip": "chips1_oof",
+    "frame": 160,
+    "method": "resolver",
+    "inside_target": true,
+    "accepted": false,
+    "accepted_hit": false,
+    "accepted_miss": false,
+    "age_s": 3.2
+  },
+  {
+    "clip": "chips1_oof",
+    "frame": 160,
+    "method": "appearance",
+    "inside_target": true,
+    "accepted": false,
+    "accepted_hit": false,
+    "accepted_miss": false,
+    "age_s": 3.2
+  },
+  {
+    "clip": "chips1_oof",
+    "frame": 160,
+    "method": "stationary",
+    "inside_target": true,
+    "accepted": true,
+    "accepted_hit": true,
+    "accepted_miss": false,
+    "age_s": 4.0
+  },
+  {
+    "clip": "chips1_oof",
+    "frame": 280,
+    "method": "resolver",
+    "inside_target": false,
+    "accepted": false,
+    "accepted_hit": false,
+    "accepted_miss": false,
+    "age_s": 2.466666666666667
+  },
+  {
+    "clip": "chips1_oof",
+    "frame": 280,
+    "method": "appearance",
+    "inside_target": false,
+    "accepted": false,
+    "accepted_hit": false,
+    "accepted_miss": false,
+    "age_s": 2.466666666666667
+  },
+  {
+    "clip": "chips1_oof",
+    "frame": 280,
+    "method": "stationary",
+    "inside_target": true,
+    "accepted": true,
+    "accepted_hit": true,
+    "accepted_miss": false,
+    "age_s": 8.0
+  },
+  {
+    "clip": "pump1_scan",
+    "frame": 150,
+    "method": "resolver",
+    "inside_target": false,
+    "accepted": false,
+    "accepted_hit": false,
+    "accepted_miss": false,
+    "age_s": 0.6333333333333333
+  },
+  {
+    "clip": "pump1_scan",
+    "frame": 150,
+    "method": "appearance",
+    "inside_target": false,
+    "accepted": false,
+    "accepted_hit": false,
+    "accepted_miss": false,
+    "age_s": 0.6333333333333333
+  },
+  {
+    "clip": "pump1_scan",
+    "frame": 150,
+    "method": "stationary",
+    "inside_target": true,
+    "accepted": true,
+    "accepted_hit": true,
+    "accepted_miss": false,
+    "age_s": 4.0
+  },
+  {
+    "clip": "pump1_scan",
+    "frame": 270,
+    "method": "resolver",
+    "inside_target": true,
+    "accepted": true,
+    "accepted_hit": true,
+    "accepted_miss": false,
+    "age_s": 0.0
+  },
+  {
+    "clip": "pump1_scan",
+    "frame": 270,
+    "method": "appearance",
+    "inside_target": true,
+    "accepted": true,
+    "accepted_hit": true,
+    "accepted_miss": false,
+    "age_s": 0.0
+  },
+  {
+    "clip": "pump1_scan",
+    "frame": 270,
+    "method": "stationary",
+    "inside_target": true,
+    "accepted": true,
+    "accepted_hit": true,
+    "accepted_miss": false,
+    "age_s": 8.0
+  },
+  {
+    "clip": "pumpcookie1_reveal",
+    "frame": 200,
+    "method": "resolver",
+    "inside_target": false,
+    "accepted": false,
+    "accepted_hit": false,
+    "accepted_miss": false,
+    "age_s": 5.533333333333333
+  },
+  {
+    "clip": "pumpcookie1_reveal",
+    "frame": 200,
+    "method": "appearance",
+    "inside_target": false,
+    "accepted": false,
+    "accepted_hit": false,
+    "accepted_miss": false,
+    "age_s": 5.533333333333333
+  },
+  {
+    "clip": "pumpcookie1_reveal",
+    "frame": 200,
+    "method": "stationary",
+    "inside_target": true,
+    "accepted": true,
+    "accepted_hit": true,
+    "accepted_miss": false,
+    "age_s": 6.0
+  },
+  {
+    "clip": "bagduck1_move",
+    "frame": 230,
+    "method": "resolver",
+    "inside_target": false,
+    "accepted": false,
+    "accepted_hit": false,
+    "accepted_miss": false,
+    "age_s": 6.566666666666666
+  },
+  {
+    "clip": "bagduck1_move",
+    "frame": 230,
+    "method": "appearance",
+    "inside_target": false,
+    "accepted": false,
+    "accepted_hit": false,
+    "accepted_miss": false,
+    "age_s": 6.566666666666666
+  },
+  {
+    "clip": "bagduck1_move",
+    "frame": 230,
+    "method": "stationary",
+    "inside_target": false,
+    "accepted": true,
+    "accepted_hit": false,
+    "accepted_miss": true,
+    "age_s": 7.0
+  },
+  {
+    "clip": "mugduck5_stay",
+    "frame": 140,
+    "method": "resolver",
+    "inside_target": false,
+    "accepted": false,
+    "accepted_hit": false,
+    "accepted_miss": false,
+    "age_s": 3.7
+  },
+  {
+    "clip": "mugduck5_stay",
+    "frame": 140,
+    "method": "appearance",
+    "inside_target": false,
+    "accepted": false,
+    "accepted_hit": false,
+    "accepted_miss": false,
+    "age_s": 3.7
+  },
+  {
+    "clip": "mugduck5_stay",
+    "frame": 140,
+    "method": "stationary",
+    "inside_target": false,
+    "accepted": true,
+    "accepted_hit": false,
+    "accepted_miss": true,
+    "age_s": 4.0
+  },
+  {
+    "clip": "mugduck6_shuffle",
+    "frame": 210,
+    "method": "resolver",
+    "inside_target": false,
+    "accepted": false,
+    "accepted_hit": false,
+    "accepted_miss": false,
+    "age_s": 5.466666666666667
+  },
+  {
+    "clip": "mugduck6_shuffle",
+    "frame": 210,
+    "method": "appearance",
+    "inside_target": false,
+    "accepted": false,
+    "accepted_hit": false,
+    "accepted_miss": false,
+    "age_s": 5.466666666666667
+  },
+  {
+    "clip": "mugduck6_shuffle",
+    "frame": 210,
+    "method": "stationary",
+    "inside_target": false,
+    "accepted": true,
+    "accepted_hit": false,
+    "accepted_miss": true,
+    "age_s": 6.0
+  },
+  {
+    "clip": "mugduck7_shuffle",
+    "frame": 190,
+    "method": "resolver",
+    "inside_target": false,
+    "accepted": false,
+    "accepted_hit": false,
+    "accepted_miss": false,
+    "age_s": 4.4
+  },
+  {
+    "clip": "mugduck7_shuffle",
+    "frame": 190,
+    "method": "appearance",
+    "inside_target": false,
+    "accepted": false,
+    "accepted_hit": false,
+    "accepted_miss": false,
+    "age_s": 4.1
+  },
+  {
+    "clip": "mugduck7_shuffle",
+    "frame": 190,
+    "method": "stationary",
+    "inside_target": false,
+    "accepted": true,
+    "accepted_hit": false,
+    "accepted_miss": true,
+    "age_s": 5.333333333333333
+  },
+  {
+    "clip": "mugduck7_shuffle",
+    "frame": 210,
+    "method": "resolver",
+    "inside_target": false,
+    "accepted": false,
+    "accepted_hit": false,
+    "accepted_miss": false,
+    "age_s": 5.066666666666666
+  },
+  {
+    "clip": "mugduck7_shuffle",
+    "frame": 210,
+    "method": "appearance",
+    "inside_target": false,
+    "accepted": false,
+    "accepted_hit": false,
+    "accepted_miss": false,
+    "age_s": 4.766666666666667
+  },
+  {
+    "clip": "mugduck7_shuffle",
+    "frame": 210,
+    "method": "stationary",
+    "inside_target": false,
+    "accepted": true,
+    "accepted_hit": false,
+    "accepted_miss": true,
+    "age_s": 6.0
+  },
+  {
+    "clip": "handball1_wave",
+    "frame": 137,
+    "method": "resolver",
+    "inside_target": false,
+    "accepted": false,
+    "accepted_hit": false,
+    "accepted_miss": false,
+    "age_s": 4.2
+  },
+  {
+    "clip": "handball1_wave",
+    "frame": 137,
+    "method": "appearance",
+    "inside_target": false,
+    "accepted": false,
+    "accepted_hit": false,
+    "accepted_miss": false,
+    "age_s": 4.2
+  },
+  {
+    "clip": "handball1_wave",
+    "frame": 137,
+    "method": "stationary",
+    "inside_target": false,
+    "accepted": true,
+    "accepted_hit": false,
+    "accepted_miss": true,
+    "age_s": 4.4
+  },
+  {
+    "clip": "handball2_boxoccl",
+    "frame": 210,
+    "method": "resolver",
+    "inside_target": false,
+    "accepted": false,
+    "accepted_hit": false,
+    "accepted_miss": false,
+    "age_s": 5.166666666666667
+  },
+  {
+    "clip": "handball2_boxoccl",
+    "frame": 210,
+    "method": "appearance",
+    "inside_target": false,
+    "accepted": false,
+    "accepted_hit": false,
+    "accepted_miss": false,
+    "age_s": 5.166666666666667
+  },
+  {
+    "clip": "handball2_boxoccl",
+    "frame": 210,
+    "method": "stationary",
+    "inside_target": false,
+    "accepted": true,
+    "accepted_hit": false,
+    "accepted_miss": true,
+    "age_s": 6.0
+  },
+  {
+    "clip": "handball3_occlpick",
+    "frame": 190,
+    "method": "resolver",
+    "inside_target": false,
+    "accepted": false,
+    "accepted_hit": false,
+    "accepted_miss": false,
+    "age_s": 5.466666666666667
+  },
+  {
+    "clip": "handball3_occlpick",
+    "frame": 190,
+    "method": "appearance",
+    "inside_target": false,
+    "accepted": false,
+    "accepted_hit": false,
+    "accepted_miss": false,
+    "age_s": 5.466666666666667
+  },
+  {
+    "clip": "handball3_occlpick",
+    "frame": 190,
+    "method": "stationary",
+    "inside_target": false,
+    "accepted": true,
+    "accepted_hit": false,
+    "accepted_miss": true,
+    "age_s": 5.666666666666667
+  },
+  {
+    "clip": "lightball4_occl1x",
+    "frame": 190,
+    "method": "resolver",
+    "inside_target": false,
+    "accepted": false,
+    "accepted_hit": false,
+    "accepted_miss": false,
+    "age_s": 0.7833333333333333
+  },
+  {
+    "clip": "lightball4_occl1x",
+    "frame": 190,
+    "method": "appearance",
+    "inside_target": false,
+    "accepted": false,
+    "accepted_hit": false,
+    "accepted_miss": false,
+    "age_s": 0.7833333333333333
+  },
+  {
+    "clip": "lightball4_occl1x",
+    "frame": 190,
+    "method": "stationary",
+    "inside_target": false,
+    "accepted": true,
+    "accepted_hit": false,
+    "accepted_miss": true,
+    "age_s": 2.5
+  },
+  {
+    "clip": "lightball4_occl1x",
+    "frame": 312,
+    "method": "resolver",
+    "inside_target": false,
+    "accepted": false,
+    "accepted_hit": false,
+    "accepted_miss": false,
+    "age_s": 2.816666666666667
+  },
+  {
+    "clip": "lightball4_occl1x",
+    "frame": 312,
+    "method": "appearance",
+    "inside_target": false,
+    "accepted": false,
+    "accepted_hit": false,
+    "accepted_miss": false,
+    "age_s": 2.816666666666667
+  },
+  {
+    "clip": "lightball4_occl1x",
+    "frame": 312,
+    "method": "stationary",
+    "inside_target": false,
+    "accepted": true,
+    "accepted_hit": false,
+    "accepted_miss": true,
+    "age_s": 4.533333333333333
+  },
+  {
+    "clip": "lightball4_occl1x",
+    "frame": 340,
+    "method": "resolver",
+    "inside_target": false,
+    "accepted": false,
+    "accepted_hit": false,
+    "accepted_miss": false,
+    "age_s": 3.283333333333333
+  },
+  {
+    "clip": "lightball4_occl1x",
+    "frame": 340,
+    "method": "appearance",
+    "inside_target": false,
+    "accepted": false,
+    "accepted_hit": false,
+    "accepted_miss": false,
+    "age_s": 3.283333333333333
+  },
+  {
+    "clip": "lightball4_occl1x",
+    "frame": 340,
+    "method": "stationary",
+    "inside_target": false,
+    "accepted": true,
+    "accepted_hit": false,
+    "accepted_miss": true,
+    "age_s": 5.0
+  },
+  {
+    "clip": "lightball5_occl2x",
+    "frame": 170,
+    "method": "resolver",
+    "inside_target": false,
+    "accepted": false,
+    "accepted_hit": false,
+    "accepted_miss": false,
+    "age_s": 1.85
+  },
+  {
+    "clip": "lightball5_occl2x",
+    "frame": 170,
+    "method": "appearance",
+    "inside_target": false,
+    "accepted": false,
+    "accepted_hit": false,
+    "accepted_miss": false,
+    "age_s": 1.85
+  },
+  {
+    "clip": "lightball5_occl2x",
+    "frame": 170,
+    "method": "stationary",
+    "inside_target": false,
+    "accepted": true,
+    "accepted_hit": false,
+    "accepted_miss": true,
+    "age_s": 2.3333333333333335
+  },
+  {
+    "clip": "lightball5_occl2x",
+    "frame": 236,
+    "method": "resolver",
+    "inside_target": false,
+    "accepted": false,
+    "accepted_hit": false,
+    "accepted_miss": false,
+    "age_s": 2.95
+  },
+  {
+    "clip": "lightball5_occl2x",
+    "frame": 236,
+    "method": "appearance",
+    "inside_target": false,
+    "accepted": false,
+    "accepted_hit": false,
+    "accepted_miss": false,
+    "age_s": 2.95
+  },
+  {
+    "clip": "lightball5_occl2x",
+    "frame": 236,
+    "method": "stationary",
+    "inside_target": false,
+    "accepted": true,
+    "accepted_hit": false,
+    "accepted_miss": true,
+    "age_s": 3.433333333333333
+  },
+  {
+    "clip": "lightball6_occl4x",
+    "frame": 175,
+    "method": "resolver",
+    "inside_target": false,
+    "accepted": false,
+    "accepted_hit": false,
+    "accepted_miss": false,
+    "age_s": 2.1333333333333333
+  },
+  {
+    "clip": "lightball6_occl4x",
+    "frame": 175,
+    "method": "appearance",
+    "inside_target": false,
+    "accepted": false,
+    "accepted_hit": false,
+    "accepted_miss": false,
+    "age_s": 2.1333333333333333
+  },
+  {
+    "clip": "lightball6_occl4x",
+    "frame": 175,
+    "method": "stationary",
+    "inside_target": false,
+    "accepted": true,
+    "accepted_hit": false,
+    "accepted_miss": true,
+    "age_s": 2.6666666666666665
+  },
+  {
+    "clip": "lightball6_occl4x",
+    "frame": 226,
+    "method": "resolver",
+    "inside_target": false,
+    "accepted": false,
+    "accepted_hit": false,
+    "accepted_miss": false,
+    "age_s": 2.9833333333333334
+  },
+  {
+    "clip": "lightball6_occl4x",
+    "frame": 226,
+    "method": "appearance",
+    "inside_target": false,
+    "accepted": false,
+    "accepted_hit": false,
+    "accepted_miss": false,
+    "age_s": 2.9833333333333334
+  },
+  {
+    "clip": "lightball6_occl4x",
+    "frame": 226,
+    "method": "stationary",
+    "inside_target": false,
+    "accepted": true,
+    "accepted_hit": false,
+    "accepted_miss": true,
+    "age_s": 3.5166666666666666
+  },
+  {
+    "clip": "lightball6_occl4x",
+    "frame": 290,
+    "method": "resolver",
+    "inside_target": false,
+    "accepted": false,
+    "accepted_hit": false,
+    "accepted_miss": false,
+    "age_s": 4.05
+  },
+  {
+    "clip": "lightball6_occl4x",
+    "frame": 290,
+    "method": "appearance",
+    "inside_target": false,
+    "accepted": false,
+    "accepted_hit": false,
+    "accepted_miss": false,
+    "age_s": 4.05
+  },
+  {
+    "clip": "lightball6_occl4x",
+    "frame": 290,
+    "method": "stationary",
+    "inside_target": false,
+    "accepted": true,
+    "accepted_hit": false,
+    "accepted_miss": true,
+    "age_s": 4.583333333333333
+  },
+  {
+    "clip": "plantcupball2",
+    "frame": 265,
+    "method": "resolver",
+    "inside_target": false,
+    "accepted": false,
+    "accepted_hit": false,
+    "accepted_miss": false,
+    "age_s": 6.666666666666667
+  },
+  {
+    "clip": "plantcupball2",
+    "frame": 265,
+    "method": "appearance",
+    "inside_target": false,
+    "accepted": false,
+    "accepted_hit": false,
+    "accepted_miss": false,
+    "age_s": 6.666666666666667
+  },
+  {
+    "clip": "plantcupball2",
+    "frame": 265,
+    "method": "stationary",
+    "inside_target": false,
+    "accepted": true,
+    "accepted_hit": false,
+    "accepted_miss": true,
+    "age_s": 8.0
+  }
+]

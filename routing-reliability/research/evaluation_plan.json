@@ -1,0 +1,21 @@
+{
+ "version": 1,
+ "status": "design specification; NOT a frozen held-out experiment",
+ "development": "all 37 inspected local Rubric Office videos; existing Cup Games access history must be audited before any split claim",
+ "heldout_manifest": null,
+ "heldout_blocker": "independent scene/object-instance inventory and continuous identity/visibility annotations not yet established",
+ "freeze_gate": ["audit prior exposure", "assign scene and object groups", "fix frame/episode labels", "pin baseline commits and weights", "fit thresholds on calibration groups only", "hash all configurations before evaluation outcomes"],
+ "comparisons": ["appearance", "appearance+motion", "multi-hypothesis", "scene-relations", "uncertainty acceptance", "controlled identity-memory update", "strong learned causal tracker", "offline reference separately"],
+ "required_fairness": ["same initialization or separately labelled supervision tracks", "same resolution and frame rate", "causal prefix-only predictions", "same candidate front end for mechanism ablations", "do not silently substitute a weak implementation for a named baseline"],
+ "primary_endpoint": "correct accepted identity reacquisition at calibration-selected false-association operating points",
+ "operating_points": ["1%", "5%", "10%"],
+ "operating_point_caveat": "report held-out empirical errors and intervals; a calibration target is not a guarantee; report insufficient sample resolution",
+ "secondary": ["correct versus false reacquisition curve", "coverage", "accepted precision", "identity switches per sequence", "delay in frames after first visible return", "visible localization", "runtime", "memory"],
+ "unresolved_episodes": "count as failures in fixed-deadline success; right-censor time-to-event rather than dropping them",
+ "intervals": "paired cluster bootstrap by independent scene; also raw numerators/denominators; no per-frame independence assumption",
+ "hidden_location": "evaluate region coverage and area only with independent hidden-location labels; otherwise unmeasured",
+ "ablation_rule": "report at common measured coverage and common measured false association; confidence thresholds fixed on calibration, not test",
+ "active_perception": "not claimed until fixed-view, fixed-wait, uncertainty-only and relation-aware policies are run with observation costs",
+ "robot_task": "not claimed until executed; virtual narration excluded as evidence",
+ "scope": "real scene occlusion; no post-hoc gray-square benchmark substituted for the target task"
+}

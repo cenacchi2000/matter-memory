@@ -1,0 +1,25 @@
+{
+  "scope": "inspected development corpus; oracle proposal recall is NOT deployed accuracy",
+  "videos": 37,
+  "eligible_clips": 22,
+  "eligible_endpoints": 31,
+  "excluded": {
+    "no_later_target_mask": 15
+  },
+  "rejection_reasons": {
+    "score": 8,
+    "score+ncc": 3,
+    "score+ncc+gap": 1,
+    "score+gap": 12
+  },
+  "confirmation_rejects_otherwise_qualified_frames": 39,
+  "frames_audited": 4107,
+  "top_k_candidate_recall_counts": {
+    "1": 13,
+    "3": 15,
+    "5": 15,
+    "10": 16,
+    "20": 17
+  },
+  "original_candidate_hits": 9
+}

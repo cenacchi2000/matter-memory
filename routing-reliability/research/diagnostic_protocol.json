@@ -1,0 +1,14 @@
+{
+  "status": "fixed before this candidate-bank audit; existing data already inspected",
+  "corpus": "all local Rubric Office videos, earliest query, every later snitch mask",
+  "proposal_scales": [0.8, 1, 1.25],
+  "peaks_per_scale": 20,
+  "score": "0.7 grayscale NCC + 0.3 HSV histogram correlation",
+  "within_scale_suppression": "half template width/height around each peak",
+  "cross_scale_center_separation": "max(3px, 0.25*minimum anchor dimension)",
+  "top_k": [1, 3, 5, 10, 20],
+  "endpoint_metric": "at least one proposal center inside target mask",
+  "role": "diagnose proposal bottleneck, not method performance or held-out evaluation",
+  "model_access": "query crop and current frame only; target read after proposals are generated and ranked",
+  "interpretation": "proposal recall is an oracle upper bound for selecting from this bank at these annotated endpoints"
+}

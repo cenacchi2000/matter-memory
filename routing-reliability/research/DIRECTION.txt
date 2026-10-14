@@ -1,0 +1,29 @@
+OBJECT IDENTITY AND SPATIAL BELIEF THROUGH OCCLUSION
+Research direction adopted 2026-10-14
+
+Question
+How can a humanoid preserve the identity of a particular object through missing observations, verify its return among distractors, and decide whether an answer or another observation is warranted?
+
+Candidate contribution — not established
+Relation-conditioned identity verification: maintain alternative physical explanations (stationary behind an occluder, carried with a container, independent movement, or unobserved/out-of-view), then use their different predictions to verify reappearance. Separate identity evidence, hidden-location uncertainty, and permission to update memory. The critical comparison is with strong appearance and motion-aware memory, not a static point or an intentionally weak tracker.
+
+Why this is a hypothesis
+TCOW already distinguishes occlusion and containment. SAMURAI combines motion and memory. DAM4SAM addresses distractors. SAM2Long preserves alternative segmentation histories. SENTRY performs neighbor-aware temporal verification before selected memory writes. Merely combining memory, multiple hypotheses and cautious acceptance does not establish novelty. A contribution must show that explicit physical-relation uncertainty adds information those mechanisms do not capture, at useful acceptance and matched false-association rates.
+
+Implementation status
+The existing resolver is a classical prototype. Its three spatial hypotheses are displayed but do not affect candidate ranking or acceptance. Local flow is not a recognized container relationship. Its radius is heuristic, and two-frame confirmation is not calibrated identity confidence. No active camera policy or physical robot transfer has been evaluated.
+
+Experiment sequence
+1. Preserve the current 22-clip / 31-endpoint development result and audit eligibility and candidate recall.
+2. Replace the weak proposal front end with a learned tracker/segmenter plus a separate appearance association control; log all candidate hypotheses before selection.
+3. Establish full-sequence identity/visibility labels and scene/object grouping. Do not infer hidden ground truth from sparse endpoint masks.
+4. Fit/calibrate relation evidence only on development/calibration groups. A relation label supplied by an annotator is an oracle ablation, not an automatic method.
+5. Test appearance, motion, relation-conditioned multi-hypothesis belief, uncertainty-based acceptance, and controlled memory updates under the same input and temporal-access protocol.
+6. Reserve independent scenes before method selection; finalize and hash data manifest, configuration, weights and primary analysis before unblinding.
+7. Build humanoid pointing/answering or active observation evaluation only after perception improvements exist. A speaking avatar is not evidence of transfer.
+
+Stopping rule
+Do not label this a strong CVPR contribution until useful held-out improvements survive strong learned controls, matched coverage/error operating points, mechanism ablations, and an executed task relevant to the humanoid. Negative findings remain in the report. Paper and website may display actual prototype behavior, but must not imply that the proposed method already exists.
+
+Paper/figure rule
+One occlusion-only narrative. The audio-visual routing work remains a separate historical archive. Figure 1 must eventually show one measured full episode; the new gallery must include success, distractor rejection and failure. Do not depict an unobserved exact position as known. Remove the two requested pixel/mask slogans. New principal figures wait for corresponding measured outputs.

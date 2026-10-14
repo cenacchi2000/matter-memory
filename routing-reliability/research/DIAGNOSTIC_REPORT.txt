@@ -1,0 +1,13 @@
+Executed development diagnostic — 2026-10-14
+
+Corpus: 37 local videos; 22 clips have an earliest query and later target masks, yielding 31 endpoints. Fifteen clips have no later target mask. The JSON inventory records filenames, eligibility and SHA-256 values. This is not a new held-out evaluation.
+
+Original fixed proposal: 9/31 target-mask hits. Original acceptance: 7 hits, 0 misses, 24 abstentions. Appearance-only has identical endpoint decisions. The confirmation rule suppresses 39 of 4,107 otherwise-qualified frame outputs; sparse labels cannot determine whether those frame suppressions help or hurt identity tracking.
+
+All 24 endpoint rejections already fail an appearance gate: 8 score only; 3 score+NCC; 1 score+NCC+gap; 12 score+gap. None is rejected only by two-frame confirmation.
+
+Expanded search uses 20 non-overlapping NCC peaks per scale, scores each by the original 0.7*NCC+0.3*color rule, and deduplicates locations across scales. Its top-ranked center hits 13/31 target masks. Oracle membership in its top 3/5/10/20 candidates is 15/15/16/17 of 31. Candidate ordering never uses endpoint masks.
+
+Interpretation: better search changes which candidate is proposed, but still misses many endpoints. A verifier that only accepts/rejects the original candidate has at most 9 correct answers on these endpoints, even with perfect labels. A selector restricted to this 20-candidate bank has at most 17. These finite-set ceilings are not general impossibility bounds. Neither is evidence of calibrated, useful reacquisition or a novel method.
+
+Next decision: prioritize learned proposals and identity association. Do not spend the next iteration tuning another confirmation threshold. Compare relation evidence only after the candidate front end is shared across ablations.

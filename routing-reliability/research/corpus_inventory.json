@@ -1,0 +1,298 @@
+[
+  {
+    "video": "10_confuse/confuse1.mp4",
+    "sha256": "b5f52eedc72765bb662896e6863df6b25f86e713c3583b59c14731b011c37c24",
+    "queries": 1,
+    "target_masks": 1,
+    "eligible_endpoints": 1,
+    "status": "eligible"
+  },
+  {
+    "video": "10_confuse/confuse2.mp4",
+    "sha256": "4f7ea76f37fff9c33fae92cca134f8e6a32454757ec8a0745a2d752fe275bca3",
+    "queries": 1,
+    "target_masks": 0,
+    "eligible_endpoints": 0,
+    "status": "no_later_target_mask"
+  },
+  {
+    "video": "10_confuse/confuse3.mp4",
+    "sha256": "f74120078a6a0f06d5b0b654d5657b9c6f11dec483f6e649251bd28680f0a85a",
+    "queries": 1,
+    "target_masks": 1,
+    "eligible_endpoints": 1,
+    "status": "eligible"
+  },
+  {
+    "video": "2_teaduck/teaduck1.mp4",
+    "sha256": "980290c4dc08ba289aaa2d5b76ddfe2d78f4f2305653b38f2cac3d2404487c6c",
+    "queries": 1,
+    "target_masks": 1,
+    "eligible_endpoints": 1,
+    "status": "eligible"
+  },
+  {
+    "video": "2_teaduck/teaduck2.mp4",
+    "sha256": "af4ef8de5e7ec1f5ff86bf28d796d125c77a1bad110c4cc51e006555336a2b1e",
+    "queries": 1,
+    "target_masks": 1,
+    "eligible_endpoints": 1,
+    "status": "eligible"
+  },
+  {
+    "video": "2_teaduck/teaduck3_reveal.mp4",
+    "sha256": "8588db9db9a1300b5eca97dbe42b297dc6fd4170ebf4809dda579c070f6fd080",
+    "queries": 1,
+    "target_masks": 1,
+    "eligible_endpoints": 1,
+    "status": "eligible"
+  },
+  {
+    "video": "2_teaduck/teaduck4_reveal.mp4",
+    "sha256": "901bf1ec11921ff5bd94a0f674bf3fa48cf490f32893ecdb9769942eafa01e5f",
+    "queries": 1,
+    "target_masks": 2,
+    "eligible_endpoints": 2,
+    "status": "eligible"
+  },
+  {
+    "video": "2_teaduck/teaduck5_cammove.mp4",
+    "sha256": "03916517f2ae13b4452379d339fdaa29b47df7e7c8d47ab5c27021c376610d90",
+    "queries": 1,
+    "target_masks": 0,
+    "eligible_endpoints": 0,
+    "status": "no_later_target_mask"
+  },
+  {
+    "video": "2_teaduck/teaduck6_teamove.mp4",
+    "sha256": "0255734d2f514f205b7f1898fcbf6248ec6207424d4e8154aab5cd7500606470",
+    "queries": 1,
+    "target_masks": 0,
+    "eligible_endpoints": 0,
+    "status": "no_later_target_mask"
+  },
+  {
+    "video": "3_mugduck/mugduck1_mugmove.mp4",
+    "sha256": "cfc4f64702d0e9f0145798836a59e6561c948689beea480407bbf1f55ad51c3f",
+    "queries": 1,
+    "target_masks": 0,
+    "eligible_endpoints": 0,
+    "status": "no_later_target_mask"
+  },
+  {
+    "video": "3_mugduck/mugduck2_reveal.mp4",
+    "sha256": "1ce34137079ab6a76bb62a2ced6d7fe0913f5a366ae9153ecc9e6bbf2bdc0c61",
+    "queries": 1,
+    "target_masks": 1,
+    "eligible_endpoints": 1,
+    "status": "eligible"
+  },
+  {
+    "video": "3_mugduck/mugduck3_reveal.mp4",
+    "sha256": "f3871c000f9ea14d98930b893b3900f1ccc4238fbe563bd7a96fbcd6b73e3727",
+    "queries": 1,
+    "target_masks": 1,
+    "eligible_endpoints": 1,
+    "status": "eligible"
+  },
+  {
+    "video": "3_mugduck/mugduck4_mugmove.mp4",
+    "sha256": "3543964bcf1ea73e3dca16815a8c34a8354c06b7dd9bc0a052387f7260623d71",
+    "queries": 1,
+    "target_masks": 0,
+    "eligible_endpoints": 0,
+    "status": "no_later_target_mask"
+  },
+  {
+    "video": "3_mugduck/multicupduck1_game.mp4",
+    "sha256": "8ce371bf81fea1cb291203885149d7872cd3b00124cb035f8d9b16e9207ddd13",
+    "queries": 1,
+    "target_masks": 0,
+    "eligible_endpoints": 0,
+    "status": "no_later_target_mask"
+  },
+  {
+    "video": "4_home/chips1_oof.mp4",
+    "sha256": "ee1b977d12cdd93ea6fb8e8a50c21060a1d8d42e99f84a18655b8d925e9ab417",
+    "queries": 1,
+    "target_masks": 2,
+    "eligible_endpoints": 2,
+    "status": "eligible"
+  },
+  {
+    "video": "4_home/pump1_scan.mp4",
+    "sha256": "2ddb7e89ecf56f01249d20cc5d2367f74a53e53b97be1f1a129a6f45acd82c03",
+    "queries": 1,
+    "target_masks": 2,
+    "eligible_endpoints": 2,
+    "status": "eligible"
+  },
+  {
+    "video": "4_home/pumpcookie1_reveal.mp4",
+    "sha256": "d804e715ac61fd085fc5bd76d011afc87f81fc482591290b958ca67e0aea9eb8",
+    "queries": 1,
+    "target_masks": 1,
+    "eligible_endpoints": 1,
+    "status": "eligible"
+  },
+  {
+    "video": "5_bagmugduck/bagduck1_move.mp4",
+    "sha256": "b708032c126358f561c71969534f6db7bfeae4d5aceec7fb5607d2e48fc29ec2",
+    "queries": 2,
+    "target_masks": 1,
+    "eligible_endpoints": 1,
+    "status": "eligible"
+  },
+  {
+    "video": "5_bagmugduck/bagduck3_recurse.mp4",
+    "sha256": "6b6f87dae433e6afd2b70615f9b11507b79f90e891ac799ba1c8894052fd65b9",
+    "queries": 1,
+    "target_masks": 0,
+    "eligible_endpoints": 0,
+    "status": "no_later_target_mask"
+  },
+  {
+    "video": "5_bagmugduck/bagduck4_transfer.mp4",
+    "sha256": "908965ce3ff6ca7e8c5010ba3679e096b0462109e178a51ffabbb76f40c00e26",
+    "queries": 1,
+    "target_masks": 0,
+    "eligible_endpoints": 0,
+    "status": "no_later_target_mask"
+  },
+  {
+    "video": "5_bagmugduck/mugduck5_stay.mp4",
+    "sha256": "9e155a6c99a541cf17af0e604cdae3da17786d8abfec0461be1abb4612244b71",
+    "queries": 1,
+    "target_masks": 1,
+    "eligible_endpoints": 1,
+    "status": "eligible"
+  },
+  {
+    "video": "5_bagmugduck/mugduck6_shuffle.mp4",
+    "sha256": "24ea3e4d1ea35de39d1c8afb702b4a56d9e3c5684f41c0181e06aa5308e6718f",
+    "queries": 1,
+    "target_masks": 1,
+    "eligible_endpoints": 1,
+    "status": "eligible"
+  },
+  {
+    "video": "5_bagmugduck/mugduck7_shuffle.mp4",
+    "sha256": "6b633e46db6b738c5342c23dc9c747532fc3fbf0292a0b486bcf4d8c7a459f65",
+    "queries": 1,
+    "target_masks": 2,
+    "eligible_endpoints": 2,
+    "status": "eligible"
+  },
+  {
+    "video": "6_handball/handball1_wave.mp4",
+    "sha256": "0f2c4929b83c5de2208983c9755d1c667ab184c2431c0ceb59f3f82a6ef93aec",
+    "queries": 1,
+    "target_masks": 1,
+    "eligible_endpoints": 1,
+    "status": "eligible"
+  },
+  {
+    "video": "6_handball/handball2_boxoccl.mp4",
+    "sha256": "880d0dbf45f7140d983a58142040811d3c1267b00c3f2c852bcd4a375e536249",
+    "queries": 1,
+    "target_masks": 1,
+    "eligible_endpoints": 1,
+    "status": "eligible"
+  },
+  {
+    "video": "6_handball/handball3_occlpick.mp4",
+    "sha256": "b7f8ba00b8a3bafaf06294bf84adf22b234c8e5d128ee14228dc9c3afa3101dd",
+    "queries": 1,
+    "target_masks": 1,
+    "eligible_endpoints": 1,
+    "status": "eligible"
+  },
+  {
+    "video": "7_ballbounce/lightball4_occl1x.mp4",
+    "sha256": "b2a667174824330c88bc93ba84beedff2e7a02efd8316be2002cc5a7cec05920",
+    "queries": 1,
+    "target_masks": 3,
+    "eligible_endpoints": 3,
+    "status": "eligible"
+  },
+  {
+    "video": "7_ballbounce/lightball5_occl2x.mp4",
+    "sha256": "867b24287758cd368c232457470e479816833655ef9850ca52d29bafb3026be9",
+    "queries": 1,
+    "target_masks": 2,
+    "eligible_endpoints": 2,
+    "status": "eligible"
+  },
+  {
+    "video": "7_ballbounce/lightball6_occl4x.mp4",
+    "sha256": "fc6273c4a0ebf09a3ad5be0102b8ac20182a559213c9fc8d4751f0c1507ddc3e",
+    "queries": 1,
+    "target_masks": 3,
+    "eligible_endpoints": 3,
+    "status": "eligible"
+  },
+  {
+    "video": "8_plantcupball/plantcupball1.mp4",
+    "sha256": "03cb2ba070bbb76eee3cd3a80a7f0e1381e3dc14f9ee2a6ddca3a648a934fd33",
+    "queries": 1,
+    "target_masks": 0,
+    "eligible_endpoints": 0,
+    "status": "no_later_target_mask"
+  },
+  {
+    "video": "8_plantcupball/plantcupball2.mp4",
+    "sha256": "f882eb2caeb9496f9541f5602f232d7e1fc63d2ea4fcd3830b6d2f840ece1624",
+    "queries": 1,
+    "target_masks": 1,
+    "eligible_endpoints": 1,
+    "status": "eligible"
+  },
+  {
+    "video": "8_plantcupball/plantcupball3.mp4",
+    "sha256": "1e7e4ef84dbf30184e0d969881b54851619bbf46d0c998b0919932f580505c85",
+    "queries": 1,
+    "target_masks": 0,
+    "eligible_endpoints": 0,
+    "status": "no_later_target_mask"
+  },
+  {
+    "video": "9_bowlbox/manycont1_nested.mp4",
+    "sha256": "dd00e886e30acdb28d789e54fc504eb7ee97f4797a5596238705c5c0777c80db",
+    "queries": 1,
+    "target_masks": 0,
+    "eligible_endpoints": 0,
+    "status": "no_later_target_mask"
+  },
+  {
+    "video": "9_bowlbox/manycont2_transfer.mp4",
+    "sha256": "2f84c08689cadd45a25aaea65fac978aff6eff1894de7fc80196bd7f838a4149",
+    "queries": 1,
+    "target_masks": 0,
+    "eligible_endpoints": 0,
+    "status": "no_later_target_mask"
+  },
+  {
+    "video": "9_bowlbox/manycont3_nested.mp4",
+    "sha256": "3b7c221644746eaedef9a69a101eafbe670df85375b8865da82e29926bcf73cb",
+    "queries": 1,
+    "target_masks": 0,
+    "eligible_endpoints": 0,
+    "status": "no_later_target_mask"
+  },
+  {
+    "video": "9_bowlbox/manycont4_transfer.mp4",
+    "sha256": "b1824e7274f75d5b33b64cfe4b6cbc09e343e369d77a804a04785fb7ad9b01b1",
+    "queries": 1,
+    "target_masks": 0,
+    "eligible_endpoints": 0,
+    "status": "no_later_target_mask"
+  },
+  {
+    "video": "9_bowlbox/manycont5_transfer.mp4",
+    "sha256": "3006172e35db0798d09ca90e69660146e8364a9bb465f380b55228d592a63abf",
+    "queries": 1,
+    "target_masks": 0,
+    "eligible_endpoints": 0,
+    "status": "no_later_target_mask"
+  }
+]
