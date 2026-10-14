@@ -1,0 +1,38 @@
+[
+  {
+    "outcome": "accepted_hit",
+    "dataset": "rubric_office",
+    "clip": "chips1_oof",
+    "frame": 160
+  },
+  {
+    "outcome": "accepted_miss",
+    "dataset": "rubric_office",
+    "clip": "chips1_oof",
+    "frame": 280
+  },
+  {
+    "outcome": "abstention",
+    "dataset": "rubric_office",
+    "clip": "bagduck1_move",
+    "frame": 230
+  },
+  {
+    "outcome": "accepted_hit",
+    "dataset": "rubric_cup_games",
+    "clip": "cgt_frames_0002",
+    "frame": 270
+  },
+  {
+    "outcome": "accepted_miss",
+    "dataset": "rubric_cup_games",
+    "clip": "cgt_frames_0061",
+    "frame": 340
+  },
+  {
+    "outcome": "abstention",
+    "dataset": "rubric_cup_games",
+    "clip": "cgt_frames_0061",
+    "frame": 70
+  }
+]

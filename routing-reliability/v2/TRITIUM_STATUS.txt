@@ -1,0 +1,11 @@
+Observed in the user's authenticated Chrome session, 2026-10-14:
+Created and reopened project: MQ-Filippo / Occlusion Memory — Evidence Replay.
+Template: official Ameca Gen 1. URL: https://tritiumrobot.cloud/portal/animator?r=ad-0005
+Target ad-0005 reports Disconnected.
+Speech-asset creation reports: No voices available. Ensure you have the correct user permissions.
+Scripts remains at Loading Scripts; New Script does not open an editor while this target is disconnected.
+No robot-side script has been installed or executed. No hardware actuation was attempted.
+The local speech.py generator exports evidence-grounded response text and accepts a caller-supplied speech function. A documented Tritium simulation speech endpoint is still required; this file does not claim an existing connection.
+The Animator project is created, but a working responsive Animator agent has NOT been demonstrated.
+
+Native 20-second blinking and breathing tracks were generated and Save Project was invoked. These are idle animations, not evidence-driven speech. Playback was attempted; a progressing timeline was not confirmed.

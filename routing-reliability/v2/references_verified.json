@@ -1,0 +1,895 @@
+[
+  {
+    "id": "2305.03052",
+    "key": "r230503052",
+    "title": "Tracking through Containers and Occluders in the Wild",
+    "authors": [
+      "Van Hoorick, Basile",
+      "Tokmakov, Pavel",
+      "Stent, Simon",
+      "Li, Jie",
+      "Vondrick, Carl"
+    ],
+    "year": "2023",
+    "url": "https://arxiv.org/abs/2305.03052",
+    "sha256": "1472bb2d00821e41f5973405cd5d9cdeb7ac526733d060b21c56d4cc2d849894"
+  },
+  {
+    "id": "2307.07635",
+    "key": "r230707635",
+    "title": "CoTracker: It is Better to Track Together",
+    "authors": [
+      "Karaev, Nikita",
+      "Rocco, Ignacio",
+      "Graham, Benjamin",
+      "Neverova, Natalia",
+      "Vedaldi, Andrea",
+      "Rupprecht, Christian"
+    ],
+    "year": "2023",
+    "url": "https://arxiv.org/abs/2307.07635",
+    "sha256": "5dc0bd62dab9fe6a0b2145017b0ab54a377ad9dd278ac7ee5a0efc8ab72d0d9e"
+  },
+  {
+    "id": "2410.11831",
+    "key": "r241011831",
+    "title": "CoTracker3: Simpler and Better Point Tracking by Pseudo-Labelling Real Videos",
+    "authors": [
+      "Karaev, Nikita",
+      "Makarov, Iurii",
+      "Wang, Jianyuan",
+      "Neverova, Natalia",
+      "Vedaldi, Andrea",
+      "Rupprecht, Christian"
+    ],
+    "year": "2024",
+    "url": "https://arxiv.org/abs/2410.11831",
+    "sha256": "f6cee329d8e9e5e1228a3fc58f61c8707502ea617191b56b4e96fbee14b3b520"
+  },
+  {
+    "id": "2306.08637",
+    "key": "r230608637",
+    "title": "TAPIR: Tracking Any Point with per-frame Initialization and temporal Refinement",
+    "authors": [
+      "Doersch, Carl",
+      "Yang, Yi",
+      "Vecerik, Mel",
+      "Gokay, Dilara",
+      "Gupta, Ankush",
+      "Aytar, Yusuf",
+      "Carreira, Joao",
+      "Zisserman, Andrew"
+    ],
+    "year": "2023",
+    "url": "https://arxiv.org/abs/2306.08637",
+    "sha256": "862ca6011d351cca5f29a373eef338e362a5cd1442b34fe958ac85f1015cd12e"
+  },
+  {
+    "id": "2211.03726",
+    "key": "r221103726",
+    "title": "TAP-Vid: A Benchmark for Tracking Any Point in a Video",
+    "authors": [
+      "Doersch, Carl",
+      "Gupta, Ankush",
+      "Markeeva, Larisa",
+      "Recasens, Adri\u00e0",
+      "Smaira, Lucas",
+      "Aytar, Yusuf",
+      "Carreira, Jo\u00e3o",
+      "Zisserman, Andrew",
+      "Yang, Yi"
+    ],
+    "year": "2022",
+    "url": "https://arxiv.org/abs/2211.03726",
+    "sha256": "e8d3776cb4e81165cfc28cd1e819778cf71363aa278e17738ded5ae237788ce9"
+  },
+  {
+    "id": "2204.04153",
+    "key": "r220404153",
+    "title": "Particle Video Revisited: Tracking Through Occlusions Using Point Trajectories",
+    "authors": [
+      "Harley, Adam W.",
+      "Fang, Zhaoyuan",
+      "Fragkiadaki, Katerina"
+    ],
+    "year": "2022",
+    "url": "https://arxiv.org/abs/2204.04153",
+    "sha256": "e280d996ad1be3d4ea00f07a17298a9674397f15d3a919bde4d12ec616cb7171"
+  },
+  {
+    "id": "2003.12039",
+    "key": "r200312039",
+    "title": "RAFT: Recurrent All-Pairs Field Transforms for Optical Flow",
+    "authors": [
+      "Teed, Zachary",
+      "Deng, Jia"
+    ],
+    "year": "2020",
+    "url": "https://arxiv.org/abs/2003.12039",
+    "sha256": "ab7f334987076b730be9e27c54d78bf3e4ac3453c1a80ac09715bf7558a1c1f4"
+  },
+  {
+    "id": "2304.02643",
+    "key": "r230402643",
+    "title": "Segment Anything",
+    "authors": [
+      "Kirillov, Alexander",
+      "Mintun, Eric",
+      "Ravi, Nikhila",
+      "Mao, Hanzi",
+      "Rolland, Chloe",
+      "Gustafson, Laura",
+      "Xiao, Tete",
+      "Whitehead, Spencer",
+      "Berg, Alexander C.",
+      "Lo, Wan-Yen",
+      "Doll\u00e1r, Piotr",
+      "Girshick, Ross"
+    ],
+    "year": "2023",
+    "url": "https://arxiv.org/abs/2304.02643",
+    "sha256": "13771e3b479d29bbd1a623ccebe1bfcfd4bbdc830cdfd273dca06f1c0cc8e776"
+  },
+  {
+    "id": "2408.00714",
+    "key": "r240800714",
+    "title": "SAM 2: Segment Anything in Images and Videos",
+    "authors": [
+      "Ravi, Nikhila",
+      "Gabeur, Valentin",
+      "Hu, Yuan-Ting",
+      "Hu, Ronghang",
+      "Ryali, Chaitanya",
+      "Ma, Tengyu",
+      "Khedr, Haitham",
+      "R\u00e4dle, Roman",
+      "Rolland, Chloe",
+      "Gustafson, Laura",
+      "Mintun, Eric",
+      "Pan, Junting",
+      "Alwala, Kalyan Vasudev",
+      "Carion, Nicolas",
+      "Wu, Chao-Yuan",
+      "Girshick, Ross",
+      "Doll\u00e1r, Piotr",
+      "Feichtenhofer, Christoph"
+    ],
+    "year": "2024",
+    "url": "https://arxiv.org/abs/2408.00714",
+    "sha256": "acd49f90f732994602cb3d6c6900a9d3d380ea67617f8bb0d5aeffd64ff95cd9"
+  },
+  {
+    "id": "2304.07193",
+    "key": "r230407193",
+    "title": "DINOv2: Learning Robust Visual Features without Supervision",
+    "authors": [
+      "Oquab, Maxime",
+      "Darcet, Timoth\u00e9e",
+      "Moutakanni, Th\u00e9o",
+      "Vo, Huy",
+      "Szafraniec, Marc",
+      "Khalidov, Vasil",
+      "Fernandez, Pierre",
+      "Haziza, Daniel",
+      "Massa, Francisco",
+      "El-Nouby, Alaaeldin",
+      "Assran, Mahmoud",
+      "Ballas, Nicolas",
+      "Galuba, Wojciech",
+      "Howes, Russell",
+      "Huang, Po-Yao",
+      "Li, Shang-Wen",
+      "Misra, Ishan",
+      "Rabbat, Michael",
+      "Sharma, Vasu",
+      "Synnaeve, Gabriel",
+      "Xu, Hu",
+      "Jegou, Herv\u00e9",
+      "Mairal, Julien",
+      "Labatut, Patrick",
+      "Joulin, Armand",
+      "Bojanowski, Piotr"
+    ],
+    "year": "2023",
+    "url": "https://arxiv.org/abs/2304.07193",
+    "sha256": "48273e4bd30cfeb9f4765771253e6f6e4b82d8d3b4dfb83192e508d575572c63"
+  },
+  {
+    "id": "2005.12872",
+    "key": "r200512872",
+    "title": "End-to-End Object Detection with Transformers",
+    "authors": [
+      "Carion, Nicolas",
+      "Massa, Francisco",
+      "Synnaeve, Gabriel",
+      "Usunier, Nicolas",
+      "Kirillov, Alexander",
+      "Zagoruyko, Sergey"
+    ],
+    "year": "2020",
+    "url": "https://arxiv.org/abs/2005.12872",
+    "sha256": "0fcc2cfb874f117d8612a498f1640f0b68c1864299f568fcfe3d4db0da815eb3"
+  },
+  {
+    "id": "1602.00763",
+    "key": "r160200763",
+    "title": "Simple Online and Realtime Tracking",
+    "authors": [
+      "Bewley, Alex",
+      "Ge, Zongyuan",
+      "Ott, Lionel",
+      "Ramos, Fabio",
+      "Upcroft, Ben"
+    ],
+    "year": "2016",
+    "url": "https://arxiv.org/abs/1602.00763",
+    "sha256": "065c6a04bb02aedf720a3d3ee7670bbb5558195b7b716bc07d0d92746f972c3a"
+  },
+  {
+    "id": "1703.07402",
+    "key": "r170307402",
+    "title": "Simple Online and Realtime Tracking with a Deep Association Metric",
+    "authors": [
+      "Wojke, Nicolai",
+      "Bewley, Alex",
+      "Paulus, Dietrich"
+    ],
+    "year": "2017",
+    "url": "https://arxiv.org/abs/1703.07402",
+    "sha256": "b6a97adb78586324ab72c99c057469a41039a861e91930a9f05ebebfd457129c"
+  },
+  {
+    "id": "2110.06864",
+    "key": "r211006864",
+    "title": "ByteTrack: Multi-Object Tracking by Associating Every Detection Box",
+    "authors": [
+      "Zhang, Yifu",
+      "Sun, Peize",
+      "Jiang, Yi",
+      "Yu, Dongdong",
+      "Weng, Fucheng",
+      "Yuan, Zehuan",
+      "Luo, Ping",
+      "Liu, Wenyu",
+      "Wang, Xinggang"
+    ],
+    "year": "2021",
+    "url": "https://arxiv.org/abs/2110.06864",
+    "sha256": "26b4b6d533fa185f3507fcd92690f4c5ce28e5ed051f7d056db40713baf47329"
+  },
+  {
+    "id": "2203.14360",
+    "key": "r220314360",
+    "title": "Observation-Centric SORT: Rethinking SORT for Robust Multi-Object Tracking",
+    "authors": [
+      "Cao, Jinkun",
+      "Pang, Jiangmiao",
+      "Weng, Xinshuo",
+      "Khirodkar, Rawal",
+      "Kitani, Kris"
+    ],
+    "year": "2022",
+    "url": "https://arxiv.org/abs/2203.14360",
+    "sha256": "ebd1862b0c98c07e807c2918dbcb3d088581193921e027b62f296e58bde1fd9c"
+  },
+  {
+    "id": "2101.02702",
+    "key": "r210102702",
+    "title": "TrackFormer: Multi-Object Tracking with Transformers",
+    "authors": [
+      "Meinhardt, Tim",
+      "Kirillov, Alexander",
+      "Leal-Taixe, Laura",
+      "Feichtenhofer, Christoph"
+    ],
+    "year": "2021",
+    "url": "https://arxiv.org/abs/2101.02702",
+    "sha256": "680a899ee607b5337458d640675a746a6d26fd5cb23392cbaad8aa118ec6fb2f"
+  },
+  {
+    "id": "2105.03247",
+    "key": "r210503247",
+    "title": "MOTR: End-to-End Multiple-Object Tracking with Transformer",
+    "authors": [
+      "Zeng, Fangao",
+      "Dong, Bin",
+      "Zhang, Yuang",
+      "Wang, Tiancai",
+      "Zhang, Xiangyu",
+      "Wei, Yichen"
+    ],
+    "year": "2021",
+    "url": "https://arxiv.org/abs/2105.03247",
+    "sha256": "218acf076332f4730ed71f67248c21817efb4f6e1307c619ea46961a46e9be00"
+  },
+  {
+    "id": "2006.15055",
+    "key": "r200615055",
+    "title": "Object-Centric Learning with Slot Attention",
+    "authors": [
+      "Locatello, Francesco",
+      "Weissenborn, Dirk",
+      "Unterthiner, Thomas",
+      "Mahendran, Aravindh",
+      "Heigold, Georg",
+      "Uszkoreit, Jakob",
+      "Dosovitskiy, Alexey",
+      "Kipf, Thomas"
+    ],
+    "year": "2020",
+    "url": "https://arxiv.org/abs/2006.15055",
+    "sha256": "3223eb2c8ea911cdb6bf27dda23427a175a0ba5cd3a5c28aaf524a4d328d215f"
+  },
+  {
+    "id": "2111.12594",
+    "key": "r211112594",
+    "title": "Conditional Object-Centric Learning from Video",
+    "authors": [
+      "Kipf, Thomas",
+      "Elsayed, Gamaleldin F.",
+      "Mahendran, Aravindh",
+      "Stone, Austin",
+      "Sabour, Sara",
+      "Heigold, Georg",
+      "Jonschkowski, Rico",
+      "Dosovitskiy, Alexey",
+      "Greff, Klaus"
+    ],
+    "year": "2021",
+    "url": "https://arxiv.org/abs/2111.12594",
+    "sha256": "bf9794235dc8e876bbec6b3ffbf8fdffb81b95c9a508cd02b59f4195c37c5a2b"
+  },
+  {
+    "id": "2210.05861",
+    "key": "r221005861",
+    "title": "SlotFormer: Unsupervised Visual Dynamics Simulation with Object-Centric Models",
+    "authors": [
+      "Wu, Ziyi",
+      "Dvornik, Nikita",
+      "Greff, Klaus",
+      "Kipf, Thomas",
+      "Garg, Animesh"
+    ],
+    "year": "2022",
+    "url": "https://arxiv.org/abs/2210.05861",
+    "sha256": "ff375acd9c1b6e11c8ba24e850d9fc0559715e51d3256b1192e9eb4c7ce990a9"
+  },
+  {
+    "id": "1903.00450",
+    "key": "r190300450",
+    "title": "Multi-Object Representation Learning with Iterative Variational Inference",
+    "authors": [
+      "Greff, Klaus",
+      "Kaufman, Rapha\u00ebl Lopez",
+      "Kabra, Rishabh",
+      "Watters, Nick",
+      "Burgess, Chris",
+      "Zoran, Daniel",
+      "Matthey, Loic",
+      "Botvinick, Matthew",
+      "Lerchner, Alexander"
+    ],
+    "year": "2019",
+    "url": "https://arxiv.org/abs/1903.00450",
+    "sha256": "6322893cef416011db95befb20305eef9e6d919be435d17cf623039eb31f493c"
+  },
+  {
+    "id": "1901.11390",
+    "key": "r190111390",
+    "title": "MONet: Unsupervised Scene Decomposition and Representation",
+    "authors": [
+      "Burgess, Christopher P.",
+      "Matthey, Loic",
+      "Watters, Nicholas",
+      "Kabra, Rishabh",
+      "Higgins, Irina",
+      "Botvinick, Matt",
+      "Lerchner, Alexander"
+    ],
+    "year": "2019",
+    "url": "https://arxiv.org/abs/1901.11390",
+    "sha256": "9bbd9ef930748073e656bd0df55122d4bd116c465b62f8b208e184245817ca28"
+  },
+  {
+    "id": "1612.06890",
+    "key": "r161206890",
+    "title": "CLEVR: A Diagnostic Dataset for Compositional Language and Elementary Visual Reasoning",
+    "authors": [
+      "Johnson, Justin",
+      "Hariharan, Bharath",
+      "van der Maaten, Laurens",
+      "Fei-Fei, Li",
+      "Zitnick, C. Lawrence",
+      "Girshick, Ross"
+    ],
+    "year": "2016",
+    "url": "https://arxiv.org/abs/1612.06890",
+    "sha256": "98c4f90864c3bb2ef1c6a9d0e6939a2cd5864674cc539f5d2006728d322391c2"
+  },
+  {
+    "id": "1910.01442",
+    "key": "r191001442",
+    "title": "CLEVRER: CoLlision Events for Video REpresentation and Reasoning",
+    "authors": [
+      "Yi, Kexin",
+      "Gan, Chuang",
+      "Li, Yunzhu",
+      "Kohli, Pushmeet",
+      "Wu, Jiajun",
+      "Torralba, Antonio",
+      "Tenenbaum, Joshua B."
+    ],
+    "year": "2019",
+    "url": "https://arxiv.org/abs/1910.01442",
+    "sha256": "299a8131d3a5ea833156fdebe6f110b0168726e5eb4ca82ddf1cbdc18164c09d"
+  },
+  {
+    "id": "1910.04744",
+    "key": "r191004744",
+    "title": "CATER: A diagnostic dataset for Compositional Actions and TEmporal Reasoning",
+    "authors": [
+      "Girdhar, Rohit",
+      "Ramanan, Deva"
+    ],
+    "year": "2019",
+    "url": "https://arxiv.org/abs/1910.04744",
+    "sha256": "d97381d886510ae98a816f2bc88c0f5f319cdef26d43d3ac4fd7303da9cb1d3a"
+  },
+  {
+    "id": "2203.03570",
+    "key": "r220303570",
+    "title": "Kubric: A scalable dataset generator",
+    "authors": [
+      "Greff, Klaus",
+      "Belletti, Francois",
+      "Beyer, Lucas",
+      "Doersch, Carl",
+      "Du, Yilun",
+      "Duckworth, Daniel",
+      "Fleet, David J.",
+      "Gnanapragasam, Dan",
+      "Golemo, Florian",
+      "Herrmann, Charles",
+      "Kipf, Thomas",
+      "Kundu, Abhijit",
+      "Lagun, Dmitry",
+      "Laradji, Issam",
+      "Hsueh-Ti",
+      "Liu",
+      "Meyer, Henning",
+      "Miao, Yishu",
+      "Nowrouzezahrai, Derek",
+      "Oztireli, Cengiz",
+      "Pot, Etienne",
+      "Radwan, Noha",
+      "Rebain, Daniel",
+      "Sabour, Sara",
+      "Sajjadi, Mehdi S. M.",
+      "Sela, Matan",
+      "Sitzmann, Vincent",
+      "Stone, Austin",
+      "Sun, Deqing",
+      "Vora, Suhani",
+      "Wang, Ziyu",
+      "Wu, Tianhao",
+      "Yi, Kwang Moo",
+      "Zhong, Fangcheng",
+      "Tagliasacchi, Andrea"
+    ],
+    "year": "2022",
+    "url": "https://arxiv.org/abs/2203.03570",
+    "sha256": "6d58bf20280703879d8485e98dd6c3b0e17789b4971a41e7242cb76455fa60df"
+  },
+  {
+    "id": "2106.08261",
+    "key": "r210608261",
+    "title": "Physion: Evaluating Physical Prediction from Vision in Humans and Machines",
+    "authors": [
+      "Bear, Daniel M.",
+      "Wang, Elias",
+      "Mrowca, Damian",
+      "Binder, Felix J.",
+      "Tung, Hsiao-Yu Fish",
+      "Pramod, R. T.",
+      "Holdaway, Cameron",
+      "Tao, Sirui",
+      "Smith, Kevin",
+      "Sun, Fan-Yun",
+      "Fei-Fei, Li",
+      "Kanwisher, Nancy",
+      "Tenenbaum, Joshua B.",
+      "Yamins, Daniel L. K.",
+      "Fan, Judith E."
+    ],
+    "year": "2021",
+    "url": "https://arxiv.org/abs/2106.08261",
+    "sha256": "22c4cf00945febbaee414e52c858145c25559d9c7c4198173779ffd1c7b18960"
+  },
+  {
+    "id": "1803.07616",
+    "key": "r180307616",
+    "title": "IntPhys: A Framework and Benchmark for Visual Intuitive Physics Reasoning",
+    "authors": [
+      "Riochet, Ronan",
+      "Castro, Mario Ynocente",
+      "Bernard, Mathieu",
+      "Lerer, Adam",
+      "Fergus, Rob",
+      "Izard, V\u00e9ronique",
+      "Dupoux, Emmanuel"
+    ],
+    "year": "2018",
+    "url": "https://arxiv.org/abs/1803.07616",
+    "sha256": "d3f6d118bdb92ceb8ed7491e392125ff5bfec13373a50503e6e5744eeb762c82"
+  },
+  {
+    "id": "2305.13786",
+    "key": "r230513786",
+    "title": "Perception Test: A Diagnostic Benchmark for Multimodal Video Models",
+    "authors": [
+      "P\u0103tr\u0103ucean, Viorica",
+      "Smaira, Lucas",
+      "Gupta, Ankush",
+      "Continente, Adri\u00e0 Recasens",
+      "Markeeva, Larisa",
+      "Banarse, Dylan",
+      "Koppula, Skanda",
+      "Heyward, Joseph",
+      "Malinowski, Mateusz",
+      "Yang, Yi",
+      "Doersch, Carl",
+      "Matejovicova, Tatiana",
+      "Sulsky, Yury",
+      "Miech, Antoine",
+      "Frechette, Alex",
+      "Klimczak, Hanna",
+      "Koster, Raphael",
+      "Zhang, Junlin",
+      "Winkler, Stephanie",
+      "Aytar, Yusuf",
+      "Osindero, Simon",
+      "Damen, Dima",
+      "Zisserman, Andrew",
+      "Carreira, Jo\u00e3o"
+    ],
+    "year": "2023",
+    "url": "https://arxiv.org/abs/2305.13786",
+    "sha256": "a27fa9a8f692c95f500c1555c083bf7f423c62504adda9cda17b829c9fb2d99e"
+  },
+  {
+    "id": "2308.09126",
+    "key": "r230809126",
+    "title": "EgoSchema: A Diagnostic Benchmark for Very Long-form Video Language Understanding",
+    "authors": [
+      "Mangalam, Karttikeya",
+      "Akshulakov, Raiymbek",
+      "Malik, Jitendra"
+    ],
+    "year": "2023",
+    "url": "https://arxiv.org/abs/2308.09126",
+    "sha256": "48cedb6e2629c8b835f4317e32caf285d768be1a6a28a205ae3c8b6e56568bc3"
+  },
+  {
+    "id": "2110.07058",
+    "key": "r211007058",
+    "title": "Ego4D: Around the World in 3,000 Hours of Egocentric Video",
+    "authors": [
+      "Grauman, Kristen",
+      "Westbury, Andrew",
+      "Byrne, Eugene",
+      "Chavis, Zachary",
+      "Furnari, Antonino",
+      "Girdhar, Rohit",
+      "Hamburger, Jackson",
+      "Jiang, Hao",
+      "Liu, Miao",
+      "Liu, Xingyu",
+      "Martin, Miguel",
+      "Nagarajan, Tushar",
+      "Radosavovic, Ilija",
+      "Ramakrishnan, Santhosh Kumar",
+      "Ryan, Fiona",
+      "Sharma, Jayant",
+      "Wray, Michael",
+      "Xu, Mengmeng",
+      "Xu, Eric Zhongcong",
+      "Zhao, Chen",
+      "Bansal, Siddhant",
+      "Batra, Dhruv",
+      "Cartillier, Vincent",
+      "Crane, Sean",
+      "Do, Tien",
+      "Doulaty, Morrie",
+      "Erapalli, Akshay",
+      "Feichtenhofer, Christoph",
+      "Fragomeni, Adriano",
+      "Fu, Qichen",
+      "Gebreselasie, Abrham",
+      "Gonzalez, Cristina",
+      "Hillis, James",
+      "Huang, Xuhua",
+      "Huang, Yifei",
+      "Jia, Wenqi",
+      "Khoo, Weslie",
+      "Kolar, Jachym",
+      "Kottur, Satwik",
+      "Kumar, Anurag",
+      "Landini, Federico",
+      "Li, Chao",
+      "Li, Yanghao",
+      "Li, Zhenqiang",
+      "Mangalam, Karttikeya",
+      "Modhugu, Raghava",
+      "Munro, Jonathan",
+      "Murrell, Tullie",
+      "Nishiyasu, Takumi",
+      "Price, Will",
+      "Puentes, Paola Ruiz",
+      "Ramazanova, Merey",
+      "Sari, Leda",
+      "Somasundaram, Kiran",
+      "Southerland, Audrey",
+      "Sugano, Yusuke",
+      "Tao, Ruijie",
+      "Vo, Minh",
+      "Wang, Yuchen",
+      "Wu, Xindi",
+      "Yagi, Takuma",
+      "Zhao, Ziwei",
+      "Zhu, Yunyi",
+      "Arbelaez, Pablo",
+      "Crandall, David",
+      "Damen, Dima",
+      "Farinella, Giovanni Maria",
+      "Fuegen, Christian",
+      "Ghanem, Bernard",
+      "Ithapu, Vamsi Krishna",
+      "Jawahar, C. V.",
+      "Joo, Hanbyul",
+      "Kitani, Kris",
+      "Li, Haizhou",
+      "Newcombe, Richard",
+      "Oliva, Aude",
+      "Park, Hyun Soo",
+      "Rehg, James M.",
+      "Sato, Yoichi",
+      "Shi, Jianbo",
+      "Shou, Mike Zheng",
+      "Torralba, Antonio",
+      "Torresani, Lorenzo",
+      "Yan, Mingfei",
+      "Malik, Jitendra"
+    ],
+    "year": "2021",
+    "url": "https://arxiv.org/abs/2110.07058",
+    "sha256": "675264488951bbbfb91711c058a7e5d54c9506f731d45603de05d78c7b71d25a"
+  },
+  {
+    "id": "1804.02748",
+    "key": "r180402748",
+    "title": "Scaling Egocentric Vision: The EPIC-KITCHENS Dataset",
+    "authors": [
+      "Damen, Dima",
+      "Doughty, Hazel",
+      "Farinella, Giovanni Maria",
+      "Fidler, Sanja",
+      "Furnari, Antonino",
+      "Kazakos, Evangelos",
+      "Moltisanti, Davide",
+      "Munro, Jonathan",
+      "Perrett, Toby",
+      "Price, Will",
+      "Wray, Michael"
+    ],
+    "year": "2018",
+    "url": "https://arxiv.org/abs/1804.02748",
+    "sha256": "b6845a8bd805c4284d982b3668411acd9da1e2abf0ffbe681268eb43f21eace6"
+  },
+  {
+    "id": "1010.3091",
+    "key": "r10103091",
+    "title": "Near-Optimal Bayesian Active Learning with Noisy Observations",
+    "authors": [
+      "Golovin, Daniel",
+      "Krause, Andreas",
+      "Ray, Debajyoti"
+    ],
+    "year": "2010",
+    "url": "https://arxiv.org/abs/1010.3091",
+    "sha256": "efef636e4f4adffb75dd5d756a7279287fc4b87d878ade7c47073b837acda77e"
+  },
+  {
+    "id": "1003.3967",
+    "key": "r10033967",
+    "title": "Adaptive Submodularity: Theory and Applications in Active Learning and Stochastic Optimization",
+    "authors": [
+      "Golovin, Daniel",
+      "Krause, Andreas"
+    ],
+    "year": "2010",
+    "url": "https://arxiv.org/abs/1003.3967",
+    "sha256": "eded4f0186475c9018670e27e8899ecd7c311ed3b5c62deffb22fafeec780fbf"
+  },
+  {
+    "id": "1901.09192",
+    "key": "r190109192",
+    "title": "SelectiveNet: A Deep Neural Network with an Integrated Reject Option",
+    "authors": [
+      "Geifman, Yonatan",
+      "El-Yaniv, Ran"
+    ],
+    "year": "2019",
+    "url": "https://arxiv.org/abs/1901.09192",
+    "sha256": "5850e98bc3a72e23c2dbaa5f16c0d7992f9bc2ba98f818e6841e3cd919f47793"
+  },
+  {
+    "id": "1706.04599",
+    "key": "r170604599",
+    "title": "On Calibration of Modern Neural Networks",
+    "authors": [
+      "Guo, Chuan",
+      "Pleiss, Geoff",
+      "Sun, Yu",
+      "Weinberger, Kilian Q."
+    ],
+    "year": "2017",
+    "url": "https://arxiv.org/abs/1706.04599",
+    "sha256": "bdcce0f6ecb8a7dc3b75015b42c9c0d29979db535a772e315ddd4daefc02961a"
+  },
+  {
+    "id": "2107.07511",
+    "key": "r210707511",
+    "title": "A Gentle Introduction to Conformal Prediction and Distribution-Free Uncertainty Quantification",
+    "authors": [
+      "Angelopoulos, Anastasios N.",
+      "Bates, Stephen"
+    ],
+    "year": "2021",
+    "url": "https://arxiv.org/abs/2107.07511",
+    "sha256": "d89a2286785920b88cd2215976f5ac4303cd105faa371ec0d994e53d601a54ff"
+  },
+  {
+    "id": "2009.14193",
+    "key": "r200914193",
+    "title": "Uncertainty Sets for Image Classifiers using Conformal Prediction",
+    "authors": [
+      "Angelopoulos, Anastasios",
+      "Bates, Stephen",
+      "Malik, Jitendra",
+      "Jordan, Michael I."
+    ],
+    "year": "2020",
+    "url": "https://arxiv.org/abs/2009.14193",
+    "sha256": "f170d0a7650ec587f24b272283329733975dfdd462e4cec657f360d855051d00"
+  },
+  {
+    "id": "1612.01474",
+    "key": "r161201474",
+    "title": "Simple and Scalable Predictive Uncertainty Estimation using Deep Ensembles",
+    "authors": [
+      "Lakshminarayanan, Balaji",
+      "Pritzel, Alexander",
+      "Blundell, Charles"
+    ],
+    "year": "2016",
+    "url": "https://arxiv.org/abs/1612.01474",
+    "sha256": "293bd7a6c2a6029ebb90432f0b85f7263b7363e352f410b4d891bc24e27ba927"
+  },
+  {
+    "id": "2207.07115",
+    "key": "r220707115",
+    "title": "XMem: Long-Term Video Object Segmentation with an Atkinson-Shiffrin Memory Model",
+    "authors": [
+      "Cheng, Ho Kei",
+      "Schwing, Alexander G."
+    ],
+    "year": "2022",
+    "url": "https://arxiv.org/abs/2207.07115",
+    "sha256": "301cded6466729eff039d2768b03f27ad6bef98f343eb2181b7b19755521e062"
+  },
+  {
+    "id": "2310.12982",
+    "key": "r231012982",
+    "title": "Putting the Object Back into Video Object Segmentation",
+    "authors": [
+      "Cheng, Ho Kei",
+      "Oh, Seoung Wug",
+      "Price, Brian",
+      "Lee, Joon-Young",
+      "Schwing, Alexander"
+    ],
+    "year": "2023",
+    "url": "https://arxiv.org/abs/2310.12982",
+    "sha256": "9b562f90681dca0d84d6645f8de1032785c165cc867b54be4b2f1e1aa991f8bf"
+  },
+  {
+    "id": "2411.11922",
+    "key": "r241111922",
+    "title": "SAMURAI: Adapting Segment Anything Model for Zero-Shot Visual Tracking with Motion-Aware Memory",
+    "authors": [
+      "Yang, Cheng-Yen",
+      "Huang, Hsiang-Wei",
+      "Chai, Wenhao",
+      "Jiang, Zhongyu",
+      "Hwang, Jenq-Neng"
+    ],
+    "year": "2024",
+    "url": "https://arxiv.org/abs/2411.11922",
+    "sha256": "7cd3fe893139e479ca0914712500ed063a3edc2040e3f2d2684b3ede727f45d7"
+  },
+  {
+    "id": "2410.16268",
+    "key": "r241016268",
+    "title": "SAM2Long: Enhancing SAM 2 for Long Video Segmentation with a Training-Free Memory Tree",
+    "authors": [
+      "Ding, Shuangrui",
+      "Qian, Rui",
+      "Dong, Xiaoyi",
+      "Zhang, Pan",
+      "Zang, Yuhang",
+      "Cao, Yuhang",
+      "Guo, Yuwei",
+      "Lin, Dahua",
+      "Wang, Jiaqi"
+    ],
+    "year": "2024",
+    "url": "https://arxiv.org/abs/2410.16268",
+    "sha256": "aca25a7cc25e31aa793bfadce8ce49abee97c9c9575267f5829d36230d4ce201"
+  },
+  {
+    "id": "2411.17576",
+    "key": "r241117576",
+    "title": "A Distractor-Aware Memory for Visual Object Tracking with SAM2",
+    "authors": [
+      "Videnovic, Jovana",
+      "Lukezic, Alan",
+      "Kristan, Matej"
+    ],
+    "year": "2024",
+    "url": "https://arxiv.org/abs/2411.17576",
+    "sha256": "da25194c19370357d07c357dd8637fde686dc6131e377ec43549dff1fb02ed0a"
+  },
+  {
+    "id": "2103.14258",
+    "key": "r210314258",
+    "title": "Learning to Track with Object Permanence",
+    "authors": [
+      "Tokmakov, Pavel",
+      "Li, Jie",
+      "Burgard, Wolfram",
+      "Gaidon, Adrien"
+    ],
+    "year": "2021",
+    "url": "https://arxiv.org/abs/2103.14258",
+    "sha256": "187dc9619271ff40c4604c651e2bf01362c5143fd6d2da19bb33a384c7c78f34"
+  },
+  {
+    "id": "2003.10469",
+    "key": "r200310469",
+    "title": "Learning Object Permanence from Video",
+    "authors": [
+      "Shamsian, Aviv",
+      "Kleinfeld, Ofri",
+      "Globerson, Amir",
+      "Chechik, Gal"
+    ],
+    "year": "2020",
+    "url": "https://arxiv.org/abs/2003.10469",
+    "sha256": "b08f34e5c11742a96ab5cc32d029f6fac7540ff99e552411b1b415a8f776ef7e"
+  },
+  {
+    "id": "2312.12433",
+    "key": "r231212433",
+    "title": "TAO-Amodal: A Benchmark for Tracking Any Object Amodally",
+    "authors": [
+      "Hsieh, Cheng-Yen",
+      "Chen, Kaihua",
+      "Dave, Achal",
+      "Khurana, Tarasha",
+      "Ramanan, Deva"
+    ],
+    "year": "2023",
+    "url": "https://arxiv.org/abs/2312.12433",
+    "sha256": "5f2a3cd09868877e3bdc58886fb47c15c7fa46e0684769369ca99832d66a37db"
+  }
+]

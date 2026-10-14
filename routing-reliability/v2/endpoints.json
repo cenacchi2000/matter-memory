@@ -1,0 +1,3810 @@
+[
+  {
+    "dataset": "rubric_office",
+    "clip": "confuse1",
+    "frame": 136,
+    "method": "appearance",
+    "inside_target": true,
+    "accepted": true,
+    "accepted_hit": true,
+    "accepted_miss": false,
+    "candidate": [
+      147.0,
+      161.0
+    ],
+    "association_gap": 2.6940274238586426,
+    "initial_anchor_cosine": 0.8370112180709839,
+    "evidence_age_s": 0.0
+  },
+  {
+    "dataset": "rubric_office",
+    "clip": "confuse1",
+    "frame": 136,
+    "method": "motion",
+    "inside_target": true,
+    "accepted": true,
+    "accepted_hit": true,
+    "accepted_miss": false,
+    "candidate": [
+      147.0,
+      161.0
+    ],
+    "association_gap": 4.102808475494385,
+    "initial_anchor_cosine": 0.8370112180709839,
+    "evidence_age_s": 0.0
+  },
+  {
+    "dataset": "rubric_office",
+    "clip": "confuse1",
+    "frame": 136,
+    "method": "mixture",
+    "inside_target": true,
+    "accepted": true,
+    "accepted_hit": true,
+    "accepted_miss": false,
+    "candidate": [
+      147.0,
+      161.0
+    ],
+    "association_gap": 4.099368095397949,
+    "initial_anchor_cosine": 0.8370112180709839,
+    "evidence_age_s": 0.0
+  },
+  {
+    "dataset": "rubric_office",
+    "clip": "confuse1",
+    "frame": 136,
+    "method": "mixture_adapt",
+    "inside_target": true,
+    "accepted": true,
+    "accepted_hit": true,
+    "accepted_miss": false,
+    "candidate": [
+      147.0,
+      161.0
+    ],
+    "association_gap": 4.347071170806885,
+    "initial_anchor_cosine": 0.8370112180709839,
+    "evidence_age_s": 0.0
+  },
+  {
+    "dataset": "rubric_office",
+    "clip": "confuse3",
+    "frame": 73,
+    "method": "appearance",
+    "inside_target": true,
+    "accepted": false,
+    "accepted_hit": false,
+    "accepted_miss": false,
+    "candidate": [
+      175.0,
+      63.0
+    ],
+    "association_gap": 0.8996767997741699,
+    "initial_anchor_cosine": 0.5036033391952515,
+    "evidence_age_s": 0.49999999999999994
+  },
+  {
+    "dataset": "rubric_office",
+    "clip": "confuse3",
+    "frame": 73,
+    "method": "motion",
+    "inside_target": false,
+    "accepted": false,
+    "accepted_hit": false,
+    "accepted_miss": false,
+    "candidate": [
+      315.0,
+      147.0
+    ],
+    "association_gap": 0.7469590902328491,
+    "initial_anchor_cosine": 0.1685049831867218,
+    "evidence_age_s": 0.49999999999999994
+  },
+  {
+    "dataset": "rubric_office",
+    "clip": "confuse3",
+    "frame": 73,
+    "method": "mixture",
+    "inside_target": true,
+    "accepted": false,
+    "accepted_hit": false,
+    "accepted_miss": false,
+    "candidate": [
+      175.0,
+      63.0
+    ],
+    "association_gap": 1.6665053367614746,
+    "initial_anchor_cosine": 0.5036033391952515,
+    "evidence_age_s": 0.49999999999999994
+  },
+  {
+    "dataset": "rubric_office",
+    "clip": "confuse3",
+    "frame": 73,
+    "method": "mixture_adapt",
+    "inside_target": true,
+    "accepted": false,
+    "accepted_hit": false,
+    "accepted_miss": false,
+    "candidate": [
+      175.0,
+      63.0
+    ],
+    "association_gap": 1.7074627876281738,
+    "initial_anchor_cosine": 0.5036033391952515,
+    "evidence_age_s": 0.49999999999999994
+  },
+  {
+    "dataset": "rubric_office",
+    "clip": "teaduck1",
+    "frame": 170,
+    "method": "appearance",
+    "inside_target": true,
+    "accepted": true,
+    "accepted_hit": true,
+    "accepted_miss": false,
+    "candidate": [
+      147.0,
+      133.0
+    ],
+    "association_gap": 1.9969391822814941,
+    "initial_anchor_cosine": 0.7836187481880188,
+    "evidence_age_s": 0.0
+  },
+  {
+    "dataset": "rubric_office",
+    "clip": "teaduck1",
+    "frame": 170,
+    "method": "motion",
+    "inside_target": true,
+    "accepted": true,
+    "accepted_hit": true,
+    "accepted_miss": false,
+    "candidate": [
+      147.0,
+      133.0
+    ],
+    "association_gap": 3.84610652923584,
+    "initial_anchor_cosine": 0.7836187481880188,
+    "evidence_age_s": 0.0
+  },
+  {
+    "dataset": "rubric_office",
+    "clip": "teaduck1",
+    "frame": 170,
+    "method": "mixture",
+    "inside_target": true,
+    "accepted": true,
+    "accepted_hit": true,
+    "accepted_miss": false,
+    "candidate": [
+      147.0,
+      133.0
+    ],
+    "association_gap": 3.557509422302246,
+    "initial_anchor_cosine": 0.7836187481880188,
+    "evidence_age_s": 0.0
+  },
+  {
+    "dataset": "rubric_office",
+    "clip": "teaduck1",
+    "frame": 170,
+    "method": "mixture_adapt",
+    "inside_target": true,
+    "accepted": true,
+    "accepted_hit": true,
+    "accepted_miss": false,
+    "candidate": [
+      147.0,
+      133.0
+    ],
+    "association_gap": 3.6681318283081055,
+    "initial_anchor_cosine": 0.7836187481880188,
+    "evidence_age_s": 0.0
+  },
+  {
+    "dataset": "rubric_office",
+    "clip": "teaduck2",
+    "frame": 195,
+    "method": "appearance",
+    "inside_target": true,
+    "accepted": true,
+    "accepted_hit": true,
+    "accepted_miss": false,
+    "candidate": [
+      175.0,
+      133.0
+    ],
+    "association_gap": 1.3661928176879883,
+    "initial_anchor_cosine": 0.6758753061294556,
+    "evidence_age_s": 0.0
+  },
+  {
+    "dataset": "rubric_office",
+    "clip": "teaduck2",
+    "frame": 195,
+    "method": "motion",
+    "inside_target": true,
+    "accepted": true,
+    "accepted_hit": true,
+    "accepted_miss": false,
+    "candidate": [
+      175.0,
+      133.0
+    ],
+    "association_gap": 2.884551525115967,
+    "initial_anchor_cosine": 0.6758753061294556,
+    "evidence_age_s": 0.0
+  },
+  {
+    "dataset": "rubric_office",
+    "clip": "teaduck2",
+    "frame": 195,
+    "method": "mixture",
+    "inside_target": true,
+    "accepted": true,
+    "accepted_hit": true,
+    "accepted_miss": false,
+    "candidate": [
+      175.0,
+      133.0
+    ],
+    "association_gap": 2.9233031272888184,
+    "initial_anchor_cosine": 0.6758753061294556,
+    "evidence_age_s": 0.0
+  },
+  {
+    "dataset": "rubric_office",
+    "clip": "teaduck2",
+    "frame": 195,
+    "method": "mixture_adapt",
+    "inside_target": true,
+    "accepted": true,
+    "accepted_hit": true,
+    "accepted_miss": false,
+    "candidate": [
+      175.0,
+      133.0
+    ],
+    "association_gap": 2.9060397148132324,
+    "initial_anchor_cosine": 0.6758753061294556,
+    "evidence_age_s": 0.0
+  },
+  {
+    "dataset": "rubric_office",
+    "clip": "teaduck3_reveal",
+    "frame": 195,
+    "method": "appearance",
+    "inside_target": true,
+    "accepted": true,
+    "accepted_hit": true,
+    "accepted_miss": false,
+    "candidate": [
+      203.0,
+      133.0
+    ],
+    "association_gap": 2.6040401458740234,
+    "initial_anchor_cosine": 0.6514410376548767,
+    "evidence_age_s": 0.0
+  },
+  {
+    "dataset": "rubric_office",
+    "clip": "teaduck3_reveal",
+    "frame": 195,
+    "method": "motion",
+    "inside_target": true,
+    "accepted": true,
+    "accepted_hit": true,
+    "accepted_miss": false,
+    "candidate": [
+      203.0,
+      133.0
+    ],
+    "association_gap": 4.173257350921631,
+    "initial_anchor_cosine": 0.6514410376548767,
+    "evidence_age_s": 0.0
+  },
+  {
+    "dataset": "rubric_office",
+    "clip": "teaduck3_reveal",
+    "frame": 195,
+    "method": "mixture",
+    "inside_target": true,
+    "accepted": true,
+    "accepted_hit": true,
+    "accepted_miss": false,
+    "candidate": [
+      203.0,
+      133.0
+    ],
+    "association_gap": 4.1587700843811035,
+    "initial_anchor_cosine": 0.6514410376548767,
+    "evidence_age_s": 0.0
+  },
+  {
+    "dataset": "rubric_office",
+    "clip": "teaduck3_reveal",
+    "frame": 195,
+    "method": "mixture_adapt",
+    "inside_target": true,
+    "accepted": true,
+    "accepted_hit": true,
+    "accepted_miss": false,
+    "candidate": [
+      203.0,
+      133.0
+    ],
+    "association_gap": 4.310232639312744,
+    "initial_anchor_cosine": 0.6514410376548767,
+    "evidence_age_s": 0.0
+  },
+  {
+    "dataset": "rubric_office",
+    "clip": "teaduck4_reveal",
+    "frame": 160,
+    "method": "appearance",
+    "inside_target": true,
+    "accepted": true,
+    "accepted_hit": true,
+    "accepted_miss": false,
+    "candidate": [
+      133.0,
+      119.0
+    ],
+    "association_gap": 1.513040542602539,
+    "initial_anchor_cosine": 0.8026178479194641,
+    "evidence_age_s": 0.0
+  },
+  {
+    "dataset": "rubric_office",
+    "clip": "teaduck4_reveal",
+    "frame": 160,
+    "method": "motion",
+    "inside_target": true,
+    "accepted": true,
+    "accepted_hit": true,
+    "accepted_miss": false,
+    "candidate": [
+      133.0,
+      119.0
+    ],
+    "association_gap": 5.048059463500977,
+    "initial_anchor_cosine": 0.8026178479194641,
+    "evidence_age_s": 0.0
+  },
+  {
+    "dataset": "rubric_office",
+    "clip": "teaduck4_reveal",
+    "frame": 160,
+    "method": "mixture",
+    "inside_target": true,
+    "accepted": true,
+    "accepted_hit": true,
+    "accepted_miss": false,
+    "candidate": [
+      133.0,
+      119.0
+    ],
+    "association_gap": 5.0496954917907715,
+    "initial_anchor_cosine": 0.8026178479194641,
+    "evidence_age_s": 0.0
+  },
+  {
+    "dataset": "rubric_office",
+    "clip": "teaduck4_reveal",
+    "frame": 160,
+    "method": "mixture_adapt",
+    "inside_target": true,
+    "accepted": true,
+    "accepted_hit": true,
+    "accepted_miss": false,
+    "candidate": [
+      133.0,
+      119.0
+    ],
+    "association_gap": 5.3480753898620605,
+    "initial_anchor_cosine": 0.8026178479194641,
+    "evidence_age_s": 0.0
+  },
+  {
+    "dataset": "rubric_office",
+    "clip": "teaduck4_reveal",
+    "frame": 255,
+    "method": "appearance",
+    "inside_target": true,
+    "accepted": true,
+    "accepted_hit": true,
+    "accepted_miss": false,
+    "candidate": [
+      161.0,
+      133.0
+    ],
+    "association_gap": 0.5901079177856445,
+    "initial_anchor_cosine": 0.8076248168945312,
+    "evidence_age_s": 0.0
+  },
+  {
+    "dataset": "rubric_office",
+    "clip": "teaduck4_reveal",
+    "frame": 255,
+    "method": "motion",
+    "inside_target": false,
+    "accepted": true,
+    "accepted_hit": false,
+    "accepted_miss": true,
+    "candidate": [
+      245.0,
+      119.0
+    ],
+    "association_gap": 4.173302173614502,
+    "initial_anchor_cosine": 0.758449137210846,
+    "evidence_age_s": 0.0
+  },
+  {
+    "dataset": "rubric_office",
+    "clip": "teaduck4_reveal",
+    "frame": 255,
+    "method": "mixture",
+    "inside_target": false,
+    "accepted": true,
+    "accepted_hit": false,
+    "accepted_miss": true,
+    "candidate": [
+      245.0,
+      119.0
+    ],
+    "association_gap": 4.17418909072876,
+    "initial_anchor_cosine": 0.758449137210846,
+    "evidence_age_s": 0.0
+  },
+  {
+    "dataset": "rubric_office",
+    "clip": "teaduck4_reveal",
+    "frame": 255,
+    "method": "mixture_adapt",
+    "inside_target": false,
+    "accepted": true,
+    "accepted_hit": false,
+    "accepted_miss": true,
+    "candidate": [
+      245.0,
+      119.0
+    ],
+    "association_gap": 4.426869869232178,
+    "initial_anchor_cosine": 0.758449137210846,
+    "evidence_age_s": 0.0
+  },
+  {
+    "dataset": "rubric_office",
+    "clip": "mugduck2_reveal",
+    "frame": 200,
+    "method": "appearance",
+    "inside_target": true,
+    "accepted": false,
+    "accepted_hit": false,
+    "accepted_miss": false,
+    "candidate": [
+      119.0,
+      161.0
+    ],
+    "association_gap": 0.37415266036987305,
+    "initial_anchor_cosine": 0.49660784006118774,
+    "evidence_age_s": 3.766666666666663
+  },
+  {
+    "dataset": "rubric_office",
+    "clip": "mugduck2_reveal",
+    "frame": 200,
+    "method": "motion",
+    "inside_target": true,
+    "accepted": false,
+    "accepted_hit": false,
+    "accepted_miss": false,
+    "candidate": [
+      119.0,
+      161.0
+    ],
+    "association_gap": 0.3741527199745178,
+    "initial_anchor_cosine": 0.49660784006118774,
+    "evidence_age_s": 3.7999999999999963
+  },
+  {
+    "dataset": "rubric_office",
+    "clip": "mugduck2_reveal",
+    "frame": 200,
+    "method": "mixture",
+    "inside_target": true,
+    "accepted": false,
+    "accepted_hit": false,
+    "accepted_miss": false,
+    "candidate": [
+      119.0,
+      161.0
+    ],
+    "association_gap": 0.7003097534179688,
+    "initial_anchor_cosine": 0.49660784006118774,
+    "evidence_age_s": 3.7999999999999963
+  },
+  {
+    "dataset": "rubric_office",
+    "clip": "mugduck2_reveal",
+    "frame": 200,
+    "method": "mixture_adapt",
+    "inside_target": true,
+    "accepted": false,
+    "accepted_hit": false,
+    "accepted_miss": false,
+    "candidate": [
+      119.0,
+      161.0
+    ],
+    "association_gap": 0.7324047088623047,
+    "initial_anchor_cosine": 0.49660784006118774,
+    "evidence_age_s": 3.7999999999999963
+  },
+  {
+    "dataset": "rubric_office",
+    "clip": "mugduck3_reveal",
+    "frame": 195,
+    "method": "appearance",
+    "inside_target": true,
+    "accepted": false,
+    "accepted_hit": false,
+    "accepted_miss": false,
+    "candidate": [
+      133.0,
+      147.0
+    ],
+    "association_gap": 0.5905661582946777,
+    "initial_anchor_cosine": 0.49577924609184265,
+    "evidence_age_s": 5.2333333333333245
+  },
+  {
+    "dataset": "rubric_office",
+    "clip": "mugduck3_reveal",
+    "frame": 195,
+    "method": "motion",
+    "inside_target": true,
+    "accepted": false,
+    "accepted_hit": false,
+    "accepted_miss": false,
+    "candidate": [
+      133.0,
+      147.0
+    ],
+    "association_gap": 0.5905662178993225,
+    "initial_anchor_cosine": 0.49577924609184265,
+    "evidence_age_s": 5.199999999999991
+  },
+  {
+    "dataset": "rubric_office",
+    "clip": "mugduck3_reveal",
+    "frame": 195,
+    "method": "mixture",
+    "inside_target": true,
+    "accepted": false,
+    "accepted_hit": false,
+    "accepted_miss": false,
+    "candidate": [
+      133.0,
+      147.0
+    ],
+    "association_gap": 0.6941571235656738,
+    "initial_anchor_cosine": 0.49577924609184265,
+    "evidence_age_s": 5.199999999999991
+  },
+  {
+    "dataset": "rubric_office",
+    "clip": "mugduck3_reveal",
+    "frame": 195,
+    "method": "mixture_adapt",
+    "inside_target": true,
+    "accepted": false,
+    "accepted_hit": false,
+    "accepted_miss": false,
+    "candidate": [
+      133.0,
+      147.0
+    ],
+    "association_gap": 0.6470422744750977,
+    "initial_anchor_cosine": 0.49577924609184265,
+    "evidence_age_s": 5.199999999999991
+  },
+  {
+    "dataset": "rubric_office",
+    "clip": "chips1_oof",
+    "frame": 160,
+    "method": "appearance",
+    "inside_target": true,
+    "accepted": true,
+    "accepted_hit": true,
+    "accepted_miss": false,
+    "candidate": [
+      133.0,
+      133.0
+    ],
+    "association_gap": 0.41754627227783203,
+    "initial_anchor_cosine": 0.9098954796791077,
+    "evidence_age_s": 0.0
+  },
+  {
+    "dataset": "rubric_office",
+    "clip": "chips1_oof",
+    "frame": 160,
+    "method": "motion",
+    "inside_target": true,
+    "accepted": true,
+    "accepted_hit": true,
+    "accepted_miss": false,
+    "candidate": [
+      133.0,
+      133.0
+    ],
+    "association_gap": 0.7306766510009766,
+    "initial_anchor_cosine": 0.9098954796791077,
+    "evidence_age_s": 0.0
+  },
+  {
+    "dataset": "rubric_office",
+    "clip": "chips1_oof",
+    "frame": 160,
+    "method": "mixture",
+    "inside_target": true,
+    "accepted": true,
+    "accepted_hit": true,
+    "accepted_miss": false,
+    "candidate": [
+      133.0,
+      133.0
+    ],
+    "association_gap": 0.75201416015625,
+    "initial_anchor_cosine": 0.9098954796791077,
+    "evidence_age_s": 0.0
+  },
+  {
+    "dataset": "rubric_office",
+    "clip": "chips1_oof",
+    "frame": 160,
+    "method": "mixture_adapt",
+    "inside_target": false,
+    "accepted": true,
+    "accepted_hit": false,
+    "accepted_miss": true,
+    "candidate": [
+      189.0,
+      133.0
+    ],
+    "association_gap": 1.5768756866455078,
+    "initial_anchor_cosine": 0.8564434051513672,
+    "evidence_age_s": 0.0
+  },
+  {
+    "dataset": "rubric_office",
+    "clip": "chips1_oof",
+    "frame": 280,
+    "method": "appearance",
+    "inside_target": true,
+    "accepted": false,
+    "accepted_hit": false,
+    "accepted_miss": false,
+    "candidate": [
+      133.0,
+      147.0
+    ],
+    "association_gap": 0.06307220458984375,
+    "initial_anchor_cosine": 0.8876814842224121,
+    "evidence_age_s": 0.1
+  },
+  {
+    "dataset": "rubric_office",
+    "clip": "chips1_oof",
+    "frame": 280,
+    "method": "motion",
+    "inside_target": false,
+    "accepted": true,
+    "accepted_hit": false,
+    "accepted_miss": true,
+    "candidate": [
+      49.0,
+      161.0
+    ],
+    "association_gap": 0.8286571502685547,
+    "initial_anchor_cosine": 0.81621915102005,
+    "evidence_age_s": 0.0
+  },
+  {
+    "dataset": "rubric_office",
+    "clip": "chips1_oof",
+    "frame": 280,
+    "method": "mixture",
+    "inside_target": false,
+    "accepted": true,
+    "accepted_hit": false,
+    "accepted_miss": true,
+    "candidate": [
+      49.0,
+      161.0
+    ],
+    "association_gap": 0.9235925674438477,
+    "initial_anchor_cosine": 0.81621915102005,
+    "evidence_age_s": 0.0
+  },
+  {
+    "dataset": "rubric_office",
+    "clip": "chips1_oof",
+    "frame": 280,
+    "method": "mixture_adapt",
+    "inside_target": false,
+    "accepted": true,
+    "accepted_hit": false,
+    "accepted_miss": true,
+    "candidate": [
+      49.0,
+      161.0
+    ],
+    "association_gap": 1.0999832153320312,
+    "initial_anchor_cosine": 0.81621915102005,
+    "evidence_age_s": 0.0
+  },
+  {
+    "dataset": "rubric_office",
+    "clip": "pump1_scan",
+    "frame": 150,
+    "method": "appearance",
+    "inside_target": true,
+    "accepted": true,
+    "accepted_hit": true,
+    "accepted_miss": false,
+    "candidate": [
+      119.0,
+      119.0
+    ],
+    "association_gap": 0.40954113006591797,
+    "initial_anchor_cosine": 0.8856859803199768,
+    "evidence_age_s": 0.0
+  },
+  {
+    "dataset": "rubric_office",
+    "clip": "pump1_scan",
+    "frame": 150,
+    "method": "motion",
+    "inside_target": false,
+    "accepted": false,
+    "accepted_hit": false,
+    "accepted_miss": false,
+    "candidate": [
+      175.0,
+      77.0
+    ],
+    "association_gap": 0.026422500610351562,
+    "initial_anchor_cosine": 0.8065716028213501,
+    "evidence_age_s": 0.03333333333333333
+  },
+  {
+    "dataset": "rubric_office",
+    "clip": "pump1_scan",
+    "frame": 150,
+    "method": "mixture",
+    "inside_target": true,
+    "accepted": true,
+    "accepted_hit": true,
+    "accepted_miss": false,
+    "candidate": [
+      119.0,
+      119.0
+    ],
+    "association_gap": 1.9863615036010742,
+    "initial_anchor_cosine": 0.8856859803199768,
+    "evidence_age_s": 0.0
+  },
+  {
+    "dataset": "rubric_office",
+    "clip": "pump1_scan",
+    "frame": 150,
+    "method": "mixture_adapt",
+    "inside_target": true,
+    "accepted": true,
+    "accepted_hit": true,
+    "accepted_miss": false,
+    "candidate": [
+      119.0,
+      119.0
+    ],
+    "association_gap": 2.150326728820801,
+    "initial_anchor_cosine": 0.8856859803199768,
+    "evidence_age_s": 0.0
+  },
+  {
+    "dataset": "rubric_office",
+    "clip": "pump1_scan",
+    "frame": 270,
+    "method": "appearance",
+    "inside_target": true,
+    "accepted": false,
+    "accepted_hit": false,
+    "accepted_miss": false,
+    "candidate": [
+      119.0,
+      91.0
+    ],
+    "association_gap": 0.06349754333496094,
+    "initial_anchor_cosine": 0.8918180465698242,
+    "evidence_age_s": 0.1
+  },
+  {
+    "dataset": "rubric_office",
+    "clip": "pump1_scan",
+    "frame": 270,
+    "method": "motion",
+    "inside_target": true,
+    "accepted": true,
+    "accepted_hit": true,
+    "accepted_miss": false,
+    "candidate": [
+      175.0,
+      77.0
+    ],
+    "association_gap": 2.002225875854492,
+    "initial_anchor_cosine": 0.8865265846252441,
+    "evidence_age_s": 0.0
+  },
+  {
+    "dataset": "rubric_office",
+    "clip": "pump1_scan",
+    "frame": 270,
+    "method": "mixture",
+    "inside_target": true,
+    "accepted": true,
+    "accepted_hit": true,
+    "accepted_miss": false,
+    "candidate": [
+      175.0,
+      77.0
+    ],
+    "association_gap": 1.359297752380371,
+    "initial_anchor_cosine": 0.8865265846252441,
+    "evidence_age_s": 0.0
+  },
+  {
+    "dataset": "rubric_office",
+    "clip": "pump1_scan",
+    "frame": 270,
+    "method": "mixture_adapt",
+    "inside_target": true,
+    "accepted": true,
+    "accepted_hit": true,
+    "accepted_miss": false,
+    "candidate": [
+      175.0,
+      77.0
+    ],
+    "association_gap": 1.3541927337646484,
+    "initial_anchor_cosine": 0.8865265846252441,
+    "evidence_age_s": 0.0
+  },
+  {
+    "dataset": "rubric_office",
+    "clip": "pumpcookie1_reveal",
+    "frame": 200,
+    "method": "appearance",
+    "inside_target": true,
+    "accepted": true,
+    "accepted_hit": true,
+    "accepted_miss": false,
+    "candidate": [
+      105.0,
+      119.0
+    ],
+    "association_gap": 0.1900463104248047,
+    "initial_anchor_cosine": 0.8897799849510193,
+    "evidence_age_s": 0.0
+  },
+  {
+    "dataset": "rubric_office",
+    "clip": "pumpcookie1_reveal",
+    "frame": 200,
+    "method": "motion",
+    "inside_target": true,
+    "accepted": true,
+    "accepted_hit": true,
+    "accepted_miss": false,
+    "candidate": [
+      147.0,
+      119.0
+    ],
+    "association_gap": 1.0624675750732422,
+    "initial_anchor_cosine": 0.8739427924156189,
+    "evidence_age_s": 0.0
+  },
+  {
+    "dataset": "rubric_office",
+    "clip": "pumpcookie1_reveal",
+    "frame": 200,
+    "method": "mixture",
+    "inside_target": true,
+    "accepted": true,
+    "accepted_hit": true,
+    "accepted_miss": false,
+    "candidate": [
+      105.0,
+      119.0
+    ],
+    "association_gap": 1.5749263763427734,
+    "initial_anchor_cosine": 0.8897799849510193,
+    "evidence_age_s": 0.0
+  },
+  {
+    "dataset": "rubric_office",
+    "clip": "pumpcookie1_reveal",
+    "frame": 200,
+    "method": "mixture_adapt",
+    "inside_target": true,
+    "accepted": true,
+    "accepted_hit": true,
+    "accepted_miss": false,
+    "candidate": [
+      105.0,
+      119.0
+    ],
+    "association_gap": 1.6764793395996094,
+    "initial_anchor_cosine": 0.8897799849510193,
+    "evidence_age_s": 0.0
+  },
+  {
+    "dataset": "rubric_office",
+    "clip": "bagduck1_move",
+    "frame": 230,
+    "method": "appearance",
+    "inside_target": false,
+    "accepted": false,
+    "accepted_hit": false,
+    "accepted_miss": false,
+    "candidate": [
+      189.0,
+      231.0
+    ],
+    "association_gap": 0.5921235084533691,
+    "initial_anchor_cosine": 0.392963171005249,
+    "evidence_age_s": 6.366666666666654
+  },
+  {
+    "dataset": "rubric_office",
+    "clip": "bagduck1_move",
+    "frame": 230,
+    "method": "motion",
+    "inside_target": false,
+    "accepted": false,
+    "accepted_hit": false,
+    "accepted_miss": false,
+    "candidate": [
+      189.0,
+      231.0
+    ],
+    "association_gap": 0.5921235084533691,
+    "initial_anchor_cosine": 0.392963171005249,
+    "evidence_age_s": 6.366666666666654
+  },
+  {
+    "dataset": "rubric_office",
+    "clip": "bagduck1_move",
+    "frame": 230,
+    "method": "mixture",
+    "inside_target": false,
+    "accepted": false,
+    "accepted_hit": false,
+    "accepted_miss": false,
+    "candidate": [
+      189.0,
+      231.0
+    ],
+    "association_gap": 0.4698314666748047,
+    "initial_anchor_cosine": 0.392963171005249,
+    "evidence_age_s": 6.366666666666654
+  },
+  {
+    "dataset": "rubric_office",
+    "clip": "bagduck1_move",
+    "frame": 230,
+    "method": "mixture_adapt",
+    "inside_target": false,
+    "accepted": false,
+    "accepted_hit": false,
+    "accepted_miss": false,
+    "candidate": [
+      189.0,
+      231.0
+    ],
+    "association_gap": 0.4711031913757324,
+    "initial_anchor_cosine": 0.392963171005249,
+    "evidence_age_s": 6.366666666666654
+  },
+  {
+    "dataset": "rubric_office",
+    "clip": "mugduck5_stay",
+    "frame": 140,
+    "method": "appearance",
+    "inside_target": false,
+    "accepted": false,
+    "accepted_hit": false,
+    "accepted_miss": false,
+    "candidate": [
+      77.0,
+      161.0
+    ],
+    "association_gap": 0.3417363166809082,
+    "initial_anchor_cosine": 0.548961877822876,
+    "evidence_age_s": 3.4999999999999973
+  },
+  {
+    "dataset": "rubric_office",
+    "clip": "mugduck5_stay",
+    "frame": 140,
+    "method": "motion",
+    "inside_target": true,
+    "accepted": false,
+    "accepted_hit": false,
+    "accepted_miss": false,
+    "candidate": [
+      189.0,
+      161.0
+    ],
+    "association_gap": 0.6517190933227539,
+    "initial_anchor_cosine": 0.5204838514328003,
+    "evidence_age_s": 3.4999999999999973
+  },
+  {
+    "dataset": "rubric_office",
+    "clip": "mugduck5_stay",
+    "frame": 140,
+    "method": "mixture",
+    "inside_target": false,
+    "accepted": false,
+    "accepted_hit": false,
+    "accepted_miss": false,
+    "candidate": [
+      77.0,
+      161.0
+    ],
+    "association_gap": 0.7394037246704102,
+    "initial_anchor_cosine": 0.548961877822876,
+    "evidence_age_s": 3.4999999999999973
+  },
+  {
+    "dataset": "rubric_office",
+    "clip": "mugduck5_stay",
+    "frame": 140,
+    "method": "mixture_adapt",
+    "inside_target": false,
+    "accepted": false,
+    "accepted_hit": false,
+    "accepted_miss": false,
+    "candidate": [
+      77.0,
+      161.0
+    ],
+    "association_gap": 0.6585221290588379,
+    "initial_anchor_cosine": 0.548961877822876,
+    "evidence_age_s": 3.4999999999999973
+  },
+  {
+    "dataset": "rubric_office",
+    "clip": "mugduck6_shuffle",
+    "frame": 210,
+    "method": "appearance",
+    "inside_target": false,
+    "accepted": false,
+    "accepted_hit": false,
+    "accepted_miss": false,
+    "candidate": [
+      217.0,
+      189.0
+    ],
+    "association_gap": 1.182466983795166,
+    "initial_anchor_cosine": 0.5860229730606079,
+    "evidence_age_s": 5.49999999999999
+  },
+  {
+    "dataset": "rubric_office",
+    "clip": "mugduck6_shuffle",
+    "frame": 210,
+    "method": "motion",
+    "inside_target": false,
+    "accepted": false,
+    "accepted_hit": false,
+    "accepted_miss": false,
+    "candidate": [
+      217.0,
+      189.0
+    ],
+    "association_gap": 1.212958812713623,
+    "initial_anchor_cosine": 0.5860229730606079,
+    "evidence_age_s": 5.49999999999999
+  },
+  {
+    "dataset": "rubric_office",
+    "clip": "mugduck6_shuffle",
+    "frame": 210,
+    "method": "mixture",
+    "inside_target": false,
+    "accepted": false,
+    "accepted_hit": false,
+    "accepted_miss": false,
+    "candidate": [
+      217.0,
+      189.0
+    ],
+    "association_gap": 1.4438362121582031,
+    "initial_anchor_cosine": 0.5860229730606079,
+    "evidence_age_s": 5.49999999999999
+  },
+  {
+    "dataset": "rubric_office",
+    "clip": "mugduck6_shuffle",
+    "frame": 210,
+    "method": "mixture_adapt",
+    "inside_target": false,
+    "accepted": false,
+    "accepted_hit": false,
+    "accepted_miss": false,
+    "candidate": [
+      217.0,
+      189.0
+    ],
+    "association_gap": 1.4811687469482422,
+    "initial_anchor_cosine": 0.5860229730606079,
+    "evidence_age_s": 5.49999999999999
+  },
+  {
+    "dataset": "rubric_office",
+    "clip": "mugduck7_shuffle",
+    "frame": 190,
+    "method": "appearance",
+    "inside_target": true,
+    "accepted": false,
+    "accepted_hit": false,
+    "accepted_miss": false,
+    "candidate": [
+      203.0,
+      217.0
+    ],
+    "association_gap": 0.23755931854248047,
+    "initial_anchor_cosine": 0.5635727643966675,
+    "evidence_age_s": 4.199999999999995
+  },
+  {
+    "dataset": "rubric_office",
+    "clip": "mugduck7_shuffle",
+    "frame": 190,
+    "method": "motion",
+    "inside_target": true,
+    "accepted": false,
+    "accepted_hit": false,
+    "accepted_miss": false,
+    "candidate": [
+      203.0,
+      217.0
+    ],
+    "association_gap": 0.6548423767089844,
+    "initial_anchor_cosine": 0.5635727643966675,
+    "evidence_age_s": 4.199999999999995
+  },
+  {
+    "dataset": "rubric_office",
+    "clip": "mugduck7_shuffle",
+    "frame": 190,
+    "method": "mixture",
+    "inside_target": true,
+    "accepted": false,
+    "accepted_hit": false,
+    "accepted_miss": false,
+    "candidate": [
+      203.0,
+      217.0
+    ],
+    "association_gap": 0.6028251647949219,
+    "initial_anchor_cosine": 0.5635727643966675,
+    "evidence_age_s": 4.199999999999995
+  },
+  {
+    "dataset": "rubric_office",
+    "clip": "mugduck7_shuffle",
+    "frame": 190,
+    "method": "mixture_adapt",
+    "inside_target": true,
+    "accepted": false,
+    "accepted_hit": false,
+    "accepted_miss": false,
+    "candidate": [
+      203.0,
+      217.0
+    ],
+    "association_gap": 0.6246128082275391,
+    "initial_anchor_cosine": 0.5635727643966675,
+    "evidence_age_s": 4.199999999999995
+  },
+  {
+    "dataset": "rubric_office",
+    "clip": "mugduck7_shuffle",
+    "frame": 210,
+    "method": "appearance",
+    "inside_target": true,
+    "accepted": false,
+    "accepted_hit": false,
+    "accepted_miss": false,
+    "candidate": [
+      189.0,
+      189.0
+    ],
+    "association_gap": 0.42717885971069336,
+    "initial_anchor_cosine": 0.544882595539093,
+    "evidence_age_s": 4.866666666666659
+  },
+  {
+    "dataset": "rubric_office",
+    "clip": "mugduck7_shuffle",
+    "frame": 210,
+    "method": "motion",
+    "inside_target": true,
+    "accepted": false,
+    "accepted_hit": false,
+    "accepted_miss": false,
+    "candidate": [
+      189.0,
+      189.0
+    ],
+    "association_gap": 0.15067815780639648,
+    "initial_anchor_cosine": 0.544882595539093,
+    "evidence_age_s": 4.866666666666659
+  },
+  {
+    "dataset": "rubric_office",
+    "clip": "mugduck7_shuffle",
+    "frame": 210,
+    "method": "mixture",
+    "inside_target": true,
+    "accepted": false,
+    "accepted_hit": false,
+    "accepted_miss": false,
+    "candidate": [
+      189.0,
+      189.0
+    ],
+    "association_gap": 0.4654879570007324,
+    "initial_anchor_cosine": 0.544882595539093,
+    "evidence_age_s": 4.866666666666659
+  },
+  {
+    "dataset": "rubric_office",
+    "clip": "mugduck7_shuffle",
+    "frame": 210,
+    "method": "mixture_adapt",
+    "inside_target": true,
+    "accepted": false,
+    "accepted_hit": false,
+    "accepted_miss": false,
+    "candidate": [
+      189.0,
+      189.0
+    ],
+    "association_gap": 0.3734092712402344,
+    "initial_anchor_cosine": 0.544882595539093,
+    "evidence_age_s": 4.866666666666659
+  },
+  {
+    "dataset": "rubric_office",
+    "clip": "handball1_wave",
+    "frame": 137,
+    "method": "appearance",
+    "inside_target": false,
+    "accepted": true,
+    "accepted_hit": false,
+    "accepted_miss": true,
+    "candidate": [
+      147.0,
+      231.0
+    ],
+    "association_gap": 4.072153091430664,
+    "initial_anchor_cosine": 0.6964979767799377,
+    "evidence_age_s": 0.0
+  },
+  {
+    "dataset": "rubric_office",
+    "clip": "handball1_wave",
+    "frame": 137,
+    "method": "motion",
+    "inside_target": false,
+    "accepted": true,
+    "accepted_hit": false,
+    "accepted_miss": true,
+    "candidate": [
+      147.0,
+      231.0
+    ],
+    "association_gap": 6.775182247161865,
+    "initial_anchor_cosine": 0.6964979767799377,
+    "evidence_age_s": 0.0
+  },
+  {
+    "dataset": "rubric_office",
+    "clip": "handball1_wave",
+    "frame": 137,
+    "method": "mixture",
+    "inside_target": false,
+    "accepted": true,
+    "accepted_hit": false,
+    "accepted_miss": true,
+    "candidate": [
+      147.0,
+      231.0
+    ],
+    "association_gap": 6.855075359344482,
+    "initial_anchor_cosine": 0.6964979767799377,
+    "evidence_age_s": 0.0
+  },
+  {
+    "dataset": "rubric_office",
+    "clip": "handball1_wave",
+    "frame": 137,
+    "method": "mixture_adapt",
+    "inside_target": false,
+    "accepted": true,
+    "accepted_hit": false,
+    "accepted_miss": true,
+    "candidate": [
+      147.0,
+      231.0
+    ],
+    "association_gap": 6.935542106628418,
+    "initial_anchor_cosine": 0.6964979767799377,
+    "evidence_age_s": 0.0
+  },
+  {
+    "dataset": "rubric_office",
+    "clip": "handball2_boxoccl",
+    "frame": 210,
+    "method": "appearance",
+    "inside_target": true,
+    "accepted": true,
+    "accepted_hit": true,
+    "accepted_miss": false,
+    "candidate": [
+      147.0,
+      217.0
+    ],
+    "association_gap": 3.9672508239746094,
+    "initial_anchor_cosine": 0.7089443206787109,
+    "evidence_age_s": 0.0
+  },
+  {
+    "dataset": "rubric_office",
+    "clip": "handball2_boxoccl",
+    "frame": 210,
+    "method": "motion",
+    "inside_target": true,
+    "accepted": true,
+    "accepted_hit": true,
+    "accepted_miss": false,
+    "candidate": [
+      147.0,
+      217.0
+    ],
+    "association_gap": 6.390647888183594,
+    "initial_anchor_cosine": 0.7089443206787109,
+    "evidence_age_s": 0.0
+  },
+  {
+    "dataset": "rubric_office",
+    "clip": "handball2_boxoccl",
+    "frame": 210,
+    "method": "mixture",
+    "inside_target": true,
+    "accepted": true,
+    "accepted_hit": true,
+    "accepted_miss": false,
+    "candidate": [
+      147.0,
+      217.0
+    ],
+    "association_gap": 6.320469856262207,
+    "initial_anchor_cosine": 0.7089443206787109,
+    "evidence_age_s": 0.0
+  },
+  {
+    "dataset": "rubric_office",
+    "clip": "handball2_boxoccl",
+    "frame": 210,
+    "method": "mixture_adapt",
+    "inside_target": true,
+    "accepted": true,
+    "accepted_hit": true,
+    "accepted_miss": false,
+    "candidate": [
+      147.0,
+      217.0
+    ],
+    "association_gap": 6.406891822814941,
+    "initial_anchor_cosine": 0.7089443206787109,
+    "evidence_age_s": 0.0
+  },
+  {
+    "dataset": "rubric_office",
+    "clip": "handball3_occlpick",
+    "frame": 190,
+    "method": "appearance",
+    "inside_target": true,
+    "accepted": true,
+    "accepted_hit": true,
+    "accepted_miss": false,
+    "candidate": [
+      63.0,
+      189.0
+    ],
+    "association_gap": 4.806705474853516,
+    "initial_anchor_cosine": 0.7645807266235352,
+    "evidence_age_s": 0.0
+  },
+  {
+    "dataset": "rubric_office",
+    "clip": "handball3_occlpick",
+    "frame": 190,
+    "method": "motion",
+    "inside_target": true,
+    "accepted": true,
+    "accepted_hit": true,
+    "accepted_miss": false,
+    "candidate": [
+      63.0,
+      189.0
+    ],
+    "association_gap": 6.108046531677246,
+    "initial_anchor_cosine": 0.7645807266235352,
+    "evidence_age_s": 0.0
+  },
+  {
+    "dataset": "rubric_office",
+    "clip": "handball3_occlpick",
+    "frame": 190,
+    "method": "mixture",
+    "inside_target": true,
+    "accepted": true,
+    "accepted_hit": true,
+    "accepted_miss": false,
+    "candidate": [
+      63.0,
+      189.0
+    ],
+    "association_gap": 6.088855743408203,
+    "initial_anchor_cosine": 0.7645807266235352,
+    "evidence_age_s": 0.0
+  },
+  {
+    "dataset": "rubric_office",
+    "clip": "handball3_occlpick",
+    "frame": 190,
+    "method": "mixture_adapt",
+    "inside_target": true,
+    "accepted": true,
+    "accepted_hit": true,
+    "accepted_miss": false,
+    "candidate": [
+      63.0,
+      189.0
+    ],
+    "association_gap": 6.217390060424805,
+    "initial_anchor_cosine": 0.7645807266235352,
+    "evidence_age_s": 0.0
+  },
+  {
+    "dataset": "rubric_office",
+    "clip": "lightball4_occl1x",
+    "frame": 190,
+    "method": "appearance",
+    "inside_target": true,
+    "accepted": false,
+    "accepted_hit": false,
+    "accepted_miss": false,
+    "candidate": [
+      161.0,
+      63.0
+    ],
+    "association_gap": 0.5631065368652344,
+    "initial_anchor_cosine": 0.5758857727050781,
+    "evidence_age_s": 0.9166666666666679
+  },
+  {
+    "dataset": "rubric_office",
+    "clip": "lightball4_occl1x",
+    "frame": 190,
+    "method": "motion",
+    "inside_target": true,
+    "accepted": false,
+    "accepted_hit": false,
+    "accepted_miss": false,
+    "candidate": [
+      161.0,
+      63.0
+    ],
+    "association_gap": 0.840487003326416,
+    "initial_anchor_cosine": 0.5758857727050781,
+    "evidence_age_s": 0.9166666666666679
+  },
+  {
+    "dataset": "rubric_office",
+    "clip": "lightball4_occl1x",
+    "frame": 190,
+    "method": "mixture",
+    "inside_target": true,
+    "accepted": false,
+    "accepted_hit": false,
+    "accepted_miss": false,
+    "candidate": [
+      161.0,
+      63.0
+    ],
+    "association_gap": 1.1406545639038086,
+    "initial_anchor_cosine": 0.5758857727050781,
+    "evidence_age_s": 0.9166666666666679
+  },
+  {
+    "dataset": "rubric_office",
+    "clip": "lightball4_occl1x",
+    "frame": 190,
+    "method": "mixture_adapt",
+    "inside_target": true,
+    "accepted": false,
+    "accepted_hit": false,
+    "accepted_miss": false,
+    "candidate": [
+      161.0,
+      63.0
+    ],
+    "association_gap": 1.718040943145752,
+    "initial_anchor_cosine": 0.5758857727050781,
+    "evidence_age_s": 0.9166666666666679
+  },
+  {
+    "dataset": "rubric_office",
+    "clip": "lightball4_occl1x",
+    "frame": 312,
+    "method": "appearance",
+    "inside_target": false,
+    "accepted": false,
+    "accepted_hit": false,
+    "accepted_miss": false,
+    "candidate": [
+      105.0,
+      203.0
+    ],
+    "association_gap": 0.12792301177978516,
+    "initial_anchor_cosine": 0.5343685150146484,
+    "evidence_age_s": 2.9499999999999944
+  },
+  {
+    "dataset": "rubric_office",
+    "clip": "lightball4_occl1x",
+    "frame": 312,
+    "method": "motion",
+    "inside_target": false,
+    "accepted": false,
+    "accepted_hit": false,
+    "accepted_miss": false,
+    "candidate": [
+      105.0,
+      203.0
+    ],
+    "association_gap": 0.12792301177978516,
+    "initial_anchor_cosine": 0.5343685150146484,
+    "evidence_age_s": 2.9499999999999944
+  },
+  {
+    "dataset": "rubric_office",
+    "clip": "lightball4_occl1x",
+    "frame": 312,
+    "method": "mixture",
+    "inside_target": false,
+    "accepted": false,
+    "accepted_hit": false,
+    "accepted_miss": false,
+    "candidate": [
+      189.0,
+      175.0
+    ],
+    "association_gap": 0.39929628372192383,
+    "initial_anchor_cosine": 0.5069060325622559,
+    "evidence_age_s": 2.9499999999999944
+  },
+  {
+    "dataset": "rubric_office",
+    "clip": "lightball4_occl1x",
+    "frame": 312,
+    "method": "mixture_adapt",
+    "inside_target": false,
+    "accepted": false,
+    "accepted_hit": false,
+    "accepted_miss": false,
+    "candidate": [
+      189.0,
+      175.0
+    ],
+    "association_gap": 0.43534135818481445,
+    "initial_anchor_cosine": 0.5069060325622559,
+    "evidence_age_s": 2.9499999999999944
+  },
+  {
+    "dataset": "rubric_office",
+    "clip": "lightball4_occl1x",
+    "frame": 340,
+    "method": "appearance",
+    "inside_target": false,
+    "accepted": false,
+    "accepted_hit": false,
+    "accepted_miss": false,
+    "candidate": [
+      189.0,
+      189.0
+    ],
+    "association_gap": 1.2129573822021484,
+    "initial_anchor_cosine": 0.6292932629585266,
+    "evidence_age_s": 3.4166666666666594
+  },
+  {
+    "dataset": "rubric_office",
+    "clip": "lightball4_occl1x",
+    "frame": 340,
+    "method": "motion",
+    "inside_target": false,
+    "accepted": false,
+    "accepted_hit": false,
+    "accepted_miss": false,
+    "candidate": [
+      189.0,
+      189.0
+    ],
+    "association_gap": 1.2129572629928589,
+    "initial_anchor_cosine": 0.6292932629585266,
+    "evidence_age_s": 3.4166666666666594
+  },
+  {
+    "dataset": "rubric_office",
+    "clip": "lightball4_occl1x",
+    "frame": 340,
+    "method": "mixture",
+    "inside_target": false,
+    "accepted": false,
+    "accepted_hit": false,
+    "accepted_miss": false,
+    "candidate": [
+      189.0,
+      189.0
+    ],
+    "association_gap": 1.66640043258667,
+    "initial_anchor_cosine": 0.6292932629585266,
+    "evidence_age_s": 3.4166666666666594
+  },
+  {
+    "dataset": "rubric_office",
+    "clip": "lightball4_occl1x",
+    "frame": 340,
+    "method": "mixture_adapt",
+    "inside_target": false,
+    "accepted": false,
+    "accepted_hit": false,
+    "accepted_miss": false,
+    "candidate": [
+      189.0,
+      189.0
+    ],
+    "association_gap": 2.0529065132141113,
+    "initial_anchor_cosine": 0.6292932629585266,
+    "evidence_age_s": 3.4166666666666594
+  },
+  {
+    "dataset": "rubric_office",
+    "clip": "lightball5_occl2x",
+    "frame": 170,
+    "method": "appearance",
+    "inside_target": true,
+    "accepted": false,
+    "accepted_hit": false,
+    "accepted_miss": false,
+    "candidate": [
+      161.0,
+      35.0
+    ],
+    "association_gap": 1.8586244583129883,
+    "initial_anchor_cosine": 0.5297926664352417,
+    "evidence_age_s": 1.0500000000000012
+  },
+  {
+    "dataset": "rubric_office",
+    "clip": "lightball5_occl2x",
+    "frame": 170,
+    "method": "motion",
+    "inside_target": false,
+    "accepted": false,
+    "accepted_hit": false,
+    "accepted_miss": false,
+    "candidate": [
+      217.0,
+      147.0
+    ],
+    "association_gap": 0.8154730796813965,
+    "initial_anchor_cosine": 0.3422297537326813,
+    "evidence_age_s": 1.0500000000000012
+  },
+  {
+    "dataset": "rubric_office",
+    "clip": "lightball5_occl2x",
+    "frame": 170,
+    "method": "mixture",
+    "inside_target": false,
+    "accepted": false,
+    "accepted_hit": false,
+    "accepted_miss": false,
+    "candidate": [
+      175.0,
+      203.0
+    ],
+    "association_gap": 0.15958595275878906,
+    "initial_anchor_cosine": 0.33854877948760986,
+    "evidence_age_s": 1.0500000000000012
+  },
+  {
+    "dataset": "rubric_office",
+    "clip": "lightball5_occl2x",
+    "frame": 170,
+    "method": "mixture_adapt",
+    "inside_target": false,
+    "accepted": false,
+    "accepted_hit": false,
+    "accepted_miss": false,
+    "candidate": [
+      175.0,
+      203.0
+    ],
+    "association_gap": 0.15456581115722656,
+    "initial_anchor_cosine": 0.33854877948760986,
+    "evidence_age_s": 1.0500000000000012
+  },
+  {
+    "dataset": "rubric_office",
+    "clip": "lightball5_occl2x",
+    "frame": 236,
+    "method": "appearance",
+    "inside_target": false,
+    "accepted": false,
+    "accepted_hit": false,
+    "accepted_miss": false,
+    "candidate": [
+      147.0,
+      119.0
+    ],
+    "association_gap": 1.2261500358581543,
+    "initial_anchor_cosine": 0.48833224177360535,
+    "evidence_age_s": 2.1499999999999972
+  },
+  {
+    "dataset": "rubric_office",
+    "clip": "lightball5_occl2x",
+    "frame": 236,
+    "method": "motion",
+    "inside_target": false,
+    "accepted": false,
+    "accepted_hit": false,
+    "accepted_miss": false,
+    "candidate": [
+      147.0,
+      119.0
+    ],
+    "association_gap": 0.1463625431060791,
+    "initial_anchor_cosine": 0.48833224177360535,
+    "evidence_age_s": 2.1499999999999972
+  },
+  {
+    "dataset": "rubric_office",
+    "clip": "lightball5_occl2x",
+    "frame": 236,
+    "method": "mixture",
+    "inside_target": false,
+    "accepted": false,
+    "accepted_hit": false,
+    "accepted_miss": false,
+    "candidate": [
+      147.0,
+      119.0
+    ],
+    "association_gap": 0.9033694267272949,
+    "initial_anchor_cosine": 0.48833224177360535,
+    "evidence_age_s": 2.1499999999999972
+  },
+  {
+    "dataset": "rubric_office",
+    "clip": "lightball5_occl2x",
+    "frame": 236,
+    "method": "mixture_adapt",
+    "inside_target": false,
+    "accepted": false,
+    "accepted_hit": false,
+    "accepted_miss": false,
+    "candidate": [
+      147.0,
+      119.0
+    ],
+    "association_gap": 1.0017714500427246,
+    "initial_anchor_cosine": 0.48833224177360535,
+    "evidence_age_s": 2.1499999999999972
+  },
+  {
+    "dataset": "rubric_office",
+    "clip": "lightball6_occl4x",
+    "frame": 175,
+    "method": "appearance",
+    "inside_target": false,
+    "accepted": false,
+    "accepted_hit": false,
+    "accepted_miss": false,
+    "candidate": [
+      217.0,
+      147.0
+    ],
+    "association_gap": 0.22091913223266602,
+    "initial_anchor_cosine": 0.2712364196777344,
+    "evidence_age_s": 1.7999999999999985
+  },
+  {
+    "dataset": "rubric_office",
+    "clip": "lightball6_occl4x",
+    "frame": 175,
+    "method": "motion",
+    "inside_target": false,
+    "accepted": false,
+    "accepted_hit": false,
+    "accepted_miss": false,
+    "candidate": [
+      217.0,
+      49.0
+    ],
+    "association_gap": 0.0984264463186264,
+    "initial_anchor_cosine": 0.2333092987537384,
+    "evidence_age_s": 1.7999999999999985
+  },
+  {
+    "dataset": "rubric_office",
+    "clip": "lightball6_occl4x",
+    "frame": 175,
+    "method": "mixture",
+    "inside_target": false,
+    "accepted": false,
+    "accepted_hit": false,
+    "accepted_miss": false,
+    "candidate": [
+      133.0,
+      175.0
+    ],
+    "association_gap": 0.20592451095581055,
+    "initial_anchor_cosine": 0.24945232272148132,
+    "evidence_age_s": 1.7999999999999985
+  },
+  {
+    "dataset": "rubric_office",
+    "clip": "lightball6_occl4x",
+    "frame": 175,
+    "method": "mixture_adapt",
+    "inside_target": false,
+    "accepted": false,
+    "accepted_hit": false,
+    "accepted_miss": false,
+    "candidate": [
+      133.0,
+      175.0
+    ],
+    "association_gap": 0.19396257400512695,
+    "initial_anchor_cosine": 0.24945232272148132,
+    "evidence_age_s": 1.7999999999999985
+  },
+  {
+    "dataset": "rubric_office",
+    "clip": "lightball6_occl4x",
+    "frame": 226,
+    "method": "appearance",
+    "inside_target": false,
+    "accepted": false,
+    "accepted_hit": false,
+    "accepted_miss": false,
+    "candidate": [
+      133.0,
+      35.0
+    ],
+    "association_gap": 2.9549224376678467,
+    "initial_anchor_cosine": 0.5368952751159668,
+    "evidence_age_s": 2.6499999999999955
+  },
+  {
+    "dataset": "rubric_office",
+    "clip": "lightball6_occl4x",
+    "frame": 226,
+    "method": "motion",
+    "inside_target": false,
+    "accepted": false,
+    "accepted_hit": false,
+    "accepted_miss": false,
+    "candidate": [
+      133.0,
+      35.0
+    ],
+    "association_gap": 4.362607479095459,
+    "initial_anchor_cosine": 0.5368952751159668,
+    "evidence_age_s": 2.6499999999999955
+  },
+  {
+    "dataset": "rubric_office",
+    "clip": "lightball6_occl4x",
+    "frame": 226,
+    "method": "mixture",
+    "inside_target": false,
+    "accepted": false,
+    "accepted_hit": false,
+    "accepted_miss": false,
+    "candidate": [
+      133.0,
+      35.0
+    ],
+    "association_gap": 1.4731390476226807,
+    "initial_anchor_cosine": 0.5368952751159668,
+    "evidence_age_s": 2.6499999999999955
+  },
+  {
+    "dataset": "rubric_office",
+    "clip": "lightball6_occl4x",
+    "frame": 226,
+    "method": "mixture_adapt",
+    "inside_target": false,
+    "accepted": false,
+    "accepted_hit": false,
+    "accepted_miss": false,
+    "candidate": [
+      133.0,
+      35.0
+    ],
+    "association_gap": 1.4620170593261719,
+    "initial_anchor_cosine": 0.5368952751159668,
+    "evidence_age_s": 2.6499999999999955
+  },
+  {
+    "dataset": "rubric_office",
+    "clip": "lightball6_occl4x",
+    "frame": 290,
+    "method": "appearance",
+    "inside_target": true,
+    "accepted": false,
+    "accepted_hit": false,
+    "accepted_miss": false,
+    "candidate": [
+      119.0,
+      119.0
+    ],
+    "association_gap": 2.134364128112793,
+    "initial_anchor_cosine": 0.4614905118942261,
+    "evidence_age_s": 3.7166666666666583
+  },
+  {
+    "dataset": "rubric_office",
+    "clip": "lightball6_occl4x",
+    "frame": 290,
+    "method": "motion",
+    "inside_target": true,
+    "accepted": false,
+    "accepted_hit": false,
+    "accepted_miss": false,
+    "candidate": [
+      119.0,
+      119.0
+    ],
+    "association_gap": 0.3511444330215454,
+    "initial_anchor_cosine": 0.4614905118942261,
+    "evidence_age_s": 3.7166666666666583
+  },
+  {
+    "dataset": "rubric_office",
+    "clip": "lightball6_occl4x",
+    "frame": 290,
+    "method": "mixture",
+    "inside_target": true,
+    "accepted": false,
+    "accepted_hit": false,
+    "accepted_miss": false,
+    "candidate": [
+      119.0,
+      119.0
+    ],
+    "association_gap": 2.339539051055908,
+    "initial_anchor_cosine": 0.4614905118942261,
+    "evidence_age_s": 3.7166666666666583
+  },
+  {
+    "dataset": "rubric_office",
+    "clip": "lightball6_occl4x",
+    "frame": 290,
+    "method": "mixture_adapt",
+    "inside_target": true,
+    "accepted": false,
+    "accepted_hit": false,
+    "accepted_miss": false,
+    "candidate": [
+      119.0,
+      119.0
+    ],
+    "association_gap": 2.3294830322265625,
+    "initial_anchor_cosine": 0.4614905118942261,
+    "evidence_age_s": 3.7166666666666583
+  },
+  {
+    "dataset": "rubric_office",
+    "clip": "plantcupball2",
+    "frame": 265,
+    "method": "appearance",
+    "inside_target": true,
+    "accepted": false,
+    "accepted_hit": false,
+    "accepted_miss": false,
+    "candidate": [
+      147.0,
+      147.0
+    ],
+    "association_gap": 0.7649393081665039,
+    "initial_anchor_cosine": 0.41779589653015137,
+    "evidence_age_s": 6.699999999999986
+  },
+  {
+    "dataset": "rubric_office",
+    "clip": "plantcupball2",
+    "frame": 265,
+    "method": "motion",
+    "inside_target": true,
+    "accepted": false,
+    "accepted_hit": false,
+    "accepted_miss": false,
+    "candidate": [
+      147.0,
+      147.0
+    ],
+    "association_gap": 0.7649393081665039,
+    "initial_anchor_cosine": 0.41779589653015137,
+    "evidence_age_s": 6.699999999999986
+  },
+  {
+    "dataset": "rubric_office",
+    "clip": "plantcupball2",
+    "frame": 265,
+    "method": "mixture",
+    "inside_target": true,
+    "accepted": false,
+    "accepted_hit": false,
+    "accepted_miss": false,
+    "candidate": [
+      147.0,
+      147.0
+    ],
+    "association_gap": 0.7210855484008789,
+    "initial_anchor_cosine": 0.41779589653015137,
+    "evidence_age_s": 6.699999999999986
+  },
+  {
+    "dataset": "rubric_office",
+    "clip": "plantcupball2",
+    "frame": 265,
+    "method": "mixture_adapt",
+    "inside_target": true,
+    "accepted": false,
+    "accepted_hit": false,
+    "accepted_miss": false,
+    "candidate": [
+      147.0,
+      147.0
+    ],
+    "association_gap": 0.8287224769592285,
+    "initial_anchor_cosine": 0.41779589653015137,
+    "evidence_age_s": 6.699999999999986
+  },
+  {
+    "dataset": "rubric_cup_games",
+    "clip": "cgt_frames_0002",
+    "frame": 270,
+    "method": "appearance",
+    "inside_target": true,
+    "accepted": true,
+    "accepted_hit": true,
+    "accepted_miss": false,
+    "candidate": [
+      203.0,
+      119.0
+    ],
+    "association_gap": 4.795260429382324,
+    "initial_anchor_cosine": 0.8510955572128296,
+    "evidence_age_s": 0.0
+  },
+  {
+    "dataset": "rubric_cup_games",
+    "clip": "cgt_frames_0002",
+    "frame": 270,
+    "method": "motion",
+    "inside_target": true,
+    "accepted": true,
+    "accepted_hit": true,
+    "accepted_miss": false,
+    "candidate": [
+      203.0,
+      119.0
+    ],
+    "association_gap": 7.598532199859619,
+    "initial_anchor_cosine": 0.8510955572128296,
+    "evidence_age_s": 0.0
+  },
+  {
+    "dataset": "rubric_cup_games",
+    "clip": "cgt_frames_0002",
+    "frame": 270,
+    "method": "mixture",
+    "inside_target": true,
+    "accepted": true,
+    "accepted_hit": true,
+    "accepted_miss": false,
+    "candidate": [
+      203.0,
+      119.0
+    ],
+    "association_gap": 7.590476036071777,
+    "initial_anchor_cosine": 0.8510955572128296,
+    "evidence_age_s": 0.0
+  },
+  {
+    "dataset": "rubric_cup_games",
+    "clip": "cgt_frames_0002",
+    "frame": 270,
+    "method": "mixture_adapt",
+    "inside_target": true,
+    "accepted": true,
+    "accepted_hit": true,
+    "accepted_miss": false,
+    "candidate": [
+      203.0,
+      119.0
+    ],
+    "association_gap": 7.909235954284668,
+    "initial_anchor_cosine": 0.8510955572128296,
+    "evidence_age_s": 0.0
+  },
+  {
+    "dataset": "rubric_cup_games",
+    "clip": "cgt_frames_0011",
+    "frame": 300,
+    "method": "appearance",
+    "inside_target": true,
+    "accepted": true,
+    "accepted_hit": true,
+    "accepted_miss": false,
+    "candidate": [
+      133.0,
+      147.0
+    ],
+    "association_gap": 4.637511730194092,
+    "initial_anchor_cosine": 0.8701413869857788,
+    "evidence_age_s": 0.0
+  },
+  {
+    "dataset": "rubric_cup_games",
+    "clip": "cgt_frames_0011",
+    "frame": 300,
+    "method": "motion",
+    "inside_target": true,
+    "accepted": true,
+    "accepted_hit": true,
+    "accepted_miss": false,
+    "candidate": [
+      133.0,
+      147.0
+    ],
+    "association_gap": 6.5955810546875,
+    "initial_anchor_cosine": 0.8701413869857788,
+    "evidence_age_s": 0.0
+  },
+  {
+    "dataset": "rubric_cup_games",
+    "clip": "cgt_frames_0011",
+    "frame": 300,
+    "method": "mixture",
+    "inside_target": true,
+    "accepted": true,
+    "accepted_hit": true,
+    "accepted_miss": false,
+    "candidate": [
+      133.0,
+      147.0
+    ],
+    "association_gap": 7.095226287841797,
+    "initial_anchor_cosine": 0.8701413869857788,
+    "evidence_age_s": 0.0
+  },
+  {
+    "dataset": "rubric_cup_games",
+    "clip": "cgt_frames_0011",
+    "frame": 300,
+    "method": "mixture_adapt",
+    "inside_target": true,
+    "accepted": true,
+    "accepted_hit": true,
+    "accepted_miss": false,
+    "candidate": [
+      133.0,
+      147.0
+    ],
+    "association_gap": 7.1031599044799805,
+    "initial_anchor_cosine": 0.8701413869857788,
+    "evidence_age_s": 0.0
+  },
+  {
+    "dataset": "rubric_cup_games",
+    "clip": "cgt_frames_0026",
+    "frame": 360,
+    "method": "appearance",
+    "inside_target": true,
+    "accepted": true,
+    "accepted_hit": true,
+    "accepted_miss": false,
+    "candidate": [
+      161.0,
+      161.0
+    ],
+    "association_gap": 1.6562566757202148,
+    "initial_anchor_cosine": 0.7345487475395203,
+    "evidence_age_s": 0.0
+  },
+  {
+    "dataset": "rubric_cup_games",
+    "clip": "cgt_frames_0026",
+    "frame": 360,
+    "method": "motion",
+    "inside_target": true,
+    "accepted": true,
+    "accepted_hit": true,
+    "accepted_miss": false,
+    "candidate": [
+      161.0,
+      161.0
+    ],
+    "association_gap": 4.634459972381592,
+    "initial_anchor_cosine": 0.7345487475395203,
+    "evidence_age_s": 0.0
+  },
+  {
+    "dataset": "rubric_cup_games",
+    "clip": "cgt_frames_0026",
+    "frame": 360,
+    "method": "mixture",
+    "inside_target": true,
+    "accepted": true,
+    "accepted_hit": true,
+    "accepted_miss": false,
+    "candidate": [
+      161.0,
+      161.0
+    ],
+    "association_gap": 4.634462356567383,
+    "initial_anchor_cosine": 0.7345487475395203,
+    "evidence_age_s": 0.0
+  },
+  {
+    "dataset": "rubric_cup_games",
+    "clip": "cgt_frames_0026",
+    "frame": 360,
+    "method": "mixture_adapt",
+    "inside_target": true,
+    "accepted": true,
+    "accepted_hit": true,
+    "accepted_miss": false,
+    "candidate": [
+      161.0,
+      161.0
+    ],
+    "association_gap": 4.584750652313232,
+    "initial_anchor_cosine": 0.7345487475395203,
+    "evidence_age_s": 0.0
+  },
+  {
+    "dataset": "rubric_cup_games",
+    "clip": "cgt_frames_0061",
+    "frame": 70,
+    "method": "appearance",
+    "inside_target": false,
+    "accepted": false,
+    "accepted_hit": false,
+    "accepted_miss": false,
+    "candidate": [
+      77.0,
+      119.0
+    ],
+    "association_gap": 1.6064977645874023,
+    "initial_anchor_cosine": 0.4896736145019531,
+    "evidence_age_s": 0.4333333333333333
+  },
+  {
+    "dataset": "rubric_cup_games",
+    "clip": "cgt_frames_0061",
+    "frame": 70,
+    "method": "motion",
+    "inside_target": false,
+    "accepted": false,
+    "accepted_hit": false,
+    "accepted_miss": false,
+    "candidate": [
+      77.0,
+      119.0
+    ],
+    "association_gap": 1.7678027153015137,
+    "initial_anchor_cosine": 0.4896736145019531,
+    "evidence_age_s": 0.4333333333333333
+  },
+  {
+    "dataset": "rubric_cup_games",
+    "clip": "cgt_frames_0061",
+    "frame": 70,
+    "method": "mixture",
+    "inside_target": false,
+    "accepted": false,
+    "accepted_hit": false,
+    "accepted_miss": false,
+    "candidate": [
+      77.0,
+      119.0
+    ],
+    "association_gap": 1.714770793914795,
+    "initial_anchor_cosine": 0.4896736145019531,
+    "evidence_age_s": 0.4333333333333333
+  },
+  {
+    "dataset": "rubric_cup_games",
+    "clip": "cgt_frames_0061",
+    "frame": 70,
+    "method": "mixture_adapt",
+    "inside_target": false,
+    "accepted": false,
+    "accepted_hit": false,
+    "accepted_miss": false,
+    "candidate": [
+      77.0,
+      119.0
+    ],
+    "association_gap": 1.734565258026123,
+    "initial_anchor_cosine": 0.4896736145019531,
+    "evidence_age_s": 0.4333333333333333
+  },
+  {
+    "dataset": "rubric_cup_games",
+    "clip": "cgt_frames_0061",
+    "frame": 140,
+    "method": "appearance",
+    "inside_target": false,
+    "accepted": false,
+    "accepted_hit": false,
+    "accepted_miss": false,
+    "candidate": [
+      175.0,
+      91.0
+    ],
+    "association_gap": 0.7884330749511719,
+    "initial_anchor_cosine": 0.522774338722229,
+    "evidence_age_s": 2.7666666666666666
+  },
+  {
+    "dataset": "rubric_cup_games",
+    "clip": "cgt_frames_0061",
+    "frame": 140,
+    "method": "motion",
+    "inside_target": false,
+    "accepted": false,
+    "accepted_hit": false,
+    "accepted_miss": false,
+    "candidate": [
+      175.0,
+      91.0
+    ],
+    "association_gap": 0.45542097091674805,
+    "initial_anchor_cosine": 0.522774338722229,
+    "evidence_age_s": 2.7666666666666666
+  },
+  {
+    "dataset": "rubric_cup_games",
+    "clip": "cgt_frames_0061",
+    "frame": 140,
+    "method": "mixture",
+    "inside_target": false,
+    "accepted": false,
+    "accepted_hit": false,
+    "accepted_miss": false,
+    "candidate": [
+      175.0,
+      91.0
+    ],
+    "association_gap": 0.8258881568908691,
+    "initial_anchor_cosine": 0.522774338722229,
+    "evidence_age_s": 2.7666666666666666
+  },
+  {
+    "dataset": "rubric_cup_games",
+    "clip": "cgt_frames_0061",
+    "frame": 140,
+    "method": "mixture_adapt",
+    "inside_target": false,
+    "accepted": false,
+    "accepted_hit": false,
+    "accepted_miss": false,
+    "candidate": [
+      175.0,
+      91.0
+    ],
+    "association_gap": 0.859224796295166,
+    "initial_anchor_cosine": 0.522774338722229,
+    "evidence_age_s": 2.7666666666666666
+  },
+  {
+    "dataset": "rubric_cup_games",
+    "clip": "cgt_frames_0061",
+    "frame": 180,
+    "method": "appearance",
+    "inside_target": false,
+    "accepted": false,
+    "accepted_hit": false,
+    "accepted_miss": false,
+    "candidate": [
+      49.0,
+      119.0
+    ],
+    "association_gap": 0.19807672500610352,
+    "initial_anchor_cosine": 0.4357869327068329,
+    "evidence_age_s": 4.099999999999995
+  },
+  {
+    "dataset": "rubric_cup_games",
+    "clip": "cgt_frames_0061",
+    "frame": 180,
+    "method": "motion",
+    "inside_target": false,
+    "accepted": false,
+    "accepted_hit": false,
+    "accepted_miss": false,
+    "candidate": [
+      49.0,
+      119.0
+    ],
+    "association_gap": 0.10193347930908203,
+    "initial_anchor_cosine": 0.4357869327068329,
+    "evidence_age_s": 4.099999999999995
+  },
+  {
+    "dataset": "rubric_cup_games",
+    "clip": "cgt_frames_0061",
+    "frame": 180,
+    "method": "mixture",
+    "inside_target": false,
+    "accepted": false,
+    "accepted_hit": false,
+    "accepted_miss": false,
+    "candidate": [
+      49.0,
+      119.0
+    ],
+    "association_gap": 0.06378173828125,
+    "initial_anchor_cosine": 0.4357869327068329,
+    "evidence_age_s": 4.099999999999995
+  },
+  {
+    "dataset": "rubric_cup_games",
+    "clip": "cgt_frames_0061",
+    "frame": 180,
+    "method": "mixture_adapt",
+    "inside_target": false,
+    "accepted": false,
+    "accepted_hit": false,
+    "accepted_miss": false,
+    "candidate": [
+      49.0,
+      119.0
+    ],
+    "association_gap": 0.07869482040405273,
+    "initial_anchor_cosine": 0.4357869327068329,
+    "evidence_age_s": 4.099999999999995
+  },
+  {
+    "dataset": "rubric_cup_games",
+    "clip": "cgt_frames_0061",
+    "frame": 208,
+    "method": "appearance",
+    "inside_target": false,
+    "accepted": false,
+    "accepted_hit": false,
+    "accepted_miss": false,
+    "candidate": [
+      105.0,
+      119.0
+    ],
+    "association_gap": 0.6847476959228516,
+    "initial_anchor_cosine": 0.47112441062927246,
+    "evidence_age_s": 5.033333333333325
+  },
+  {
+    "dataset": "rubric_cup_games",
+    "clip": "cgt_frames_0061",
+    "frame": 208,
+    "method": "motion",
+    "inside_target": false,
+    "accepted": false,
+    "accepted_hit": false,
+    "accepted_miss": false,
+    "candidate": [
+      105.0,
+      119.0
+    ],
+    "association_gap": 0.7869601249694824,
+    "initial_anchor_cosine": 0.47112441062927246,
+    "evidence_age_s": 5.033333333333325
+  },
+  {
+    "dataset": "rubric_cup_games",
+    "clip": "cgt_frames_0061",
+    "frame": 208,
+    "method": "mixture",
+    "inside_target": false,
+    "accepted": false,
+    "accepted_hit": false,
+    "accepted_miss": false,
+    "candidate": [
+      105.0,
+      119.0
+    ],
+    "association_gap": 0.7913827896118164,
+    "initial_anchor_cosine": 0.47112441062927246,
+    "evidence_age_s": 5.033333333333325
+  },
+  {
+    "dataset": "rubric_cup_games",
+    "clip": "cgt_frames_0061",
+    "frame": 208,
+    "method": "mixture_adapt",
+    "inside_target": false,
+    "accepted": false,
+    "accepted_hit": false,
+    "accepted_miss": false,
+    "candidate": [
+      105.0,
+      119.0
+    ],
+    "association_gap": 0.772916316986084,
+    "initial_anchor_cosine": 0.47112441062927246,
+    "evidence_age_s": 5.033333333333325
+  },
+  {
+    "dataset": "rubric_cup_games",
+    "clip": "cgt_frames_0061",
+    "frame": 235,
+    "method": "appearance",
+    "inside_target": false,
+    "accepted": false,
+    "accepted_hit": false,
+    "accepted_miss": false,
+    "candidate": [
+      91.0,
+      119.0
+    ],
+    "association_gap": 0.2660079002380371,
+    "initial_anchor_cosine": 0.44993865489959717,
+    "evidence_age_s": 5.933333333333322
+  },
+  {
+    "dataset": "rubric_cup_games",
+    "clip": "cgt_frames_0061",
+    "frame": 235,
+    "method": "motion",
+    "inside_target": false,
+    "accepted": false,
+    "accepted_hit": false,
+    "accepted_miss": false,
+    "candidate": [
+      91.0,
+      119.0
+    ],
+    "association_gap": 0.4022669792175293,
+    "initial_anchor_cosine": 0.44993865489959717,
+    "evidence_age_s": 5.933333333333322
+  },
+  {
+    "dataset": "rubric_cup_games",
+    "clip": "cgt_frames_0061",
+    "frame": 235,
+    "method": "mixture",
+    "inside_target": false,
+    "accepted": false,
+    "accepted_hit": false,
+    "accepted_miss": false,
+    "candidate": [
+      91.0,
+      119.0
+    ],
+    "association_gap": 0.4079899787902832,
+    "initial_anchor_cosine": 0.44993865489959717,
+    "evidence_age_s": 5.933333333333322
+  },
+  {
+    "dataset": "rubric_cup_games",
+    "clip": "cgt_frames_0061",
+    "frame": 235,
+    "method": "mixture_adapt",
+    "inside_target": false,
+    "accepted": false,
+    "accepted_hit": false,
+    "accepted_miss": false,
+    "candidate": [
+      91.0,
+      119.0
+    ],
+    "association_gap": 0.42147207260131836,
+    "initial_anchor_cosine": 0.44993865489959717,
+    "evidence_age_s": 5.933333333333322
+  },
+  {
+    "dataset": "rubric_cup_games",
+    "clip": "cgt_frames_0061",
+    "frame": 270,
+    "method": "appearance",
+    "inside_target": false,
+    "accepted": false,
+    "accepted_hit": false,
+    "accepted_miss": false,
+    "candidate": [
+      77.0,
+      105.0
+    ],
+    "association_gap": 0.3740668296813965,
+    "initial_anchor_cosine": 0.4848596453666687,
+    "evidence_age_s": 7.0999999999999845
+  },
+  {
+    "dataset": "rubric_cup_games",
+    "clip": "cgt_frames_0061",
+    "frame": 270,
+    "method": "motion",
+    "inside_target": false,
+    "accepted": false,
+    "accepted_hit": false,
+    "accepted_miss": false,
+    "candidate": [
+      77.0,
+      105.0
+    ],
+    "association_gap": 0.38227224349975586,
+    "initial_anchor_cosine": 0.4848596453666687,
+    "evidence_age_s": 7.0999999999999845
+  },
+  {
+    "dataset": "rubric_cup_games",
+    "clip": "cgt_frames_0061",
+    "frame": 270,
+    "method": "mixture",
+    "inside_target": false,
+    "accepted": false,
+    "accepted_hit": false,
+    "accepted_miss": false,
+    "candidate": [
+      77.0,
+      105.0
+    ],
+    "association_gap": 0.3400845527648926,
+    "initial_anchor_cosine": 0.4848596453666687,
+    "evidence_age_s": 7.0999999999999845
+  },
+  {
+    "dataset": "rubric_cup_games",
+    "clip": "cgt_frames_0061",
+    "frame": 270,
+    "method": "mixture_adapt",
+    "inside_target": false,
+    "accepted": false,
+    "accepted_hit": false,
+    "accepted_miss": false,
+    "candidate": [
+      77.0,
+      105.0
+    ],
+    "association_gap": 0.3381013870239258,
+    "initial_anchor_cosine": 0.4848596453666687,
+    "evidence_age_s": 7.0999999999999845
+  },
+  {
+    "dataset": "rubric_cup_games",
+    "clip": "cgt_frames_0061",
+    "frame": 340,
+    "method": "appearance",
+    "inside_target": false,
+    "accepted": true,
+    "accepted_hit": false,
+    "accepted_miss": true,
+    "candidate": [
+      119.0,
+      105.0
+    ],
+    "association_gap": 5.551961898803711,
+    "initial_anchor_cosine": 0.9288005828857422,
+    "evidence_age_s": 0.0
+  },
+  {
+    "dataset": "rubric_cup_games",
+    "clip": "cgt_frames_0061",
+    "frame": 340,
+    "method": "motion",
+    "inside_target": false,
+    "accepted": true,
+    "accepted_hit": false,
+    "accepted_miss": true,
+    "candidate": [
+      119.0,
+      105.0
+    ],
+    "association_gap": 8.355535507202148,
+    "initial_anchor_cosine": 0.9288005828857422,
+    "evidence_age_s": 0.0
+  },
+  {
+    "dataset": "rubric_cup_games",
+    "clip": "cgt_frames_0061",
+    "frame": 340,
+    "method": "mixture",
+    "inside_target": false,
+    "accepted": true,
+    "accepted_hit": false,
+    "accepted_miss": true,
+    "candidate": [
+      119.0,
+      105.0
+    ],
+    "association_gap": 8.260875701904297,
+    "initial_anchor_cosine": 0.9288005828857422,
+    "evidence_age_s": 0.0
+  },
+  {
+    "dataset": "rubric_cup_games",
+    "clip": "cgt_frames_0061",
+    "frame": 340,
+    "method": "mixture_adapt",
+    "inside_target": false,
+    "accepted": true,
+    "accepted_hit": false,
+    "accepted_miss": true,
+    "candidate": [
+      119.0,
+      105.0
+    ],
+    "association_gap": 8.352880477905273,
+    "initial_anchor_cosine": 0.9288005828857422,
+    "evidence_age_s": 0.0
+  },
+  {
+    "dataset": "rubric_cup_games",
+    "clip": "cgt_frames_0065",
+    "frame": 110,
+    "method": "appearance",
+    "inside_target": true,
+    "accepted": false,
+    "accepted_hit": false,
+    "accepted_miss": false,
+    "candidate": [
+      133.0,
+      203.0
+    ],
+    "association_gap": 3.1899425983428955,
+    "initial_anchor_cosine": 0.5441557168960571,
+    "evidence_age_s": 0.16638935108153077
+  },
+  {
+    "dataset": "rubric_cup_games",
+    "clip": "cgt_frames_0065",
+    "frame": 110,
+    "method": "motion",
+    "inside_target": true,
+    "accepted": false,
+    "accepted_hit": false,
+    "accepted_miss": false,
+    "candidate": [
+      133.0,
+      203.0
+    ],
+    "association_gap": 5.859513759613037,
+    "initial_anchor_cosine": 0.5441557168960571,
+    "evidence_age_s": 0.16638935108153077
+  },
+  {
+    "dataset": "rubric_cup_games",
+    "clip": "cgt_frames_0065",
+    "frame": 110,
+    "method": "mixture",
+    "inside_target": true,
+    "accepted": false,
+    "accepted_hit": false,
+    "accepted_miss": false,
+    "candidate": [
+      133.0,
+      203.0
+    ],
+    "association_gap": 6.209024429321289,
+    "initial_anchor_cosine": 0.5441557168960571,
+    "evidence_age_s": 0.16638935108153077
+  },
+  {
+    "dataset": "rubric_cup_games",
+    "clip": "cgt_frames_0065",
+    "frame": 110,
+    "method": "mixture_adapt",
+    "inside_target": true,
+    "accepted": false,
+    "accepted_hit": false,
+    "accepted_miss": false,
+    "candidate": [
+      133.0,
+      203.0
+    ],
+    "association_gap": 6.263890266418457,
+    "initial_anchor_cosine": 0.5441557168960571,
+    "evidence_age_s": 0.16638935108153077
+  },
+  {
+    "dataset": "rubric_cup_games",
+    "clip": "cgt_frames_0065",
+    "frame": 210,
+    "method": "appearance",
+    "inside_target": false,
+    "accepted": true,
+    "accepted_hit": false,
+    "accepted_miss": true,
+    "candidate": [
+      175.0,
+      189.0
+    ],
+    "association_gap": 5.480075836181641,
+    "initial_anchor_cosine": 0.7240698933601379,
+    "evidence_age_s": 0.0
+  },
+  {
+    "dataset": "rubric_cup_games",
+    "clip": "cgt_frames_0065",
+    "frame": 210,
+    "method": "motion",
+    "inside_target": false,
+    "accepted": true,
+    "accepted_hit": false,
+    "accepted_miss": true,
+    "candidate": [
+      175.0,
+      189.0
+    ],
+    "association_gap": 7.196691513061523,
+    "initial_anchor_cosine": 0.7240698933601379,
+    "evidence_age_s": 0.0
+  },
+  {
+    "dataset": "rubric_cup_games",
+    "clip": "cgt_frames_0065",
+    "frame": 210,
+    "method": "mixture",
+    "inside_target": false,
+    "accepted": true,
+    "accepted_hit": false,
+    "accepted_miss": true,
+    "candidate": [
+      175.0,
+      189.0
+    ],
+    "association_gap": 7.196298122406006,
+    "initial_anchor_cosine": 0.7240698933601379,
+    "evidence_age_s": 0.0
+  },
+  {
+    "dataset": "rubric_cup_games",
+    "clip": "cgt_frames_0065",
+    "frame": 210,
+    "method": "mixture_adapt",
+    "inside_target": false,
+    "accepted": true,
+    "accepted_hit": false,
+    "accepted_miss": true,
+    "candidate": [
+      175.0,
+      189.0
+    ],
+    "association_gap": 7.29727840423584,
+    "initial_anchor_cosine": 0.7240698933601379,
+    "evidence_age_s": 0.0
+  },
+  {
+    "dataset": "rubric_cup_games",
+    "clip": "cgt_frames_0065",
+    "frame": 310,
+    "method": "appearance",
+    "inside_target": false,
+    "accepted": true,
+    "accepted_hit": false,
+    "accepted_miss": true,
+    "candidate": [
+      175.0,
+      203.0
+    ],
+    "association_gap": 5.7882890701293945,
+    "initial_anchor_cosine": 0.8529938459396362,
+    "evidence_age_s": 0.0
+  },
+  {
+    "dataset": "rubric_cup_games",
+    "clip": "cgt_frames_0065",
+    "frame": 310,
+    "method": "motion",
+    "inside_target": false,
+    "accepted": true,
+    "accepted_hit": false,
+    "accepted_miss": true,
+    "candidate": [
+      175.0,
+      203.0
+    ],
+    "association_gap": 7.189971446990967,
+    "initial_anchor_cosine": 0.8529938459396362,
+    "evidence_age_s": 0.0
+  },
+  {
+    "dataset": "rubric_cup_games",
+    "clip": "cgt_frames_0065",
+    "frame": 310,
+    "method": "mixture",
+    "inside_target": false,
+    "accepted": true,
+    "accepted_hit": false,
+    "accepted_miss": true,
+    "candidate": [
+      175.0,
+      203.0
+    ],
+    "association_gap": 7.18994665145874,
+    "initial_anchor_cosine": 0.8529938459396362,
+    "evidence_age_s": 0.0
+  },
+  {
+    "dataset": "rubric_cup_games",
+    "clip": "cgt_frames_0065",
+    "frame": 310,
+    "method": "mixture_adapt",
+    "inside_target": false,
+    "accepted": true,
+    "accepted_hit": false,
+    "accepted_miss": true,
+    "candidate": [
+      175.0,
+      203.0
+    ],
+    "association_gap": 7.378440856933594,
+    "initial_anchor_cosine": 0.8529938459396362,
+    "evidence_age_s": 0.0
+  },
+  {
+    "dataset": "rubric_cup_games",
+    "clip": "cgt_frames_0076",
+    "frame": 150,
+    "method": "appearance",
+    "inside_target": false,
+    "accepted": true,
+    "accepted_hit": false,
+    "accepted_miss": true,
+    "candidate": [
+      133.0,
+      105.0
+    ],
+    "association_gap": 0.4499349594116211,
+    "initial_anchor_cosine": 0.7288243174552917,
+    "evidence_age_s": 0.0
+  },
+  {
+    "dataset": "rubric_cup_games",
+    "clip": "cgt_frames_0076",
+    "frame": 150,
+    "method": "motion",
+    "inside_target": false,
+    "accepted": true,
+    "accepted_hit": false,
+    "accepted_miss": true,
+    "candidate": [
+      133.0,
+      105.0
+    ],
+    "association_gap": 2.3901829719543457,
+    "initial_anchor_cosine": 0.7288243174552917,
+    "evidence_age_s": 0.0
+  },
+  {
+    "dataset": "rubric_cup_games",
+    "clip": "cgt_frames_0076",
+    "frame": 150,
+    "method": "mixture",
+    "inside_target": false,
+    "accepted": true,
+    "accepted_hit": false,
+    "accepted_miss": true,
+    "candidate": [
+      133.0,
+      105.0
+    ],
+    "association_gap": 2.557974338531494,
+    "initial_anchor_cosine": 0.7288243174552917,
+    "evidence_age_s": 0.0
+  },
+  {
+    "dataset": "rubric_cup_games",
+    "clip": "cgt_frames_0076",
+    "frame": 150,
+    "method": "mixture_adapt",
+    "inside_target": false,
+    "accepted": true,
+    "accepted_hit": false,
+    "accepted_miss": true,
+    "candidate": [
+      133.0,
+      105.0
+    ],
+    "association_gap": 2.553417682647705,
+    "initial_anchor_cosine": 0.7288243174552917,
+    "evidence_age_s": 0.0
+  },
+  {
+    "dataset": "rubric_cup_games",
+    "clip": "cgt_frames_0076",
+    "frame": 285,
+    "method": "appearance",
+    "inside_target": false,
+    "accepted": true,
+    "accepted_hit": false,
+    "accepted_miss": true,
+    "candidate": [
+      119.0,
+      119.0
+    ],
+    "association_gap": 0.5767097473144531,
+    "initial_anchor_cosine": 0.7470757961273193,
+    "evidence_age_s": 0.0
+  },
+  {
+    "dataset": "rubric_cup_games",
+    "clip": "cgt_frames_0076",
+    "frame": 285,
+    "method": "motion",
+    "inside_target": false,
+    "accepted": true,
+    "accepted_hit": false,
+    "accepted_miss": true,
+    "candidate": [
+      119.0,
+      119.0
+    ],
+    "association_gap": 2.3502745628356934,
+    "initial_anchor_cosine": 0.7470757961273193,
+    "evidence_age_s": 0.0
+  },
+  {
+    "dataset": "rubric_cup_games",
+    "clip": "cgt_frames_0076",
+    "frame": 285,
+    "method": "mixture",
+    "inside_target": false,
+    "accepted": true,
+    "accepted_hit": false,
+    "accepted_miss": true,
+    "candidate": [
+      119.0,
+      119.0
+    ],
+    "association_gap": 2.5350852012634277,
+    "initial_anchor_cosine": 0.7470757961273193,
+    "evidence_age_s": 0.0
+  },
+  {
+    "dataset": "rubric_cup_games",
+    "clip": "cgt_frames_0076",
+    "frame": 285,
+    "method": "mixture_adapt",
+    "inside_target": false,
+    "accepted": true,
+    "accepted_hit": false,
+    "accepted_miss": true,
+    "candidate": [
+      119.0,
+      119.0
+    ],
+    "association_gap": 2.535153865814209,
+    "initial_anchor_cosine": 0.7470757961273193,
+    "evidence_age_s": 0.0
+  },
+  {
+    "dataset": "rubric_cup_games",
+    "clip": "cgt_frames_0076",
+    "frame": 318,
+    "method": "appearance",
+    "inside_target": true,
+    "accepted": true,
+    "accepted_hit": true,
+    "accepted_miss": false,
+    "candidate": [
+      105.0,
+      119.0
+    ],
+    "association_gap": 1.2997922897338867,
+    "initial_anchor_cosine": 0.9300071001052856,
+    "evidence_age_s": 0.0
+  },
+  {
+    "dataset": "rubric_cup_games",
+    "clip": "cgt_frames_0076",
+    "frame": 318,
+    "method": "motion",
+    "inside_target": true,
+    "accepted": true,
+    "accepted_hit": true,
+    "accepted_miss": false,
+    "candidate": [
+      105.0,
+      119.0
+    ],
+    "association_gap": 2.8571853637695312,
+    "initial_anchor_cosine": 0.9300071001052856,
+    "evidence_age_s": 0.0
+  },
+  {
+    "dataset": "rubric_cup_games",
+    "clip": "cgt_frames_0076",
+    "frame": 318,
+    "method": "mixture",
+    "inside_target": true,
+    "accepted": true,
+    "accepted_hit": true,
+    "accepted_miss": false,
+    "candidate": [
+      105.0,
+      119.0
+    ],
+    "association_gap": 2.855494499206543,
+    "initial_anchor_cosine": 0.9300071001052856,
+    "evidence_age_s": 0.0
+  },
+  {
+    "dataset": "rubric_cup_games",
+    "clip": "cgt_frames_0076",
+    "frame": 318,
+    "method": "mixture_adapt",
+    "inside_target": true,
+    "accepted": true,
+    "accepted_hit": true,
+    "accepted_miss": false,
+    "candidate": [
+      105.0,
+      119.0
+    ],
+    "association_gap": 2.923654556274414,
+    "initial_anchor_cosine": 0.9300071001052856,
+    "evidence_age_s": 0.0
+  },
+  {
+    "dataset": "rubric_cup_games",
+    "clip": "cgt_frames_0092",
+    "frame": 410,
+    "method": "appearance",
+    "inside_target": false,
+    "accepted": true,
+    "accepted_hit": false,
+    "accepted_miss": true,
+    "candidate": [
+      189.0,
+      133.0
+    ],
+    "association_gap": 2.213698387145996,
+    "initial_anchor_cosine": 0.8538535833358765,
+    "evidence_age_s": 0.0
+  },
+  {
+    "dataset": "rubric_cup_games",
+    "clip": "cgt_frames_0092",
+    "frame": 410,
+    "method": "motion",
+    "inside_target": false,
+    "accepted": true,
+    "accepted_hit": false,
+    "accepted_miss": true,
+    "candidate": [
+      189.0,
+      133.0
+    ],
+    "association_gap": 4.988912105560303,
+    "initial_anchor_cosine": 0.8538535833358765,
+    "evidence_age_s": 0.0
+  },
+  {
+    "dataset": "rubric_cup_games",
+    "clip": "cgt_frames_0092",
+    "frame": 410,
+    "method": "mixture",
+    "inside_target": false,
+    "accepted": true,
+    "accepted_hit": false,
+    "accepted_miss": true,
+    "candidate": [
+      189.0,
+      133.0
+    ],
+    "association_gap": 4.841032028198242,
+    "initial_anchor_cosine": 0.8538535833358765,
+    "evidence_age_s": 0.0
+  },
+  {
+    "dataset": "rubric_cup_games",
+    "clip": "cgt_frames_0092",
+    "frame": 410,
+    "method": "mixture_adapt",
+    "inside_target": false,
+    "accepted": true,
+    "accepted_hit": false,
+    "accepted_miss": true,
+    "candidate": [
+      189.0,
+      133.0
+    ],
+    "association_gap": 4.851770401000977,
+    "initial_anchor_cosine": 0.8538535833358765,
+    "evidence_age_s": 0.0
+  },
+  {
+    "dataset": "rubric_cup_games",
+    "clip": "cgt_frames_0113",
+    "frame": 310,
+    "method": "appearance",
+    "inside_target": false,
+    "accepted": true,
+    "accepted_hit": false,
+    "accepted_miss": true,
+    "candidate": [
+      189.0,
+      133.0
+    ],
+    "association_gap": 5.543780326843262,
+    "initial_anchor_cosine": 0.8149658441543579,
+    "evidence_age_s": 0.0
+  },
+  {
+    "dataset": "rubric_cup_games",
+    "clip": "cgt_frames_0113",
+    "frame": 310,
+    "method": "motion",
+    "inside_target": false,
+    "accepted": true,
+    "accepted_hit": false,
+    "accepted_miss": true,
+    "candidate": [
+      189.0,
+      133.0
+    ],
+    "association_gap": 7.093706130981445,
+    "initial_anchor_cosine": 0.8149658441543579,
+    "evidence_age_s": 0.0
+  },
+  {
+    "dataset": "rubric_cup_games",
+    "clip": "cgt_frames_0113",
+    "frame": 310,
+    "method": "mixture",
+    "inside_target": false,
+    "accepted": true,
+    "accepted_hit": false,
+    "accepted_miss": true,
+    "candidate": [
+      189.0,
+      133.0
+    ],
+    "association_gap": 7.092276573181152,
+    "initial_anchor_cosine": 0.8149658441543579,
+    "evidence_age_s": 0.0
+  },
+  {
+    "dataset": "rubric_cup_games",
+    "clip": "cgt_frames_0113",
+    "frame": 310,
+    "method": "mixture_adapt",
+    "inside_target": false,
+    "accepted": true,
+    "accepted_hit": false,
+    "accepted_miss": true,
+    "candidate": [
+      189.0,
+      133.0
+    ],
+    "association_gap": 7.1197919845581055,
+    "initial_anchor_cosine": 0.8149658441543579,
+    "evidence_age_s": 0.0
+  },
+  {
+    "dataset": "rubric_cup_games",
+    "clip": "cgt_frames_0126",
+    "frame": 350,
+    "method": "appearance",
+    "inside_target": false,
+    "accepted": true,
+    "accepted_hit": false,
+    "accepted_miss": true,
+    "candidate": [
+      175.0,
+      119.0
+    ],
+    "association_gap": 7.181246757507324,
+    "initial_anchor_cosine": 0.8799116015434265,
+    "evidence_age_s": 0.0
+  },
+  {
+    "dataset": "rubric_cup_games",
+    "clip": "cgt_frames_0126",
+    "frame": 350,
+    "method": "motion",
+    "inside_target": false,
+    "accepted": true,
+    "accepted_hit": false,
+    "accepted_miss": true,
+    "candidate": [
+      175.0,
+      119.0
+    ],
+    "association_gap": 9.185707092285156,
+    "initial_anchor_cosine": 0.8799116015434265,
+    "evidence_age_s": 0.0
+  },
+  {
+    "dataset": "rubric_cup_games",
+    "clip": "cgt_frames_0126",
+    "frame": 350,
+    "method": "mixture",
+    "inside_target": false,
+    "accepted": true,
+    "accepted_hit": false,
+    "accepted_miss": true,
+    "candidate": [
+      175.0,
+      119.0
+    ],
+    "association_gap": 9.185911178588867,
+    "initial_anchor_cosine": 0.8799116015434265,
+    "evidence_age_s": 0.0
+  },
+  {
+    "dataset": "rubric_cup_games",
+    "clip": "cgt_frames_0126",
+    "frame": 350,
+    "method": "mixture_adapt",
+    "inside_target": false,
+    "accepted": true,
+    "accepted_hit": false,
+    "accepted_miss": true,
+    "candidate": [
+      175.0,
+      119.0
+    ],
+    "association_gap": 9.275094985961914,
+    "initial_anchor_cosine": 0.8799116015434265,
+    "evidence_age_s": 0.0
+  },
+  {
+    "dataset": "rubric_cup_games",
+    "clip": "cgt_frames_0136",
+    "frame": 312,
+    "method": "appearance",
+    "inside_target": true,
+    "accepted": true,
+    "accepted_hit": true,
+    "accepted_miss": false,
+    "candidate": [
+      161.0,
+      189.0
+    ],
+    "association_gap": 1.9761385917663574,
+    "initial_anchor_cosine": 0.8267059326171875,
+    "evidence_age_s": 0.0
+  },
+  {
+    "dataset": "rubric_cup_games",
+    "clip": "cgt_frames_0136",
+    "frame": 312,
+    "method": "motion",
+    "inside_target": true,
+    "accepted": true,
+    "accepted_hit": true,
+    "accepted_miss": false,
+    "candidate": [
+      161.0,
+      189.0
+    ],
+    "association_gap": 3.770127773284912,
+    "initial_anchor_cosine": 0.8267059326171875,
+    "evidence_age_s": 0.0
+  },
+  {
+    "dataset": "rubric_cup_games",
+    "clip": "cgt_frames_0136",
+    "frame": 312,
+    "method": "mixture",
+    "inside_target": true,
+    "accepted": true,
+    "accepted_hit": true,
+    "accepted_miss": false,
+    "candidate": [
+      161.0,
+      189.0
+    ],
+    "association_gap": 3.5437440872192383,
+    "initial_anchor_cosine": 0.8267059326171875,
+    "evidence_age_s": 0.0
+  },
+  {
+    "dataset": "rubric_cup_games",
+    "clip": "cgt_frames_0136",
+    "frame": 312,
+    "method": "mixture_adapt",
+    "inside_target": true,
+    "accepted": true,
+    "accepted_hit": true,
+    "accepted_miss": false,
+    "candidate": [
+      161.0,
+      189.0
+    ],
+    "association_gap": 3.6171345710754395,
+    "initial_anchor_cosine": 0.8267059326171875,
+    "evidence_age_s": 0.0
+  },
+  {
+    "dataset": "rubric_cup_games",
+    "clip": "cgt_frames_0137",
+    "frame": 300,
+    "method": "appearance",
+    "inside_target": false,
+    "accepted": true,
+    "accepted_hit": false,
+    "accepted_miss": true,
+    "candidate": [
+      133.0,
+      119.0
+    ],
+    "association_gap": 4.819624900817871,
+    "initial_anchor_cosine": 0.7620375156402588,
+    "evidence_age_s": 0.0
+  },
+  {
+    "dataset": "rubric_cup_games",
+    "clip": "cgt_frames_0137",
+    "frame": 300,
+    "method": "motion",
+    "inside_target": false,
+    "accepted": true,
+    "accepted_hit": false,
+    "accepted_miss": true,
+    "candidate": [
+      133.0,
+      119.0
+    ],
+    "association_gap": 7.081307888031006,
+    "initial_anchor_cosine": 0.7620375156402588,
+    "evidence_age_s": 0.0
+  },
+  {
+    "dataset": "rubric_cup_games",
+    "clip": "cgt_frames_0137",
+    "frame": 300,
+    "method": "mixture",
+    "inside_target": false,
+    "accepted": true,
+    "accepted_hit": false,
+    "accepted_miss": true,
+    "candidate": [
+      133.0,
+      119.0
+    ],
+    "association_gap": 7.063228607177734,
+    "initial_anchor_cosine": 0.7620375156402588,
+    "evidence_age_s": 0.0
+  },
+  {
+    "dataset": "rubric_cup_games",
+    "clip": "cgt_frames_0137",
+    "frame": 300,
+    "method": "mixture_adapt",
+    "inside_target": false,
+    "accepted": true,
+    "accepted_hit": false,
+    "accepted_miss": true,
+    "candidate": [
+      133.0,
+      119.0
+    ],
+    "association_gap": 7.181423187255859,
+    "initial_anchor_cosine": 0.7620375156402588,
+    "evidence_age_s": 0.0
+  },
+  {
+    "dataset": "rubric_cup_games",
+    "clip": "cgt_frames_0154",
+    "frame": 315,
+    "method": "appearance",
+    "inside_target": false,
+    "accepted": true,
+    "accepted_hit": false,
+    "accepted_miss": true,
+    "candidate": [
+      147.0,
+      133.0
+    ],
+    "association_gap": 7.2996087074279785,
+    "initial_anchor_cosine": 0.9112536311149597,
+    "evidence_age_s": 0.0
+  },
+  {
+    "dataset": "rubric_cup_games",
+    "clip": "cgt_frames_0154",
+    "frame": 315,
+    "method": "motion",
+    "inside_target": false,
+    "accepted": true,
+    "accepted_hit": false,
+    "accepted_miss": true,
+    "candidate": [
+      147.0,
+      133.0
+    ],
+    "association_gap": 10.171401977539062,
+    "initial_anchor_cosine": 0.9112536311149597,
+    "evidence_age_s": 0.0
+  },
+  {
+    "dataset": "rubric_cup_games",
+    "clip": "cgt_frames_0154",
+    "frame": 315,
+    "method": "mixture",
+    "inside_target": false,
+    "accepted": true,
+    "accepted_hit": false,
+    "accepted_miss": true,
+    "candidate": [
+      147.0,
+      133.0
+    ],
+    "association_gap": 10.187956809997559,
+    "initial_anchor_cosine": 0.9112536311149597,
+    "evidence_age_s": 0.0
+  },
+  {
+    "dataset": "rubric_cup_games",
+    "clip": "cgt_frames_0154",
+    "frame": 315,
+    "method": "mixture_adapt",
+    "inside_target": false,
+    "accepted": true,
+    "accepted_hit": false,
+    "accepted_miss": true,
+    "candidate": [
+      147.0,
+      133.0
+    ],
+    "association_gap": 10.244586944580078,
+    "initial_anchor_cosine": 0.9112536311149597,
+    "evidence_age_s": 0.0
+  },
+  {
+    "dataset": "rubric_cup_games",
+    "clip": "cgt_frames_0172",
+    "frame": 155,
+    "method": "appearance",
+    "inside_target": true,
+    "accepted": false,
+    "accepted_hit": false,
+    "accepted_miss": false,
+    "candidate": [
+      217.0,
+      161.0
+    ],
+    "association_gap": 0.07932186126708984,
+    "initial_anchor_cosine": 0.7416561841964722,
+    "evidence_age_s": 0.06662225183211193
+  },
+  {
+    "dataset": "rubric_cup_games",
+    "clip": "cgt_frames_0172",
+    "frame": 155,
+    "method": "motion",
+    "inside_target": false,
+    "accepted": true,
+    "accepted_hit": false,
+    "accepted_miss": true,
+    "candidate": [
+      175.0,
+      147.0
+    ],
+    "association_gap": 2.674736499786377,
+    "initial_anchor_cosine": 0.7350459694862366,
+    "evidence_age_s": 0.0
+  },
+  {
+    "dataset": "rubric_cup_games",
+    "clip": "cgt_frames_0172",
+    "frame": 155,
+    "method": "mixture",
+    "inside_target": false,
+    "accepted": true,
+    "accepted_hit": false,
+    "accepted_miss": true,
+    "candidate": [
+      175.0,
+      147.0
+    ],
+    "association_gap": 1.8361668586730957,
+    "initial_anchor_cosine": 0.7350459694862366,
+    "evidence_age_s": 0.0
+  },
+  {
+    "dataset": "rubric_cup_games",
+    "clip": "cgt_frames_0172",
+    "frame": 155,
+    "method": "mixture_adapt",
+    "inside_target": false,
+    "accepted": true,
+    "accepted_hit": false,
+    "accepted_miss": true,
+    "candidate": [
+      175.0,
+      147.0
+    ],
+    "association_gap": 1.7946782112121582,
+    "initial_anchor_cosine": 0.7350459694862366,
+    "evidence_age_s": 0.0
+  },
+  {
+    "dataset": "rubric_cup_games",
+    "clip": "cgt_frames_0172",
+    "frame": 288,
+    "method": "appearance",
+    "inside_target": false,
+    "accepted": true,
+    "accepted_hit": false,
+    "accepted_miss": true,
+    "candidate": [
+      119.0,
+      147.0
+    ],
+    "association_gap": 0.17466163635253906,
+    "initial_anchor_cosine": 0.8483895063400269,
+    "evidence_age_s": 0.0
+  },
+  {
+    "dataset": "rubric_cup_games",
+    "clip": "cgt_frames_0172",
+    "frame": 288,
+    "method": "motion",
+    "inside_target": false,
+    "accepted": true,
+    "accepted_hit": false,
+    "accepted_miss": true,
+    "candidate": [
+      119.0,
+      147.0
+    ],
+    "association_gap": 1.5708932876586914,
+    "initial_anchor_cosine": 0.8483895063400269,
+    "evidence_age_s": 0.0
+  },
+  {
+    "dataset": "rubric_cup_games",
+    "clip": "cgt_frames_0172",
+    "frame": 288,
+    "method": "mixture",
+    "inside_target": false,
+    "accepted": true,
+    "accepted_hit": false,
+    "accepted_miss": true,
+    "candidate": [
+      245.0,
+      147.0
+    ],
+    "association_gap": 3.5777416229248047,
+    "initial_anchor_cosine": 0.6726362705230713,
+    "evidence_age_s": 0.0
+  },
+  {
+    "dataset": "rubric_cup_games",
+    "clip": "cgt_frames_0172",
+    "frame": 288,
+    "method": "mixture_adapt",
+    "inside_target": false,
+    "accepted": true,
+    "accepted_hit": false,
+    "accepted_miss": true,
+    "candidate": [
+      245.0,
+      147.0
+    ],
+    "association_gap": 3.5163183212280273,
+    "initial_anchor_cosine": 0.6726362705230713,
+    "evidence_age_s": 0.0
+  },
+  {
+    "dataset": "rubric_cup_games",
+    "clip": "cgt_frames_0211",
+    "frame": 340,
+    "method": "appearance",
+    "inside_target": true,
+    "accepted": true,
+    "accepted_hit": true,
+    "accepted_miss": false,
+    "candidate": [
+      91.0,
+      147.0
+    ],
+    "association_gap": 5.085831642150879,
+    "initial_anchor_cosine": 0.883294939994812,
+    "evidence_age_s": 0.0
+  },
+  {
+    "dataset": "rubric_cup_games",
+    "clip": "cgt_frames_0211",
+    "frame": 340,
+    "method": "motion",
+    "inside_target": true,
+    "accepted": true,
+    "accepted_hit": true,
+    "accepted_miss": false,
+    "candidate": [
+      91.0,
+      147.0
+    ],
+    "association_gap": 10.017603874206543,
+    "initial_anchor_cosine": 0.883294939994812,
+    "evidence_age_s": 0.0
+  },
+  {
+    "dataset": "rubric_cup_games",
+    "clip": "cgt_frames_0211",
+    "frame": 340,
+    "method": "mixture",
+    "inside_target": true,
+    "accepted": true,
+    "accepted_hit": true,
+    "accepted_miss": false,
+    "candidate": [
+      91.0,
+      147.0
+    ],
+    "association_gap": 10.055957794189453,
+    "initial_anchor_cosine": 0.883294939994812,
+    "evidence_age_s": 0.0
+  },
+  {
+    "dataset": "rubric_cup_games",
+    "clip": "cgt_frames_0211",
+    "frame": 340,
+    "method": "mixture_adapt",
+    "inside_target": true,
+    "accepted": true,
+    "accepted_hit": true,
+    "accepted_miss": false,
+    "candidate": [
+      91.0,
+      147.0
+    ],
+    "association_gap": 10.128907203674316,
+    "initial_anchor_cosine": 0.883294939994812,
+    "evidence_age_s": 0.0
+  }
+]

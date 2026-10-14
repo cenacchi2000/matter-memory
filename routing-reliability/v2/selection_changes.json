@@ -1,0 +1,218 @@
+{
+  "rubric_office__confuse1": {
+    "appearance": 0,
+    "motion": 43,
+    "mixture": 6,
+    "mixture_adapt": 6
+  },
+  "rubric_office__confuse3": {
+    "appearance": 0,
+    "motion": 13,
+    "mixture": 2,
+    "mixture_adapt": 2
+  },
+  "rubric_office__teaduck1": {
+    "appearance": 0,
+    "motion": 15,
+    "mixture": 37,
+    "mixture_adapt": 35
+  },
+  "rubric_office__teaduck2": {
+    "appearance": 0,
+    "motion": 33,
+    "mixture": 62,
+    "mixture_adapt": 61
+  },
+  "rubric_office__teaduck3_reveal": {
+    "appearance": 0,
+    "motion": 4,
+    "mixture": 35,
+    "mixture_adapt": 35
+  },
+  "rubric_office__teaduck4_reveal": {
+    "appearance": 0,
+    "motion": 25,
+    "mixture": 25,
+    "mixture_adapt": 24
+  },
+  "rubric_office__mugduck2_reveal": {
+    "appearance": 0,
+    "motion": 23,
+    "mixture": 51,
+    "mixture_adapt": 51
+  },
+  "rubric_office__mugduck3_reveal": {
+    "appearance": 0,
+    "motion": 104,
+    "mixture": 63,
+    "mixture_adapt": 65
+  },
+  "rubric_office__chips1_oof": {
+    "appearance": 0,
+    "motion": 136,
+    "mixture": 189,
+    "mixture_adapt": 194
+  },
+  "rubric_office__pump1_scan": {
+    "appearance": 0,
+    "motion": 100,
+    "mixture": 69,
+    "mixture_adapt": 67
+  },
+  "rubric_office__pumpcookie1_reveal": {
+    "appearance": 0,
+    "motion": 96,
+    "mixture": 87,
+    "mixture_adapt": 88
+  },
+  "rubric_office__bagduck1_move": {
+    "appearance": 0,
+    "motion": 11,
+    "mixture": 103,
+    "mixture_adapt": 103
+  },
+  "rubric_office__mugduck5_stay": {
+    "appearance": 0,
+    "motion": 57,
+    "mixture": 15,
+    "mixture_adapt": 14
+  },
+  "rubric_office__mugduck6_shuffle": {
+    "appearance": 0,
+    "motion": 31,
+    "mixture": 20,
+    "mixture_adapt": 19
+  },
+  "rubric_office__mugduck7_shuffle": {
+    "appearance": 0,
+    "motion": 100,
+    "mixture": 43,
+    "mixture_adapt": 43
+  },
+  "rubric_office__handball1_wave": {
+    "appearance": 0,
+    "motion": 10,
+    "mixture": 11,
+    "mixture_adapt": 10
+  },
+  "rubric_office__handball2_boxoccl": {
+    "appearance": 0,
+    "motion": 23,
+    "mixture": 6,
+    "mixture_adapt": 6
+  },
+  "rubric_office__handball3_occlpick": {
+    "appearance": 0,
+    "motion": 102,
+    "mixture": 24,
+    "mixture_adapt": 25
+  },
+  "rubric_office__lightball4_occl1x": {
+    "appearance": 0,
+    "motion": 19,
+    "mixture": 131,
+    "mixture_adapt": 130
+  },
+  "rubric_office__lightball5_occl2x": {
+    "appearance": 0,
+    "motion": 100,
+    "mixture": 71,
+    "mixture_adapt": 78
+  },
+  "rubric_office__lightball6_occl4x": {
+    "appearance": 0,
+    "motion": 169,
+    "mixture": 153,
+    "mixture_adapt": 153
+  },
+  "rubric_office__plantcupball2": {
+    "appearance": 0,
+    "motion": 17,
+    "mixture": 78,
+    "mixture_adapt": 77
+  },
+  "rubric_cup_games__cgt_frames_0002": {
+    "appearance": 0,
+    "motion": 21,
+    "mixture": 12,
+    "mixture_adapt": 12
+  },
+  "rubric_cup_games__cgt_frames_0011": {
+    "appearance": 0,
+    "motion": 8,
+    "mixture": 21,
+    "mixture_adapt": 21
+  },
+  "rubric_cup_games__cgt_frames_0026": {
+    "appearance": 0,
+    "motion": 50,
+    "mixture": 56,
+    "mixture_adapt": 56
+  },
+  "rubric_cup_games__cgt_frames_0061": {
+    "appearance": 0,
+    "motion": 17,
+    "mixture": 18,
+    "mixture_adapt": 16
+  },
+  "rubric_cup_games__cgt_frames_0065": {
+    "appearance": 0,
+    "motion": 15,
+    "mixture": 12,
+    "mixture_adapt": 12
+  },
+  "rubric_cup_games__cgt_frames_0076": {
+    "appearance": 0,
+    "motion": 2,
+    "mixture": 2,
+    "mixture_adapt": 3
+  },
+  "rubric_cup_games__cgt_frames_0092": {
+    "appearance": 0,
+    "motion": 1,
+    "mixture": 1,
+    "mixture_adapt": 1
+  },
+  "rubric_cup_games__cgt_frames_0113": {
+    "appearance": 0,
+    "motion": 116,
+    "mixture": 81,
+    "mixture_adapt": 83
+  },
+  "rubric_cup_games__cgt_frames_0126": {
+    "appearance": 0,
+    "motion": 25,
+    "mixture": 126,
+    "mixture_adapt": 126
+  },
+  "rubric_cup_games__cgt_frames_0136": {
+    "appearance": 0,
+    "motion": 53,
+    "mixture": 79,
+    "mixture_adapt": 79
+  },
+  "rubric_cup_games__cgt_frames_0137": {
+    "appearance": 0,
+    "motion": 72,
+    "mixture": 36,
+    "mixture_adapt": 38
+  },
+  "rubric_cup_games__cgt_frames_0154": {
+    "appearance": 0,
+    "motion": 78,
+    "mixture": 70,
+    "mixture_adapt": 70
+  },
+  "rubric_cup_games__cgt_frames_0172": {
+    "appearance": 0,
+    "motion": 139,
+    "mixture": 126,
+    "mixture_adapt": 126
+  },
+  "rubric_cup_games__cgt_frames_0211": {
+    "appearance": 0,
+    "motion": 15,
+    "mixture": 13,
+    "mixture_adapt": 20
+  }
+}

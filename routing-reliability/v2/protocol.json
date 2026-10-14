@@ -1,0 +1,17 @@
+{
+ "status":"fixed before v2 outcomes; development experiment, not untouched test",
+ "datasets":["TCOW Rubric Office local","TCOW Rubric Cup Games local (Perception Test derived)"],
+ "input":"earliest query mask pooled into identity feature; subsequent RGB frames in order",
+ "resolution":[322,238],"encoder":"official DINOv2 ViT-B/14 frozen",
+ "temporal_access":"causal; every decoded frame from query through last endpoint",
+ "candidates":"top 12 local peaks of frozen-query dense feature cosine; 2-token suppression radius",
+ "methods":["appearance","motion","mixture","mixture_adapt"],
+ "association":"12*cosine + 0.25*log(spatial_density/uniform_density); appearance omits spatial term",
+ "spatial":"stationary, velocity, local-flow alternatives; mixture weights updated from accepted residual likelihoods",
+ "acceptance":"selected appearance >=0.65 and selected association gap >=0.15; fixed uncalibrated gates",
+ "variance":"144 + 400*seconds_since_acceptance squared pixels",
+ "adaptation":"EMA rate0.05 only if initial-anchor cosine >=0.8 and association gap >=0.5; retain initial anchor",
+ "metrics":"sparse endpoint mask membership, accepted coverage and misses; full traces released; no dense episode claims",
+ "limitations":"no semantic container inference, no calibrated coverage, no heldout scenes, no physical control",
+ "primary_comparison":"same encoder/candidates; determine whether memory actually changes selection and improves endpoints"
+}

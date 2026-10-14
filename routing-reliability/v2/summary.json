@@ -1,0 +1,63 @@
+{
+  "rubric_cup_games": {
+    "appearance": {
+      "endpoints": 25,
+      "candidate_hits": 8,
+      "accepted_hits": 6,
+      "accepted_misses": 11,
+      "abstentions": 8
+    },
+    "motion": {
+      "endpoints": 25,
+      "candidate_hits": 7,
+      "accepted_hits": 6,
+      "accepted_misses": 12,
+      "abstentions": 7
+    },
+    "mixture": {
+      "endpoints": 25,
+      "candidate_hits": 7,
+      "accepted_hits": 6,
+      "accepted_misses": 12,
+      "abstentions": 7
+    },
+    "mixture_adapt": {
+      "endpoints": 25,
+      "candidate_hits": 7,
+      "accepted_hits": 6,
+      "accepted_misses": 12,
+      "abstentions": 7
+    }
+  },
+  "rubric_office": {
+    "appearance": {
+      "endpoints": 31,
+      "candidate_hits": 22,
+      "accepted_hits": 11,
+      "accepted_misses": 1,
+      "abstentions": 19
+    },
+    "motion": {
+      "endpoints": 31,
+      "candidate_hits": 18,
+      "accepted_hits": 10,
+      "accepted_misses": 3,
+      "abstentions": 18
+    },
+    "mixture": {
+      "endpoints": 31,
+      "candidate_hits": 19,
+      "accepted_hits": 11,
+      "accepted_misses": 3,
+      "abstentions": 17
+    },
+    "mixture_adapt": {
+      "endpoints": 31,
+      "candidate_hits": 18,
+      "accepted_hits": 10,
+      "accepted_misses": 4,
+      "abstentions": 17
+    }
+  },
+  "runtime_seconds": 458.78264808654785
+}
