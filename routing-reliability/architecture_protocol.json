@@ -1,0 +1,47 @@
+{
+  "timestamp": 1791940191.568915,
+  "status": "exploratory new head inference and router fitting on an inspected external population",
+  "architectures": [
+    "late",
+    "interaction",
+    "capacity_control"
+  ],
+  "seeds": [
+    11,
+    22,
+    33,
+    44,
+    55
+  ],
+  "encoders": "shared frozen WavLM/DINOv2; NOT independent encoder replication",
+  "router": "15 standardized score statistics; HGB direct gain or two conditional heads plus isotonic",
+  "fit": "original router/calibration/tune roles, three development conditions; clean tune positive threshold at 20%",
+  "no_external_fitting": true,
+  "checkpoint_hashes": {
+    "audio_11": "6a9f4899233b5a861f9327c0ac88d93e34b329ab92f2d9743879576b21c2f99c",
+    "audio_22": "38856c38fa1ca4e6aebf1e3e2a962f2e937b8c0c4de272573c0625aca6d1627a",
+    "audio_33": "bd56baf17d28a765d6e5b03e82e0eec2659f9cfa21ef52155e29fdc7b6ad564d",
+    "audio_44": "c6b8db0bfdfb134c3cb49024f8022ecbd412c9fe1d84b0c0c85ae6e39105829b",
+    "audio_55": "de263679d89f127e10b1d791c002f36a6c6fe42e79c33110ccd58395b0d3b0b8",
+    "video_11": "bf4c3cda67d06b03be3b1e3176448053277ecd37db3085151ea1d832c8c6b577",
+    "video_22": "54b48ccc18d5b264d07ad23a22578b47d8eade48561462330970864baf882558",
+    "video_33": "52725384690d1112602fff9a2e1f0f930f1bbdfa3c08d1a457c967c360418b88",
+    "video_44": "c91946e11c93c93feefbe3c19cfc1373f57ad6e4158f2aa1370ba211f8125429",
+    "video_55": "f42a619104fe5a35a5074f8fae20d7ceb543b25caa95e3d3d73ee75ded44a306",
+    "late_11": "a42c1f651e9fdcac3fcb8e37bab7724999058db8c19d8cb008640004cc7e0e15",
+    "late_22": "90efb1955b9a6876dd38b5a224d685af319443bb5d7d1312a994e651c6860407",
+    "late_33": "f633ee9ea6ea85ced1bfa77d1ae57d73990a2fde5fdfcf7450945de542b7297d",
+    "late_44": "57f90e3379367d2f9fb0c5101cbfd7398ee62dad0477b601a28e4a28dd6596d0",
+    "late_55": "62b6ff386c688f5223e6523c79616b764a46d87f5215fece9873c74cc6163869",
+    "interaction_11": "8d8c45e51cb3d2e249fb8b2bc93fbb978f2aa14572ff237296ffc955aa21db59",
+    "interaction_22": "52f71352c48d929c0d716a20b4456e3b21ff16864902b1fb5017546ed20bd31d",
+    "interaction_33": "f4443a5cf094a0d945bbc7cd3f353423f4878d8992d108dc7f5618a3a845c130",
+    "interaction_44": "f736cc65c8d9e7a1ef8415b8a0548c4eafa6ca58153460eccffe4f480a4bdb77",
+    "interaction_55": "134ba7571c7d70a5eb85e009baee43d0aaf007dd0c149b9eff19297ada51026a",
+    "capacity_control_11": "e07907828d61e4cd1083b06aef882f33ee70b1f93f837347483375bc0a0eb063",
+    "capacity_control_22": "334209457418ea1e3bb7d98af0c5f4a4e02380a59334068256d9f62fc82a53dd",
+    "capacity_control_33": "156f6ea5b417f7042729aeea4cc88bbfb8c9764ce91704ff257315ad75c7676c",
+    "capacity_control_44": "98cb9c4fb0b64b717c24652142acf4ebed402be4ec02dd1644bcb181938174d5",
+    "capacity_control_55": "14672122c63fb70deb3500dc864ab49b9dce8e774399d8508a8b9fb150c4767d"
+  }
+}

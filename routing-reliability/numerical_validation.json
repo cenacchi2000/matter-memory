@@ -1,0 +1,15 @@
+{
+  "architecture_rows": 270,
+  "preprocessing_rows": 270,
+  "prediction_archives": 45,
+  "shared_interaction_predictions_and_direct_scores": "reproduced for 2 seeds x 3 conditions",
+  "margin_static_negative": 15,
+  "margin_static_zero": 0,
+  "direct_static_negative": 15,
+  "direct_static_zero": 0,
+  "structured_static_negative": 14,
+  "structured_static_zero": 1,
+  "direct_score_rises": 6,
+  "references": 41,
+  "status": "passed"
+}

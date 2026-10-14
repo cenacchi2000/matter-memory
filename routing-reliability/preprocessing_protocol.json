@@ -1,0 +1,15 @@
+{
+  "timestamp": 1791939934.581409,
+  "status": "exploratory reused data",
+  "inputs": [
+    "within-clip standardized softmax",
+    "raw softmax",
+    "temperature-calibrated softmax"
+  ],
+  "dimensions": 15,
+  "training": "same HGB regressor, router disagreements only, original actor weights",
+  "temperature": "one scalar per expert fitted on calibration clips across three conditions by actor-weighted cross entropy",
+  "threshold": "clean tune actors, at most 20%, nonnegative",
+  "matched": "rank-only batch 5,10,20%; no positivity filter, lexicographic ID tie break; same actual rate",
+  "evaluation": "all five archived conditions per checkpoint"
+}
