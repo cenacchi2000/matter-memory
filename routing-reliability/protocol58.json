@@ -1,0 +1,56 @@
+{
+  "revision": 58,
+  "time": 1791874713.696108,
+  "status": "exploratory analysis of already inspected datasets; not independent confirmation",
+  "certificate": "keep empirical support unchanged; separate 95th percentile fitted on clean router actors for fixed certificate regions; calibration actors evaluate only",
+  "calibration": {
+    "checkpoints": [
+      11,
+      22
+    ],
+    "actor_pool": "nine original calibration actors",
+    "sample_sizes": [
+      3,
+      6,
+      9
+    ],
+    "subsets": "all combinations for 3 and 6 actors (84 each); full 9 actors once",
+    "heads": "frozen original q and r; no refit",
+    "calibrators": [
+      "raw",
+      "isotonic",
+      "sigmoid"
+    ],
+    "tuning": "fixed 20% upper budget on original clean tune actors for each fitted score",
+    "evaluation": "all archived CREMA diagnostic and RAVDESS conditions; no selection by result",
+    "metrics": [
+      "actor uniform gain",
+      "switch fraction",
+      "harm fraction",
+      "signed gain MSE",
+      "rescue/harm Brier on disagreement",
+      "operating-region signed calibration error"
+    ],
+    "interpretation": "subset distributions describe sensitivity, not independent replications or confidence intervals"
+  },
+  "source_hashes": {
+    "diagnostic_seed22_clean.npz": "ae26a04b9fe38e87eabdfbb3b9ad83c0d2c1997b04da6dc1b8fe106c7688d260",
+    "confirmation_seed22_video_moving_occluder.npz": "cec644a8633630e7ff3e78abae75623cd6a00bc07c5382b56ba55ecfd76ed4d3",
+    "confirmation_seed11_video_occlude50.npz": "b5442437a85aeefac3c3e7ddb57fced9c4d4bacd0a38f46c1b514e5e6cf73914",
+    "confirmation_seed11_video_moving_occluder.npz": "370c019ed4a8d85f02897a96522e0b5fa0e39d54062994739a01451ee2f5f171",
+    "diagnostic_seed22_video_occlude50.npz": "6d1879ebd40e6cef351fc0764172211edffe7d0b33725d1abd2752ae12179950",
+    "diagnostic_seed11_clean.npz": "4b65545e76ca491a4f33ed87e499c5adbbbcc56bfb3dc99421484928c4dee8ce",
+    "rich_secondary_seed11_video_moving_occluder.npz": "40aa399a43b1e7ad2015ab5c21e097b07810669695e3f9a12eeaedc4bdda60a0",
+    "rich_secondary_seed22_video_moving_occluder.npz": "2101506d6c6adec67a07c8e30fc0b44a102d31ae8d58507c499cb2c9e11fe189",
+    "rich_secondary_seed11_video_occlude50.npz": "eb01841c8034d2860ac8df236ceaf56ff242fc7bdc7eff0efb9d223ba3302a4c",
+    "development_seed11.npz": "3467c98725eea5120be15a1d5f32f4f2b79dc5f3922474b319b43719eee45d8f",
+    "rich_secondary_seed22_video_occlude50.npz": "c330e57b14eea86b0907ce871b76691029eb949a098a732e6a8caa1fd94fe84a",
+    "rich_secondary_seed11_clean.npz": "867a6a3438a150193546da034a33283ff44f52811b55ef497ccd53b7c581f8f1",
+    "development_seed22.npz": "817669e1683a35be163532e232ae2013b44955fc9e062d11f61311eb5954c052",
+    "rich_secondary_seed22_clean.npz": "eca12653f9d61081887c1855c6d9b8af69c93b9fae888e4234d9efc0e84fcbe6",
+    "confirmation_seed22_video_occlude50.npz": "dc7b91ac4dc44767cb89e06d55f7cc4c77c5c89793032164a0ee4d803637bec2",
+    "diagnostic_seed11_video_occlude50.npz": "ef4c2c89c5dc5e2e4c2c2c495cb324bbdf8edae59b20eb9631b7249ba52f12ad",
+    "confirmation_seed11_clean.npz": "32cf6c870532286d856e630ddb5eb9af9988f2821b0e9fd6d992a0fbe1b83257",
+    "confirmation_seed22_clean.npz": "7622abd3594252c35886a62aa12cbe78663e9340f27bc12c689eed81169d1b36"
+  }
+}
